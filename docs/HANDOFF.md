@@ -737,7 +737,34 @@ audio/<目录名>/…          与项目 audio/ 完全一致
 | **反馈渠道 → 仓库 Issues** | `FEEDBACK_QQ` 删掉，换成 `FEEDBACK_URL = https://github.com/yan-gck/Whale_Lite/issues`；界面上是真 `<a target="_blank">`（不是 button），PC 新开标签页、手机交给系统浏览器 |
 | **修了一个会变新 bug 的地方** | WebView 原来**没有重写 `shouldOverrideUrlLoading`** —— 手机上点外链会让 WebView 自己导航过去，**整个 App 界面被网页顶掉**，只能靠返回键退回。已在 `MainActivity.AssetClient` 里补上：非 `file://` 的链接一律 `ACTION_VIEW` 交给系统浏览器 |
 | **版本号** | `APP_VERSION` 1.2 → **1.3**，清单 `versionCode` 3→4 / `versionName` 1.3（`test.js` 里有断言盯着两边一致） |
-| **发到 GitHub** | <https://github.com/yan-gck/Whale_Lite> |
+| **发到 GitHub** | <https://github.com/yan-gck/Whale_Lite> —— 已推送成功，远端 `main` 的 commit 与本地逐位一致 |
+
+**推送这一关踩到的两个坑**（下次推大仓库直接照做）：
+
+1. **PAT 的权限要看 token 自己的，不是看 API 里那个 `permissions.push`**。
+   第一个 fine-grained PAT 推送报 `403 Permission to yan-gck/Whale_Lite.git denied to yan-gck`，
+   但 `GET /repos/{owner}/{repo}` 却返回 `push: true, admin: true` ——
+   那个字段说的是**你本人**对仓库的权限，跟 token 的细粒度范围没关系。
+   决定性判据是做一次**非破坏性写测试**（建一个临时 blob）：
+   `POST /repos/{owner}/{repo}/git/blobs` → `{"message":"Resource not accessible by personal access token"}`。
+   → fine-grained token 必须显式给 **Contents: Read and write** 且把仓库选进范围；
+   **classic token 勾 `repo` 一个范围最省事**。
+   （另：空仓库建 blob 会返回 `409 Git Repository is empty`，那是正常的，不是权限问题。）
+2. **大流量推 GitHub 会被重置连接**：`fatal: Recv failure: Connection was reset`。
+   小的操作（`git ls-remote`）直连没问题，**727 MB 一次推就断**。
+   → 走代理即可，且只配在**本仓库**里（别动全局）：
+   ```powershell
+   git config --local http.proxy http://127.0.0.1:7897
+   git config --local https.proxy http://127.0.0.1:7897
+   git config --local http.version HTTP/1.1
+   git config --local http.postBuffer 524288000
+   ```
+   Clash 关掉时记得 `git config --local --unset http.proxy`（否则 git 连不上 GitHub）。
+3. **token 不要写进 `.git/config`**：推送时临时用 `git push https://<token>@github.com/...`，
+   `remote.origin.url` 保持干净的 `https://github.com/yan-gck/Whale_Lite.git`。
+   推完提醒用户去吊销那个贴在对话里的 token。
+   推送时 GitHub 会对 3 个 >50 MB 的 mp3 打 `GH001 Large files detected` 警告 —— 那是**警告不是错误**，
+   推送照样成功（单文件上限是 100 MB，最大那个 67.6 MB 没超）。
 
 **仓库里带什么 / 不带什么**（`.gitignore` 写得有注释，改之前先读）：
 
