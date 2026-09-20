@@ -521,6 +521,27 @@ test('A-B 循环的「终点 / 清除」按钮按需出现（窄屏省一整行�
     '这两个按钮必须留在 DOM 里');
 });
 
+test('雅思题：题组正文要能传到前端并渲染出来', () => {
+  const js = fs.readFileSync(path.join(ROOT, 'public', 'app.js'), 'utf8');
+  const css = fs.readFileSync(path.join(ROOT, 'public', 'style.css'), 'utf8');
+  const lib = fs.readFileSync(path.join(ROOT, 'lib', 'library.js'), 'utf8');
+  const pack = fs.readFileSync(path.join(ROOT, 'tools', 'build-pack.js'), 'utf8');
+  const merge = fs.readFileSync(path.join(ROOT, 'tools', 'merge-paper.js'), 'utf8');
+
+  // 数据链路：merge-paper 产出 → library 读取 → 打包带上 → 前端渲染，四段缺一不可
+  assert.ok(/doc\.questionGroups\s*=/.test(merge),
+    'merge-paper.js 应把题组正文写进 questions.json（不然雅思题在界面上只有题号+答案）');
+  assert.ok(/questionsDoc\.questionGroups/.test(lib),
+    'lib/library.js 应把 questionGroups 透出来');
+  assert.ok(/questionGroups:\s*l\.questionGroups/.test(pack),
+    'build-pack.js 应把 questionGroups 打进 library.json（手机端全靠它）');
+  assert.ok(/function renderGroupPaper\s*\(/.test(js), 'app.js 里应有 renderGroupPaper()');
+  assert.ok(/renderGroupPaper\(q\.group\)/.test(js), '题目面板换题组时应调用 renderGroupPaper');
+  assert.ok(/q-group-paper/.test(css), 'CSS 里应有 .q-group-paper 样式');
+  // 正文是 OCR 的版式化文本，必须保留换行（空白和答案在行内是交错的）
+  assert.ok(/white-space:\s*pre-wrap/.test(css), '题组正文要 pre-wrap，否则版式信息全丢');
+});
+
 test('问题反馈渠道（仓库 Issues）在界面上找得到', () => {
   const html = fs.readFileSync(path.join(ROOT, 'public', 'index.html'), 'utf8');
   const js = fs.readFileSync(path.join(ROOT, 'public', 'app.js'), 'utf8');

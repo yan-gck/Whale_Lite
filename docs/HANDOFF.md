@@ -1,11 +1,12 @@
 # 交接说明（HANDOFF）
 
 > 这份文档用于**换一个新会话继续这个项目**。把整份内容粘给新会话，或让它先读本文件。
-> 最后更新：**第 12 轮 —— 改名 Whale Lite + 发到 GitHub**。
-> App 显示名从「圣元英语BB机」改成 **Whale Lite**（正式名称），反馈渠道从 QQ 换成
-> **仓库 Issues 页**（<https://github.com/yan-gck/Whale_Lite/issues>），
-> 代码已推到 <https://github.com/yan-gck/Whale_Lite>（不带剑桥雅思素材）。
-> 上一轮（第 11 轮）完成的是竖屏 / 窄屏 / 不同分辨率的交互大修，四条 bug 全部修复；
+> 最后更新：**第 13 轮 —— 雅思补充包的题目能看了**。
+> 查明「雅思题目没显示」的真因：题干一直在原题 PDF 的版式里，`questions.json` 只有「题号 + 答案」；
+> 现在按题组把**原题正文**贴进题目面板（数据链路四段全补齐，已在模拟器上端到端验证）。
+> 上一轮（第 12 轮）完成的是改名 **Whale Lite**、反馈渠道换成仓库 Issues、代码推到
+> <https://github.com/yan-gck/Whale_Lite>。
+> 第 11 轮完成的是竖屏 / 窄屏 / 不同分辨率的交互大修，四条 bug 全部修复；
 > **已在 HONOR HEY2-W09 平板（Android 14）上实测通过**：竖屏 753×1173 交互全扫全过、
 > 横屏 1205×721 三栏布局正常、**锁屏保活熄屏 6 秒前进 6.2s**。
 
@@ -628,7 +629,7 @@ MainActivity  →  PackStore（ZipFile 随机访问，不解压）
 - [ ] 逐句跟读（录音对比）
 - [ ] 学习进度与错题本（本地存储）
 - [ ] 盲听模式（隐藏原文只留音频）
-- [ ] 题组正文展示（目前题目面板只放指令，正文在 `.paper.txt` 里）
+- [x] ~~题组正文展示~~ —— **第 13 轮做完**（题目面板按题组贴原题 OCR 正文，见上）
 
 ### ✅ 已完成（第 3–4 轮）
 
@@ -727,6 +728,55 @@ audio/<目录名>/…          与项目 audio/ 完全一致
 **另外修了一个必须修的 bug**：`MainActivity` 里 `new WebChromeClient()` 没有重写
 `onShowFileChooser`，导致**安卓端「导入」的文件选择器根本打不开**。
 已实现完整的文件选择回调（`ValueCallback<Uri[]>` + `onActivityResult` + 必要的 import）。
+
+### ✅ 已完成（第 13 轮）：雅思补充包的题目终于能看了
+
+**用户报的现象**：「雅思补充包的题目没能显示」。
+
+**查明的事实**（别被现象带偏，数据其实一直都在）：
+
+| 层 | 状况 |
+|---|---|
+| 雅思包里的 `library.json` | **72/72 门课都有 40 道题**，答案、`answerLine`、`answerTime`、`paper` 全在 |
+| 服务端 `/api/lesson/...` | 返回 40 道题，正常 |
+| `questions.json` 里的 `stem` | **全是占位符**「（题干请按《剑桥雅思》原书填写）」 |
+| `instructions` / `optionsText` | 部分有（C11-Test1 是 14/40 有指令、10/40 有选项文字） |
+| 原题 OCR 的**正文** | 只写进了 `.paper.txt`，**没有进课程数据** |
+
+所以不是数据丢了，是**雅思的题干本来就存在原题 PDF 的版式里**（表格 / 笔记填空），
+`questions.json` 只存了「题号 + 答案」。用户在题目面板里看到的自然就是一片占位符。
+
+**为什么没有把题干拆到每题**：OCR 出来的是**版式化逐行文本**，填空的空白和答案在行内是交错的，
+例如 `Room - seats 100the 1`（`100` 是示例答案，`1` 是题号）。
+硬拆成「每题的题干」必然拆错，而且错得看不出来。
+
+**改成了什么**：题目面板里按题组**整块贴出原题正文**（`<details open>` + `<pre>` 保留换行）。
+数据链路四段都补上了：
+
+```
+tools/merge-paper.js   写 doc.questionGroups = [{from,to,instructions,options,content}]
+        ↓
+lib/library.js         读出来挂到 lesson.questionGroups
+        ↓
+tools/build-pack.js    打进 library.json（手机端全靠它）
+        ↓
+public/app.js          renderGroupPaper() 按题组渲染 <details class="q-group-paper">
+```
+
+**实测**（MuMu 模拟器，雅思包推到 `/sdcard/.../packs/ielts.lppack`）：
+选「剑桥雅思 10 · Test 1 听力」→ 题目面板 **40 道题 + 7 块原题正文**，
+第一块 `Questions 1-6` 正文 459 字符，开头是 `SELF-DRIVETOURS INTHE USA / Example / BrownAndrea...Name:`
+—— **换行和版式都保留了**（`white-space: pre-wrap`）。截图 `build/ielts-questions.png`。
+
+`tools/probe-ielts-q.js` 就是这套端到端检查（找雅思课 → 点开 → 数题目和正文块 → 验换行）。
+`tools/probe-desktop.js` 也加了 `--lesson=关键字`，以后验某类课程的渲染不用手点。
+
+> ⚠️ **已知的粗糙处，别当成 bug**：
+> ① OCR 有**词间空格丢失**（`SELF-DRIVETOURS INTHE USA`、`24 1 Road`），这是 OCR 本身的质量问题，
+>    界面上标了橙色的 `OCR` 徽标；② 64/72 门课有正文，**剑 9/16/18/20 那 8 门是扫描件、没有文字层**，
+>    仍然只有「题号 + 答案」（见 P0 待办里那 4 本扫描 PDF 的 OCR）；
+> ③ 正文里可能混进**手写答案**（剑13 的 PDF 被手写过），复盘时以「正确答案」徽标为准。
+
 
 ### ✅ 已完成（第 12 轮）：改名 Whale Lite + 发到 GitHub
 

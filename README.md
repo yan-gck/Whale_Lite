@@ -288,6 +288,8 @@ node tools/import.js --audio="D:\听力\2024年6月四级.mp3" \
 | `tools/probe-layout.js` | **多分辨率布局探针**：一次浏览器切 8 种屏幕尺寸，断言没有按钮被挤出屏幕、题目面板能开能关 |
 | `tools/probe-interact.js` | **竖屏交互全扫**：配合 `probe-device.js --eval-file=` 用，把每个面板点一遍并确认真的点得到 |
 | `tools/probe-audio-diag.js` | 给 `probe-device.js --eval-file=` 用的音频诊断脚本（区分「保活坏了」与「媒体栈卡死」） |
+| `tools/probe-ielts-q.js` | 雅思题目端到端：找一门雅思课 → 点开 → 数题目与「原题正文」块 → 验换行是否保留 |
+| `tools/probe-desktop.js` | 桌面版体检：无头浏览器打开正在跑的 `server.js`，验课程数 / 顶栏 / 题目面板 / 音频源 / JS 报错。`--lesson=关键字` 可指定课程 |
 | `tools/make-icon.js` | 生成应用图标（自写 PNG 编码器，无图形库依赖） |
 | `tools/test.js` | 回归测试，`node tools/test.js --http` 连 HTTP 层一起测（含补充包与 Java 侧真实 ZIP/Range） |
 

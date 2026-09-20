@@ -191,6 +191,8 @@ async function buildPackLibrary(setName) {
       lines: l.lines,
       translationLines: l.translationLines,
       questions: l.questions,
+      // 题组正文：雅思题在界面上全靠它才有「题目」可看（题干本身是占位符）
+      questionGroups: l.questionGroups,
       transcript: l.transcript,
       paper: l.paper,
     })),

@@ -102,6 +102,23 @@ function main() {
     }
 
     const withGroup = (doc.questions || []).filter((q) => q.group).length;
+
+    // 题组的**正文**也存进课程数据（不只是写进 .paper.txt）。
+    //
+    // 为什么要这样：雅思的题干在 App 里一直是占位符「（题干请按《剑桥雅思》原书填写）」，
+    // 用户看到的就是「题目没显示」。OCR 出来的正文是**版式还原的逐行文本**
+    // （填空题的空白与答案在版式里是交错的，例如 "Room - seats 100the 1"），
+    // 硬拆成「每题的题干」必然拆错 —— 所以改成一个折中：
+    // 题目面板里按题组把**原题正文原样贴出来**，用户对照着看，
+    // 既不假装拆对了，又不用切到「原题」抽屉里翻。
+    doc.questionGroups = groups.map((g) => ({
+      from: g.from,
+      to: g.to,
+      instructions: g.instructions || [],
+      options: g.options || [],
+      content: g.content || [],
+    }));
+
     doc.paperSource = {
       kind: 'cambridge-question-paper',
       from: 'tools/parse-paper.js（原题 PDF OCR）',
@@ -110,7 +127,7 @@ function main() {
       generatedAt: new Date().toISOString().slice(0, 10),
     };
 
-    // 原题全文写成一个可读文本，界面里对照着看（题目面板只放指令，正文太长）
+    // 原题全文也写成一个可读文本（「原题」抽屉里整篇对照用）
     if (!DRY && groups.length) {
       const txt = [];
       txt.push(`剑桥雅思 ${book} · Test ${test} 听力原题`);

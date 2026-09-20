@@ -989,8 +989,34 @@ function isCorrect(q, userAns) {
 
 // ------------------------------------------------------------ 渲染题目
 
-function renderQuestions() {
-  const qs = state.lesson?.questions || [];
+/**
+ * 题组的**原题正文**（来自原题 PDF 的 OCR），按题组贴在题目面板里。
+ *
+ * 为什么需要：剑桥雅思的题干在原题 PDF 的版式里（表格 / 笔记填空），
+ * questions.json 里只存了「题号 + 答案」，题干是占位符。
+ * 用户看到的现象就是「雅思的题目没能显示」。
+ *
+ * 为什么是整块贴、而不是拆成每题一句：
+ * OCR 出来的是版式化逐行文本，填空的空白和答案在行内是交错的
+ * （例如 "Room - seats 100the 1"），硬拆成每题的题干必然拆错。
+ * 整块贴出来用户能对照着做题，也不会假装拆对了。
+ */
+function renderGroupPaper(groupTag) {
+  const groups = state.lesson?.questionGroups || [];
+  const m = /^Q(\d+)-(\d+)$/.exec(String(groupTag || ''));
+  if (!m || !groups.length) return '';
+  const from = Number(m[1]);
+  const to = Number(m[2]);
+  const g = groups.find((x) => Number(x.from) === from && Number(x.to) === to);
+  if (!g || !Array.isArray(g.content) || !g.content.length) return '';
+  const body = g.content.map((l) => escapeHtml(String(l))).join('\n');
+  return `<details class="q-group-paper" open>
+    <summary>原题正文 · Questions ${from}-${to}<span class="q-paper-src">OCR</span></summary>
+    <pre class="q-paper-pre">${body}</pre>
+  </details>`;
+}
+
+function renderQuestions() {  const qs = state.lesson?.questions || [];
   // 练耳朵模式：不做题，题目只当「对照材料」看 —— 按复盘的样子渲染（直接带答案、不可作答）
   const listen = isListenMode();
   const reviewing = state.phase === 'reviewing' || listen;
@@ -1037,7 +1063,7 @@ function renderQuestions() {
       html += `<div class="q-section-head" id="qsec-${sec}">Section ${sec}</div>`;
       lastSection = sec;
     }
-    // 换题组时插入题型指令（来自原题 PDF），让用户知道这组题怎么答
+    // 换题组时插入题型指令 + 原题正文（都来自原题 PDF）
     if (q.group && q.group !== lastGroup) {
       lastGroup = q.group;
       const ins = (q.instructions || []).map((s) => escapeHtml(s)).join('<br>');
@@ -1045,6 +1071,7 @@ function renderQuestions() {
         <span class="q-group-tag">${escapeHtml(q.group)}</span>
         ${ins ? `<div class="q-group-ins">${ins}</div>` : ''}
       </div>`;
+      html += renderGroupPaper(q.group);
     }
 
     const num = q.number != null ? q.number : qi + 1;
