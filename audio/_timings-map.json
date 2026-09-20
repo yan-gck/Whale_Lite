@@ -1,0 +1,155 @@
+[
+  {
+    "timings": "audio\\_timings\\2017-12-1.timings.json",
+    "key": "2017-12-1",
+    "audio": "audio\\_cet6-raw\\CET6_2017.06\\CET6_2017.06_set1_listening.mp3",
+    "bytes": 19220504,
+    "duration": 1601.709,
+    "lines": 175,
+    "translation": 175
+  },
+  {
+    "timings": "audio\\_timings\\2017-12-2.timings.json",
+    "key": "2017-12-2",
+    "audio": "audio\\_cet6-raw\\CET6_2017.06\\CET6_2017.06_set2_listening.mp3",
+    "bytes": 26012108,
+    "duration": 1625.757,
+    "lines": 223,
+    "translation": 223
+  },
+  {
+    "timings": "audio\\_timings\\2018-12-1.timings.json",
+    "key": "2018-12-1",
+    "audio": "audio\\_cet6-raw\\CET6_2018.12\\CET6_2018.12_set1_listening.mp3",
+    "bytes": 19393948,
+    "duration": 1616.162,
+    "lines": 185,
+    "translation": 185
+  },
+  {
+    "timings": "audio\\_timings\\2018-12-2.timings.json",
+    "key": "2018-12-2",
+    "audio": "audio\\_cet6-raw\\CET6_2018.12\\CET6_2018.12_set2_listening.mp3",
+    "bytes": 25286949,
+    "duration": 1580.434,
+    "lines": 178,
+    "translation": 178
+  },
+  {
+    "timings": "audio\\_timings\\2018-6-1.timings.json",
+    "key": "2018-6-1",
+    "audio": "audio\\_cet6-raw\\CET6_2018.06\\CET6_2018.06_set1_listening.mp3",
+    "bytes": 19808668,
+    "duration": 1650.722,
+    "lines": 216,
+    "translation": 216
+  },
+  {
+    "timings": "audio\\_timings\\2018-6-2.timings.json",
+    "key": "2018-6-2",
+    "audio": "audio\\_cet6-raw\\CET6_2018.06\\CET6_2018.06_set2_listening.mp3",
+    "bytes": 26426475,
+    "duration": 1651.548,
+    "lines": 187,
+    "translation": 187
+  },
+  {
+    "timings": "audio\\_timings\\2019-12-1.timings.json",
+    "key": "2019-12-1",
+    "audio": "audio\\_cet6-raw\\CET6_2019.12\\CET6_2019.12_set1_listening.mp3",
+    "bytes": 20536682,
+    "duration": 1687.04,
+    "lines": 192,
+    "translation": 192
+  },
+  {
+    "timings": "audio\\_timings\\2019-12-2.timings.json",
+    "key": "2019-12-2",
+    "audio": "audio\\_cet6-raw\\CET6_2019.12\\CET6_2019.12_set2_listening.mp3",
+    "bytes": 20463287,
+    "duration": 1681.006,
+    "lines": 196,
+    "translation": 196
+  },
+  {
+    "timings": "audio\\_timings\\2021-6-1.timings.json",
+    "key": "2021-6-1",
+    "audio": "audio\\_cet6-raw\\CET6_2021.06\\CET6_2021.06_set1_listening.mp3",
+    "bytes": 27043456,
+    "duration": 1690.135,
+    "lines": 192,
+    "translation": 192
+  },
+  {
+    "timings": "audio\\_timings\\2021-6-2.timings.json",
+    "key": "2021-6-2",
+    "audio": "audio\\_cet6-raw\\CET6_2021.06\\CET6_2021.06_set2_listening.mp3",
+    "bytes": 20426800,
+    "duration": 1702.161,
+    "lines": 174,
+    "translation": 174
+  },
+  {
+    "timings": "audio\\_timings\\2023-12-1.timings.json",
+    "key": "2023-12-1",
+    "audio": "audio\\_cet6-raw\\CET6_2023.12\\CET6_2023.12_set2_listening.mp3",
+    "bytes": 25037186,
+    "duration": 1564.821,
+    "lines": 182,
+    "translation": 182
+  },
+  {
+    "timings": "audio\\_timings\\2023-12-2.timings.json",
+    "key": "2023-12-2",
+    "audio": "audio\\_cet6-raw\\CET6_2023.12\\CET6_2023.12_set1_listening.mp3",
+    "bytes": 26782296,
+    "duration": 1673.638,
+    "lines": 178,
+    "translation": 178
+  },
+  {
+    "timings": "audio\\_timings\\2023-6-1.timings.json",
+    "key": "2023-6-1",
+    "audio": "audio\\_cet6-raw\\CET6_2023.06\\CET6_2023.06_set1_listening.mp3",
+    "bytes": 20119016,
+    "duration": 1652.715,
+    "lines": 193,
+    "translation": 193
+  },
+  {
+    "timings": "audio\\_timings\\2023-6-2.timings.json",
+    "key": "2023-6-2",
+    "audio": "audio\\_cet6-raw\\CET6_2023.06\\CET6_2023.06_set2_listening.mp3",
+    "bytes": 20119815,
+    "duration": 1652.767,
+    "lines": 174,
+    "translation": 174
+  },
+  {
+    "timings": "audio\\_timings\\2024-12-1.timings.json",
+    "key": "2024-12-1",
+    "audio": "audio\\_cet6-raw\\CET6_2024.12\\CET6_2024.12_set1_listening.mp3",
+    "bytes": 70863497,
+    "duration": 1771.366,
+    "lines": 179,
+    "translation": 179
+  },
+  {
+    "timings": "audio\\_timings\\2024-12-2.timings.json",
+    "key": "2024-12-2",
+    "audio": "audio\\_cet6-raw\\CET6_2024.12\\CET6_2024.12_set2_listening.mp3",
+    "bytes": 27895942,
+    "duration": 1743.224,
+    "lines": 181,
+    "translation": 181
+  },
+  {
+    "timings": "audio\\_timings\\2025-12-1.timings.json",
+    "key": "2025-12-1",
+    "audio": "audio\\_cet6-raw\\CET6_2025.12\\CET6_2025.12_set1_listening.mp3",
+    "bytes": 37060775,
+    "duration": 1543.93,
+    "lines": 177,
+    "translation": 177
+  }
+]

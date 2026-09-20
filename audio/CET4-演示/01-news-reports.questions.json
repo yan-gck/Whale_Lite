@@ -1,0 +1,361 @@
+{
+  "title": "四级听力 · Section A 短篇新闻（3 篇）",
+  "exam": "cet4",
+  "section": "Section A / B / C",
+  "source": "自编仿真题（TTS 合成）",
+  "license": "CC0-1.0（自编文本，可自由使用）",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "新闻1",
+      "stem": "What do volunteers do with the broken bicycles?",
+      "options": [
+        "They sell them to local shops.",
+        "They repair them and use them as mobile libraries.",
+        "They send them to recycling centers abroad.",
+        "They give them to school children."
+      ],
+      "answer": "B",
+      "explain": "原文：Volunteers collect broken bicycles from recycling centers and repair them with parts donated by local shops. Each repaired bike carries a small metal box filled with books. —— 修好后当流动图书馆用，故选 B。A 的 shops 只是捐零件，不是买主。",
+      "start": 33.8,
+      "end": 46.61,
+      "transcript": "Volunteers collect broken bicycles from recycling centers and repair them with parts donated by local shops. Each repaired bike carries a small metal box filled with books."
+    },
+    {
+      "number": 2,
+      "tag": "新闻1",
+      "stem": "What is one aim of the program?",
+      "options": [
+        "To reduce the number of bicycles sent to landfills.",
+        "To sell more books in the city.",
+        "To train volunteers as mechanics.",
+        "To make the city's buses more popular."
+      ],
+      "answer": "A",
+      "explain": "原文结尾：City officials say they hope the program will encourage people to read while they travel, and reduce the number of bicycles that end up in landfills. —— A 直接对应。",
+      "start": 57.59,
+      "end": 67.98,
+      "transcript": "City officials say they hope the program will encourage people to read while they travel, and reduce the number of bicycles that end up in landfills."
+    },
+    {
+      "number": 3,
+      "tag": "新闻2",
+      "stem": "What did the study find about workers who walked after lunch?",
+      "options": [
+        "They took longer lunch breaks.",
+        "They made fewer mistakes in the afternoon.",
+        "They earned more money.",
+        "They slept better at night."
+      ],
+      "answer": "B",
+      "explain": "原文：The group that walked for fifteen minutes reported fewer headaches and made fewer mistakes in the afternoon. —— 直接给出 B。",
+      "start": 94.81,
+      "end": 102.39,
+      "transcript": "The group that walked for fifteen minutes reported fewer headaches and made fewer mistakes in the afternoon."
+    },
+    {
+      "number": 4,
+      "tag": "新闻2",
+      "stem": "What limitation of the study is mentioned?",
+      "options": [
+        "The study lasted only one month.",
+        "Only two hundred people took part.",
+        "The result may not apply to workers doing heavy physical labor.",
+        "The company refused to publish the data."
+      ],
+      "answer": "C",
+      "explain": "原文：The researchers warn that the result may not apply to workers who do heavy physical labor. —— 这是研究者自己指出的适用范围限制，选 C。",
+      "start": 101.59,
+      "end": 108.24,
+      "transcript": "The researchers warn that the result may not apply to workers who do heavy physical labor."
+    },
+    {
+      "number": 5,
+      "tag": "新闻3",
+      "stem": "What happened at the airport?",
+      "options": [
+        "A strike stopped all flights.",
+        "More than ninety flights were cancelled because of snow.",
+        "A new runway was opened.",
+        "All passengers were sent home."
+      ],
+      "answer": "B",
+      "explain": "原文：A heavy snowstorm has forced the airport of a northern city to cancel more than ninety flights. —— B 是对该句的同义转述。",
+      "start": 120.94,
+      "end": 128.11,
+      "transcript": "A heavy snowstorm has forced the airport of a northern city to cancel more than ninety flights."
+    },
+    {
+      "number": 6,
+      "tag": "新闻3",
+      "stem": "When is normal service expected to return?",
+      "options": [
+        "By Thursday evening.",
+        "By Friday morning.",
+        "By Saturday afternoon.",
+        "By Sunday morning."
+      ],
+      "answer": "C",
+      "explain": "原文最后一句：the airport said that normal service should return by Saturday afternoon. —— 时间题，抓 Saturday afternoon。",
+      "start": 142.92,
+      "end": 148.8,
+      "transcript": "The airport said that normal service should return by Saturday afternoon."
+    },
+    {
+      "number": 7,
+      "tag": "长对话1",
+      "stem": "Why can the woman open a student account?",
+      "options": [
+        "She works at the bank.",
+        "She is a second-year university student.",
+        "Her parents have an account there.",
+        "She lives near the bank."
+      ],
+      "answer": "B",
+      "explain": "原文：Certainly, are you a student at the university? Yes, I am in my second year. Then you can open a student account. —— 身份是开学生账户的依据，选 B。",
+      "start": 182.56,
+      "end": 192.35,
+      "transcript": "Are you a student at the university? Yes, I am in my second year. Then you can open a student account."
+    },
+    {
+      "number": 8,
+      "tag": "长对话1",
+      "stem": "What document does the woman still need to bring?",
+      "options": [
+        "Her passport.",
+        "A letter from the university confirming her address.",
+        "A bank statement.",
+        "Her travel card."
+      ],
+      "answer": "B",
+      "explain": "原文：You will need your student card and a letter from the university confirming your address. I have my student card here, but I did not know about the letter. —— 已有学生证，还差地址证明信，选 B。",
+      "start": 200.28,
+      "end": 206.62,
+      "transcript": "You will need your student card and a letter from the university confirming your address."
+    },
+    {
+      "number": 9,
+      "tag": "长对话1",
+      "stem": "What happens if she keeps more than five hundred pounds in the account?",
+      "options": [
+        "She receives a small amount of interest each year.",
+        "She has to pay a monthly fee.",
+        "She gets a free travel card.",
+        "She can transfer money abroad for free."
+      ],
+      "answer": "A",
+      "explain": "原文：if you keep more than five hundred pounds in the account, you will receive a small amount of interest each year. —— 选 A。注意免费旅行卡是学生账户本身附带的，不是这个条件触发的。",
+      "start": 226.67,
+      "end": 234.71,
+      "transcript": "If you keep more than five hundred pounds in the account, you will receive a small amount of interest each year."
+    },
+    {
+      "number": 10,
+      "tag": "长对话1",
+      "stem": "How much is charged for a transfer from abroad?",
+      "options": [
+        "Nothing.",
+        "Five pounds.",
+        "Eight pounds.",
+        "Ten pounds."
+      ],
+      "answer": "C",
+      "explain": "原文：there is a charge of eight pounds for each transfer from outside the country. —— 数字题，选 C。",
+      "start": 240.17,
+      "end": 246,
+      "transcript": "There is a charge of eight pounds for each transfer from outside the country."
+    },
+    {
+      "number": 11,
+      "tag": "长对话2",
+      "stem": "What is the woman trying to find?",
+      "options": [
+        "The city library.",
+        "The new sports centre.",
+        "A swimming competition.",
+        "The university roundabout."
+      ],
+      "answer": "B",
+      "explain": "原文开头：Excuse me, I am looking for the new sports centre. —— 选 B。图书馆只是路标。",
+      "start": 269.95,
+      "end": 274.07,
+      "transcript": "Excuse me, I am looking for the new sports centre."
+    },
+    {
+      "number": 12,
+      "tag": "长对话2",
+      "stem": "Why is the swimming pool closed this morning?",
+      "options": [
+        "It is being cleaned.",
+        "Students have a competition there.",
+        "The water is too cold.",
+        "It opens only in the afternoon."
+      ],
+      "answer": "B",
+      "explain": "原文：the swimming pool is closed until four o'clock because the students have a competition this morning. —— 选 B。",
+      "start": 290.61,
+      "end": 297.75,
+      "transcript": "The swimming pool is closed until four o'clock because the students have a competition this morning."
+    },
+    {
+      "number": 13,
+      "tag": "长对话2",
+      "stem": "When is the pool usually quiet?",
+      "options": [
+        "Between six and eight in the evening.",
+        "After eight in the evening.",
+        "Early in the morning.",
+        "At lunchtime."
+      ],
+      "answer": "B",
+      "explain": "原文：Quite busy between six and eight, but it is usually quiet after eight. —— 注意转折词 but 之后才是答案，选 B。",
+      "start": 305.53,
+      "end": 311.67,
+      "transcript": "Quite busy between six and eight, but it is usually quiet after eight."
+    },
+    {
+      "number": 14,
+      "tag": "长对话2",
+      "stem": "How should the woman book a tennis court?",
+      "options": [
+        "By telephoning the manager.",
+        "At least a day ahead, at the desk or on the website.",
+        "On the same day at the entrance.",
+        "By asking a student member."
+      ],
+      "answer": "B",
+      "explain": "原文：for the tennis courts you should book at least a day ahead, either at the desk or on the website. —— 选 B。",
+      "start": 322.55,
+      "end": 329.61,
+      "transcript": "For the tennis courts you should book at least a day ahead, either at the desk or on the website."
+    },
+    {
+      "number": 15,
+      "tag": "篇章1",
+      "stem": "What happens during deep sleep?",
+      "options": [
+        "The body repairs muscles and strengthens the immune system.",
+        "Most dreaming takes place.",
+        "The brain is as active as when we are awake.",
+        "New memories are sorted and stored."
+      ],
+      "answer": "A",
+      "explain": "原文：In deep sleep the body repairs muscles and strengthens the immune system. —— B、C、D 都是快速眼动睡眠的特征，属张冠李戴型干扰项。",
+      "start": 377.25,
+      "end": 383.19,
+      "transcript": "In deep sleep the body repairs muscles and strengthens the immune system."
+    },
+    {
+      "number": 16,
+      "tag": "篇章1",
+      "stem": "What is special about rapid eye movement sleep?",
+      "options": [
+        "The body temperature drops sharply.",
+        "The brain is almost as active as when we are awake.",
+        "It lasts only a few seconds.",
+        "It happens only in the early evening."
+      ],
+      "answer": "B",
+      "explain": "原文：In the stage known as rapid eye movement sleep, the brain is almost as active as when we are awake. —— 选 B。",
+      "start": 382.39,
+      "end": 390.1,
+      "transcript": "In the stage known as rapid eye movement sleep, the brain is almost as active as when we are awake."
+    },
+    {
+      "number": 17,
+      "tag": "篇章1",
+      "stem": "Why does catching up on sleep at the weekend not fully work?",
+      "options": [
+        "The brain cannot store the missing stages in a single long night.",
+        "People usually wake up too early at weekends.",
+        "Weekend sleep is always interrupted.",
+        "The body needs less sleep as it gets older."
+      ],
+      "answer": "A",
+      "explain": "原文：this pattern does not fully repair the damage, because the brain cannot store the missing stages in a single long night. —— 因果关系要抓 because 后的内容。",
+      "start": 411.96,
+      "end": 422.09,
+      "transcript": "Research suggests that this pattern does not fully repair the damage, because the brain cannot store the missing stages in a single long night."
+    },
+    {
+      "number": 18,
+      "tag": "篇章2",
+      "stem": "What problem do park managers face?",
+      "options": [
+        "How to attract more visitors.",
+        "How to let people enjoy a place without damaging it.",
+        "How to train enough bus drivers.",
+        "How to raise money for new car parks."
+      ],
+      "answer": "B",
+      "explain": "原文：every year park managers face the same problem, how to let people enjoy a place without damaging it. —— 同位语直接给出答案，选 B。",
+      "start": 442.93,
+      "end": 451.01,
+      "transcript": "Every year park managers face the same problem, how to let people enjoy a place without damaging it."
+    },
+    {
+      "number": 19,
+      "tag": "篇章2",
+      "stem": "What has the shuttle bus system achieved?",
+      "options": [
+        "It has doubled the number of visitors.",
+        "It has reduced traffic inside the parks by more than half.",
+        "It has made the parks free to enter.",
+        "It has shortened the opening hours."
+      ],
+      "answer": "B",
+      "explain": "原文：The system has reduced traffic inside the parks by more than half, and the air is noticeably cleaner. —— 选 B。",
+      "start": 468.02,
+      "end": 475.76,
+      "transcript": "The system has reduced traffic inside the parks by more than half, and the air is noticeably cleaner."
+    },
+    {
+      "number": 20,
+      "tag": "篇章2",
+      "stem": "What complaint do some visitors make?",
+      "options": [
+        "The buses are too expensive.",
+        "The buses are crowded and they cannot reach quiet corners.",
+        "The car park is too far from the park.",
+        "The drivers are unfriendly."
+      ],
+      "answer": "B",
+      "explain": "原文：Some visitors say the buses are crowded in summer, and that they cannot reach the quiet corners they used to drive to. —— 两条抱怨并列，B 完整覆盖。",
+      "start": 477.32,
+      "end": 485.86,
+      "transcript": "Some visitors say the buses are crowded in summer, and that they cannot reach the quiet corners they used to drive to."
+    },
+    {
+      "number": 21,
+      "tag": "篇章3",
+      "stem": "What did Carnegie require towns to do?",
+      "options": [
+        "To name the library after him.",
+        "To provide the land and pay for books and staff from local taxes.",
+        "To build the library within one year.",
+        "To employ only local workers."
+      ],
+      "answer": "B",
+      "explain": "原文：He asked each town to provide the land and to promise to pay for the books and the staff from local taxes. —— 选 B。",
+      "start": 530.3,
+      "end": 537.89,
+      "transcript": "He asked each town to provide the land and to promise to pay for the books and the staff from local taxes."
+    },
+    {
+      "number": 22,
+      "tag": "篇章3",
+      "stem": "Why does the speaker say the conditions were important?",
+      "options": [
+        "They saved Carnegie a lot of money.",
+        "They made local governments treat libraries as a permanent public service.",
+        "They prevented libraries from being enlarged.",
+        "They attracted more foreign donations."
+      ],
+      "answer": "B",
+      "explain": "原文：the conditions he attached were as important as the money, because they taught local governments to treat libraries as a permanent public service rather than a temporary charity. —— 选 B。",
+      "start": 551.93,
+      "end": 564.64,
+      "transcript": "Historians say that the conditions he attached were as important as the money, because they taught local governments to treat libraries as a permanent public service rather than a temporary charity."
+    }
+  ]
+}

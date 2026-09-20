@@ -1,0 +1,411 @@
+{
+  "title": "六级真题 · 2018年6月 第1套",
+  "exam": "cet6",
+  "section": "",
+  "paper": "2018年6月 第1套",
+  "source": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis（Zenodo 收录）",
+  "license": "上传者声明 CC BY 4.0（非考试委员会声明）",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.20474009",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It is a typical salad",
+        "It is a Spanish soup",
+        "It is a weird vegetable",
+        "It is a kind of spicy food"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 77.02,
+      "end": 84.8,
+      "transcript": "The main ingredients are tomato, cucumber, bell peppers, olive oil and stale bread."
+    },
+    {
+      "number": 2,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "To make it thicker",
+        "To make it more nutritious",
+        "To add to its appeal",
+        "To replace an ingredient"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 93.48,
+      "end": 97.37,
+      "transcript": "It adds texture and thickness to the soup."
+    },
+    {
+      "number": 3,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It contains very little fat",
+        "It uses olive oil in cooking",
+        "It uses no artificial additives",
+        "It is mainly made of vegetables"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 100.24,
+      "end": 104.08,
+      "transcript": "As I said earlier, it's mostly vegetables."
+    },
+    {
+      "number": 4,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It does not go stale for two years",
+        "It takes no special skill to prepare",
+        "It comes from a special kind of pig",
+        "It is a delicacy blended with bread"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 164.36,
+      "end": 171.46,
+      "transcript": "In Spain, many people buy a whole leg for special group events such as Christmas."
+    },
+    {
+      "number": 5,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They come in a great variety",
+        "They do not make decent gifts",
+        "They do not vary much in price",
+        "They go well with Italian food"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 287,
+      "end": 293.8,
+      "transcript": "Our lowest prices are around six dollars a bottle, but those are table wines."
+    },
+    {
+      "number": 6,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "$30-$40",
+        "$40-$50",
+        "$50-$60",
+        "Around $150"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 315.14,
+      "end": 320.6,
+      "transcript": "I guess something in the vicinity of 30 or 40 would be good."
+    },
+    {
+      "number": 7,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are a healthy choice for elderly people",
+        "They are especially popular among Italians",
+        "They symbolize good health and longevity",
+        "They go well with different kinds of food"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 321.6,
+      "end": 327.1,
+      "transcript": "I would say the safest option is always a red wine."
+    },
+    {
+      "number": 8,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It is wine imported from California",
+        "It is less spicy than all other red wines",
+        "It is far more expensive than he expected",
+        "It is Italy’s most famous type of red wine"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 375.44,
+      "end": 379.1,
+      "transcript": "I will go with Chianti then."
+    },
+    {
+      "number": 9,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Learning others’ secrets",
+        "Searching for information",
+        "Decoding secret messages",
+        "Spreading sensational news"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 529.92,
+      "end": 534.8,
+      "transcript": "Navajo is hard to learn, and only a few people know it."
+    },
+    {
+      "number": 10,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They helped the U.S. army in World War Ⅱ",
+        "They could write down spoken codes promptly",
+        "They were assigned to decode enemy messages",
+        "They were good at breaking enemy secret codes"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 582.58,
+      "end": 588.46,
+      "transcript": "The Code Talkers played an important part in several battles."
+    },
+    {
+      "number": 11,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Important battles fought in the Pacific War",
+        "Decoding of secret messages in war times",
+        "A military code that was never broken",
+        "Navajo Indians’ contribution to code breaking"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 597.92,
+      "end": 611.64,
+      "transcript": "Theirs was the most successful wartime code ever used."
+    },
+    {
+      "number": 12,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "All services will be personalized",
+        "A lot of knowledge-intensive jobs will be replaced",
+        "Technology will revolutionize all sectors of industry",
+        "More information will be available"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 703.78,
+      "end": 718.8,
+      "transcript": "Now, where will the new jobs be found? Well, the one sector of the economy that can't be easily duplicated by even smart technologies is the caring sector, the personal care sector."
+    },
+    {
+      "number": 13,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "In the robotics industry",
+        "In the information service",
+        "In the personal care sector",
+        "In high-end manufacturing"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 732.92,
+      "end": 737.6,
+      "transcript": "There could be very high-end personal services."
+    },
+    {
+      "number": 14,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They charge high prices",
+        "They need lots of training",
+        "They cater to the needs of young people",
+        "They focus on customers’ specific needs"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 747.8,
+      "end": 781.87,
+      "transcript": "But the real question in the future is how can people afford these things if they don't have money, because they can't get a job that pays enough? That's why I wrote this book, which is about how to reorganize the economy for the future when technology brings about disruptive changes to what we used to consider high-income work."
+    },
+    {
+      "number": 15,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The rising demand in education and healthcare in the next 20 years",
+        "The disruption caused by technology in traditionally well-paid jobs",
+        "The tremendous changes new technology will bring to people’s lives",
+        "The amazing amount of personal attention people would like to have"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 747.8,
+      "end": 781.87,
+      "transcript": "But the real question in the future is how can people afford these things if they don't have money, because they can't get a job that pays enough? That's why I wrote this book, which is about how to reorganize the economy for the future when technology brings about disruptive changes to what we used to consider high-income work."
+    },
+    {
+      "number": 16,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It was the longest road in ancient Egypt",
+        "It was constructed some 500 years ago",
+        "It lay 8 miles from the monument sites",
+        "It linked a stone pit to some waterways"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 878.4,
+      "end": 887.3,
+      "transcript": "American researchers have discovered the world's oldest paved road, a 4,600-year-old highway."
+    },
+    {
+      "number": 17,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Saws used for cutting stone",
+        "Traces left by early explorers",
+        "An ancient geographical map",
+        "Some stone tool segments"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 934.68,
+      "end": 945.74,
+      "transcript": "The researchers also made a discovery in the stone pit at the northern end of the road, the first evidence that the Egyptians used rock saws."
+    },
+    {
+      "number": 18,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "To transport stones to block floods",
+        "To provide services for the stone pit",
+        "To link the various monument sites",
+        "To connect the villages along the Nile"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 989.04,
+      "end": 995.51,
+      "transcript": "The road was clearly built to provide services for the newly discovered stone pit."
+    },
+    {
+      "number": 19,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Dr. Gong didn’t give him any conventional tests",
+        "Dr. Gong marked his office with a hand-painted sign",
+        "Dr. Gong didn’t ask him any questions about his pain",
+        "Dr. Gong slipped in needles where he felt no pain"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 1121.54,
+      "end": 1132.5,
+      "transcript": "Other needles were slipped into my left wrist and, strangely, into my right arm, and then into both my closed eyelids."
+    },
+    {
+      "number": 20,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He had heard of the wonders acupuncture could work",
+        "Dr. Gong was very famous in New York’s Chinatown",
+        "Previous medical treatments failed to relieve his pain",
+        "He found the expensive medical tests unaffordable"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 1149.46,
+      "end": 1160.52,
+      "transcript": "Several trips to a hospital and two expensive, uncomfortable medical tests had failed to produce even a diagnosis."
+    },
+    {
+      "number": 21,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "More and more patients ask for the treatment",
+        "Acupuncture techniques have been perfected",
+        "It doesn’t need the conventional medical tests",
+        "It does not have any negative side effects"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 1239.76,
+      "end": 1243.14,
+      "transcript": "Reason? Patient demand."
+    },
+    {
+      "number": 22,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They were on the verge of breaking up",
+        "They were compatible despite differences",
+        "They quarreled a lot and never resolved their arguments",
+        "They argued persistently about whether to have children"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 1431.78,
+      "end": 1441.62,
+      "transcript": "The oldest tends to be self-assured, responsible, a high achiever, and relatively serious and reserved."
+    },
+    {
+      "number": 23,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Neither of them has any brothers or sisters",
+        "Neither of them won their parents’ favor",
+        "They weren’t spoiled in their childhood",
+        "They didn’t like to be the apple of their parents’ eyes"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 1463,
+      "end": 1476.62,
+      "transcript": "The youngest child of the family thrives on attention, and tends to be outgoing, adventurous, optimistic, creative, and less ambitious than others in the family."
+    },
+    {
+      "number": 24,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are usually good at making friends",
+        "They tend to be adventurous and creative",
+        "They are often content with what they have",
+        "They tend to be self-assured and responsible"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 1500.96,
+      "end": 1513.44,
+      "transcript": "The middle child is influenced by many variables, however, but middles are less likely to take initiative, and more anxious and self-critical than others."
+    },
+    {
+      "number": 25,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They enjoy making friends",
+        "They tend to be well adjusted",
+        "They are least likely to take initiative",
+        "They usually have successful marriages"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 1524.86,
+      "end": 1539.6,
+      "transcript": "The only child is often most comfortable when alone, but since an only tends to be a well-adjusted individual, she'll eventually learn to relate to any chosen spouse."
+    }
+  ]
+}

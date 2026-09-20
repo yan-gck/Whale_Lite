@@ -1,0 +1,411 @@
+{
+  "title": "六级真题 · 2022年12月 第1套",
+  "exam": "cet6",
+  "section": "",
+  "paper": "2022年12月 第1套",
+  "source": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis（Zenodo 收录）",
+  "license": "上传者声明 CC BY 4.0（非考试委员会声明）",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.20474009",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "She hasn’t started writing it",
+        "She hasn’t decided on a topic",
+        "She is proofreading the first draft",
+        "She is working on the references"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester."
+    },
+    {
+      "number": 2,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He lent many books to the man for reference",
+        "He offered the man advice on resource hunting",
+        "He published a lot in a number of reputable journals",
+        "He told the man to be selective when using e-resources"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "I started by talking to my professor about where to look for information."
+    },
+    {
+      "number": 3,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He didn’t think her dissertation topic viable",
+        "He wasn’t interested in her dissertation topic",
+        "He didn’t want her to rush through her dissertation",
+        "He wasn’t specific about the length of her dissertation"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "And honestly, my professor did warn me at the beginning that I might not be able to find enough material."
+    },
+    {
+      "number": 4,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Change her research methodology",
+        "Narrow down her dissertation topic",
+        "Consult her professor more",
+        "Follow the man’s advice"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Broadening the topic is a great idea."
+    },
+    {
+      "number": 5,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He has translated 12 books",
+        "He is a well-known nutritionist",
+        "His books sell well worldwide",
+        "His latest book sold a million copies"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "John isn't just a respected writer; he's also one of the rare celebrity authors writing about science today."
+    },
+    {
+      "number": 6,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The desire of Americans to try exotic cuisines",
+        "The demand for information about food safety",
+        "The fact that over half of Americans are overweight",
+        "The fact that science books are difficult to read"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Well, people read my books because more than 60% of Americans are overweight or obese."
+    },
+    {
+      "number": 7,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The general public",
+        "Those who are overweight",
+        "Those who want to lose weight",
+        "The medical community"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "My last book was written primarily for the medical community."
+    },
+    {
+      "number": 8,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Switch to a vegetarian diet",
+        "Follow a personalized diet",
+        "Adhere to doctors’ advice",
+        "Cut carbohydrate intake"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs."
+    },
+    {
+      "number": 9,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The rate of their growth increased dramatically",
+        "The growth of their new brain cells doubled",
+        "They began to show signs of depression",
+        "They began to get irritated and restless"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Researchers discovered that placing rats in a stressful situation for just a few hours doubled the growth of new brain cells."
+    },
+    {
+      "number": 10,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "To avoid them in the future",
+        "To warn others against them",
+        "To make good sense of them",
+        "To reflect on their causes"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Viewed from a biological perspective, this makes sense, because animals that are better at remembering dangerous situations can avoid them in the future."
+    },
+    {
+      "number": 11,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Produce a surprising healing effect",
+        "Weaken one’s immunity in the long run",
+        "Make people more susceptible to illness",
+        "Provide protection against mental illnesses"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Scientists concede that chronic stress can make you more prone to illness."
+    },
+    {
+      "number": 12,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Placing their own interests over their staff’s",
+        "Being overwhelmed by their daily routines",
+        "Lacking the ability to relate to their staff",
+        "Spending too much time handling email"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "For many managers and people who work in leadership positions, dealing with emails is a dilemma."
+    },
+    {
+      "number": 13,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Their leadership may be challenged",
+        "Their companies may go bankrupt",
+        "Unexpected events may occur",
+        "Major problems may resu"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "As a result, they ignore the issues that might only be mild problems at first, until unfortunately, they inevitably transform into a major problem or crisis by virtue of neglect."
+    },
+    {
+      "number": 14,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Keep an eye on their employees",
+        "Motivate and inspire their team",
+        "Sacrifice some of the immediate goals",
+        "Have greater ambition in overall planning"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "As leaders, they are expected to motivate and inspire their team in pursuit of longer term strategic goals and also, less ambitiously but more practically, to monitor their daily output, to set clear expectations, and to give regular feedback."
+    },
+    {
+      "number": 15,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Cultivate self-control",
+        "Filter their email boxes",
+        "Respond only after work",
+        "Check only when necessary"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The solution is cultivating self-control which is like a muscle—it can be strengthened or improved over time through exercise."
+    },
+    {
+      "number": 16,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The key to increasing healthy food supply",
+        "The best way to improve marketing research",
+        "The impact of advertisements on consumption",
+        "The importance of the appearance of food"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Now, what can marketing tell us about improving nutrition? Well, a team of marketing professors has studied the importance of the visual aspect of food and how that influences food choices."
+    },
+    {
+      "number": 17,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "By focusing on the nutrients in different foods",
+        "By emphasizing the diversity of food",
+        "By stressing pleasing aesthetics of food",
+        "By winning the support of marketing professors"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Now, as we discussed last time, medical professionals have tried to fight the obesity epidemic by focusing on the nutrients found in different foods, emphasizing things like carbohydrate, fat, sugar and calorie content."
+    },
+    {
+      "number": 18,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They can attract customers with the healthy qualities of their products",
+        "They can boost sales of healthy foods by making them visually appealing",
+        "They can turn to marketing professors for advice",
+        "They can rely on advertising for sales promotion"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The researchers believe that other companies could bolster sales of healthy foods with similar ads, depicting their products as attractive and a source of pleasure."
+    },
+    {
+      "number": 19,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It has witnessed a spectacular surge in demand",
+        "It has met much criticism from environmentalists",
+        "It has seen more small businesses offering environment-friendly products",
+        "It has experienced increasingly fierce competition among global companies"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "In recent years, however, many countries have witnessed a surge in the number of small businesses and companies offering more environment-friendly cleaning products, and they're doing good business, too."
+    },
+    {
+      "number": 20,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Consumers now know much more about technology",
+        "Their mass production has sharply reduced the price",
+        "Consumers tend to favor all that is novel",
+        "Their quality has been greatly improved"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "In the past, people might have been skeptical of a new product claimed to be able to achieve amazing cleaning results, but they now have faith in technology's ability to do what was once thought impossible."
+    },
+    {
+      "number": 21,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Purchasing only this kind of products for home cleaning",
+        "Writing positive comments about them on social media",
+        "Demonstrating on TV how effective these products are",
+        "Telling one another about their incomparable virtues"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Then, in many cases, customers are doing the marketing for these products by leaving threads of comments on social media, praising their virtues."
+    },
+    {
+      "number": 22,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Increasing cleaners’ workload",
+        "Blocking the fountains’ works",
+        "Breaking a time-honored ritual",
+        "Polluting the fountains’ water"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Otherwise, the growing piles of pennies, quarters and euros could clog up the fountain's works."
+    },
+    {
+      "number": 23,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are occasionally retrieved by curious tourists",
+        "They are regularly donated to charity organizations",
+        "They are mostly used for the fountains’ maintenance",
+        "They are usually used as wages for fountain cleaners"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "In New York City, for example, coins collected from fountains in public parks often go towards the fountains' maintenance itself, though entrepreneurs who don't mind getting their hands wet often get to it first."
+    },
+    {
+      "number": 24,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It is invested in a series of businesses",
+        "It is used exclusively for tts maintenance",
+        "It is used to run a supermarket for the needy",
+        "It is estimated to be about $40,000 a month"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Most of the money collected each night goes towards running a supermarket for the needy."
+    },
+    {
+      "number": 25,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He was arrested for stealing money from four fountain cleaners",
+        "He was sentenced to 34 years’ imprisonment",
+        "He collected rare coins from around the world",
+        "He stole a lot of money from a fountain with a magnetic stick"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Authorities finally caught one notorious thief named Thomas Morgan and banned him from the fountain after he fished out thousands of dollars in change over 34 years using a magnetic stick."
+    }
+  ]
+}

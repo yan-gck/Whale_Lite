@@ -1,0 +1,13 @@
+{
+    "title":  "六级听力 · 长对话与讲座（3 篇）",
+    "exam":  "cet6",
+    "section":  "Section B / C",
+    "source":  "自编仿真题（TTS 合成）",
+    "license":  "CC0-1.0（自编文本，可自由使用）",
+    "sourceUrl":  "",
+    "duration":  425.44,
+    "sampleRate":  16000,
+    "notes":  "六级语速更快、句式更长，讲座题侧重观点与态度。",
+    "importedAt":  "2026-09-19",
+    "generator":  "tools/make-demo.ps1 (Windows SAPI TTS, 词级时间戳)"
+}

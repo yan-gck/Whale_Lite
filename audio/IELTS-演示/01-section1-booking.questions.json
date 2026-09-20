@@ -1,0 +1,169 @@
+{
+  "title": "雅思听力 · Section 1 社区游泳馆咨询（填空）",
+  "exam": "ielts",
+  "section": "Section 1 / Section 4",
+  "source": "自编仿真题（TTS 合成）",
+  "license": "CC0-1.0（自编文本，可自由使用）",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "填空题",
+      "stem": "Customer surname: KOWALSKI (spelled by caller)",
+      "options": [
+        "KOWALSKI",
+        "KOWALSKY",
+        "KOVALSKI",
+        "KOWALSKIE"
+      ],
+      "answer": "A",
+      "explain": "原文逐字母拼读：K O W A L S K I → KOWALSKI。雅思听力人名拼写必考，要练到能逐字母记录。",
+      "start": 38.73,
+      "end": 41.41,
+      "transcript": "K O W A L S K I."
+    },
+    {
+      "number": 2,
+      "tag": "填空题",
+      "stem": "Off peak membership: £______ per month",
+      "options": [
+        "£15",
+        "£20",
+        "£32",
+        "£42"
+      ],
+      "answer": "B",
+      "explain": "原文：There is an off peak membership at twenty pounds —— £20。干扰项 £32 是普通成人月费，£15 是入会费。",
+      "start": 58.21,
+      "end": 66.45,
+      "transcript": "There is an off peak membership at twenty pounds, but it can only be used before four o'clock on weekdays."
+    },
+    {
+      "number": 3,
+      "tag": "填空题",
+      "stem": "Off peak membership can be used before ______ on weekdays.",
+      "options": [
+        "noon",
+        "2 p.m.",
+        "4 p.m.",
+        "6 p.m."
+      ],
+      "answer": "C",
+      "explain": "原文：it can only be used before four o'clock on weekdays —— 4 p.m.。注意 2 p.m. 是后文提到的\"泳池最空闲时段\"的起点，属信息错位干扰。",
+      "start": 61.59,
+      "end": 66.45,
+      "transcript": "It can only be used before four o'clock on weekdays."
+    },
+    {
+      "number": 4,
+      "tag": "填空题",
+      "stem": "One off joining fee: £______",
+      "options": [
+        "£10",
+        "£15",
+        "£20",
+        "£25"
+      ],
+      "answer": "B",
+      "explain": "原文：there is a joining fee of fifteen pounds, which you pay only once —— 一次性 £15。",
+      "start": 72.32,
+      "end": 79.86,
+      "transcript": "One thing to remember is that there is a joining fee of fifteen pounds, which you pay only once."
+    },
+    {
+      "number": 5,
+      "tag": "填空题",
+      "stem": "Bring a ______ for the membership card.",
+      "options": [
+        "passport",
+        "photo",
+        "utility bill",
+        "student card"
+      ],
+      "answer": "B",
+      "explain": "原文：please bring a photo for your card, and a bank letter if you want to pay monthly —— 卡上要照片；bank letter 是月付才需要，属条件干扰。",
+      "start": 82.94,
+      "end": 89.34,
+      "transcript": "Please bring a photo for your card, and a bank letter if you want to pay monthly."
+    },
+    {
+      "number": 6,
+      "tag": "填空题",
+      "stem": "The centre does not provide ______.",
+      "options": [
+        "lockers",
+        "towels",
+        "shampoo",
+        "parking"
+      ],
+      "answer": "B",
+      "explain": "原文：the centre does not provide towels, so bring your own —— towels。雅思常考\"不提供什么\"，注意否定词。",
+      "start": 88.54,
+      "end": 94.88,
+      "transcript": "Also, the centre does not provide towels, so bring your own."
+    },
+    {
+      "number": 7,
+      "tag": "填空题",
+      "stem": "On Sundays the pool closes at ______.",
+      "options": [
+        "6 p.m.",
+        "8 p.m.",
+        "9 p.m.",
+        "10 p.m."
+      ],
+      "answer": "B",
+      "explain": "原文：The pool is open from six in the morning until ten at night, but on Sundays it closes at eight —— 转折词 but 之后是答案：8 p.m.。10 点是平日的关门时间。",
+      "start": 129.84,
+      "end": 137.25,
+      "transcript": "The pool is open from six in the morning until ten at night, but on Sundays it closes at eight."
+    },
+    {
+      "number": 8,
+      "tag": "填空题",
+      "stem": "Quietest time in the pool: ______ on weekdays.",
+      "options": [
+        "6–8 a.m.",
+        "2–4 p.m.",
+        "6–8 p.m.",
+        "after 8 p.m."
+      ],
+      "answer": "B",
+      "explain": "原文：The quietest time is between two and four in the afternoon on weekdays —— 2–4 p.m.。",
+      "start": 138.7,
+      "end": 144.54,
+      "transcript": "The quietest time is between two and four in the afternoon on weekdays."
+    },
+    {
+      "number": 9,
+      "tag": "填空题",
+      "stem": "Fitness classes must be booked at least ______ in advance.",
+      "options": [
+        "2 hours",
+        "12 hours",
+        "24 hours",
+        "48 hours"
+      ],
+      "answer": "C",
+      "explain": "原文：the fitness classes must be booked at least twenty four hours in advance, and you can cancel up to two hours before without paying —— 预订要提前 24 小时；2 小时是免费取消的期限，最易混。",
+      "start": 151.5,
+      "end": 160.73,
+      "transcript": "The fitness classes must be booked at least twenty four hours in advance, and you can cancel up to two hours before without paying."
+    },
+    {
+      "number": 10,
+      "tag": "填空题",
+      "stem": "Members should display their card in the ______.",
+      "options": [
+        "reception",
+        "car",
+        "locker",
+        "cafe"
+      ],
+      "answer": "B",
+      "explain": "原文：there is free parking for members, but you need to display your card in the car —— 车内展示会员卡。",
+      "start": 162.47,
+      "end": 169.62,
+      "transcript": "Yes, there is free parking for members, but you need to display your card in the car."
+    }
+  ]
+}

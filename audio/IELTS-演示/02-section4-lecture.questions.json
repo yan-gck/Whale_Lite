@@ -1,0 +1,169 @@
+{
+  "title": "雅思听力 · Section 4 城市蜜蜂研究（讲座填空）",
+  "exam": "ielts",
+  "section": "Section 1 / Section 4",
+  "source": "自编仿真题（TTS 合成）",
+  "license": "CC0-1.0（自编文本，可自由使用）",
+  "questions": [
+    {
+      "number": 31,
+      "tag": "填空题",
+      "stem": "City bees can be more ______ than bees in the countryside.",
+      "options": [
+        "numerous",
+        "productive",
+        "aggressive",
+        "colourful"
+      ],
+      "answer": "B",
+      "explain": "原文：bees in cities can be more productive than bees in the surrounding countryside —— productive。",
+      "start": 27.5,
+      "end": 36.48,
+      "transcript": "Several studies in Europe and North America have found that bees in cities can be more productive than bees in the surrounding countryside."
+    },
+    {
+      "number": 32,
+      "tag": "填空题",
+      "stem": "Cities are usually warmer by ______ degrees.",
+      "options": [
+        "one or two",
+        "two or three",
+        "three or four",
+        "five or six"
+      ],
+      "answer": "B",
+      "explain": "原文：often by two or three degrees —— 2–3 度。",
+      "start": 40.49,
+      "end": 50.91,
+      "transcript": "Cities are warmer than the countryside, often by two or three degrees, because buildings and roads store heat during the day and release it at night."
+    },
+    {
+      "number": 33,
+      "tag": "填空题",
+      "stem": "A longer flowering season means more time to ______.",
+      "options": [
+        "build hives",
+        "collect food",
+        "find mates",
+        "avoid predators"
+      ],
+      "answer": "B",
+      "explain": "原文：a longer season means more time to collect food —— collect food。",
+      "start": 50.11,
+      "end": 57.96,
+      "transcript": "A warmer city means a longer flowering season, and a longer season means more time to collect food."
+    },
+    {
+      "number": 34,
+      "tag": "填空题",
+      "stem": "Second reason: the ______ of plants available in a city.",
+      "options": [
+        "size",
+        "variety",
+        "height",
+        "colour"
+      ],
+      "answer": "B",
+      "explain": "原文：The second reason is variety. A garden, a park and a railway embankment may each hold different plants —— variety。",
+      "start": 57.16,
+      "end": 72.03,
+      "transcript": "The second reason is variety. A garden, a park and a railway embankment may each hold different plants, and a single city can therefore offer flowers over a longer period than a large field of one crop."
+    },
+    {
+      "number": 35,
+      "tag": "填空题",
+      "stem": "Third reason: the absence of ______ in city gardens.",
+      "options": [
+        "predators",
+        "pesticides",
+        "traffic",
+        "competition"
+      ],
+      "answer": "B",
+      "explain": "原文：The third reason is the absence of pesticides. Farmland is treated, but city gardens usually are not —— pesticides。",
+      "start": 71.23,
+      "end": 80.33,
+      "transcript": "The third reason is the absence of pesticides. Farmland is treated, but city gardens usually are not."
+    },
+    {
+      "number": 36,
+      "tag": "填空题",
+      "stem": "In city centres there has been a sharp fall in the number of ______ species.",
+      "options": [
+        "bee",
+        "butterfly",
+        "bird",
+        "beetle"
+      ],
+      "answer": "B",
+      "explain": "原文：The same studies show a sharp fall in the number of butterfly species in city centres —— butterfly。",
+      "start": 84.3,
+      "end": 91.08,
+      "transcript": "The same studies show a sharp fall in the number of butterfly species in city centres."
+    },
+    {
+      "number": 37,
+      "tag": "填空题",
+      "stem": "Butterflies need large ______ areas of a particular plant.",
+      "options": [
+        "sheltered",
+        "continuous",
+        "sunny",
+        "elevated"
+      ],
+      "answer": "B",
+      "explain": "原文：Butterflies need large continuous areas of a particular plant, and cities are fragmented —— continuous。与 fragmented 构成反义提示。",
+      "start": 90.28,
+      "end": 97.64,
+      "transcript": "Butterflies need large continuous areas of a particular plant, and cities are fragmented."
+    },
+    {
+      "number": 38,
+      "tag": "填空题",
+      "stem": "Counting honey is limited because it tells us about ______ species only.",
+      "options": [
+        "rare",
+        "one",
+        "native",
+        "wild"
+      ],
+      "answer": "B",
+      "explain": "原文：Counting the honey produced by a hive is convenient, but it tells us about one species only —— one。",
+      "start": 114.94,
+      "end": 122.36,
+      "transcript": "Counting the honey produced by a hive is convenient, but it tells us about one species only."
+    },
+    {
+      "number": 39,
+      "tag": "填空题",
+      "stem": "Researchers should also count ______ species.",
+      "options": [
+        "farm",
+        "wild",
+        "large",
+        "migratory"
+      ],
+      "answer": "B",
+      "explain": "原文：we need to count wild species as well, and that is much slower work —— wild。",
+      "start": 121.56,
+      "end": 131.75,
+      "transcript": "If we want to know whether a city is good for pollinators in general, we need to count wild species as well, and that is much slower work."
+    },
+    {
+      "number": 40,
+      "tag": "填空题",
+      "stem": "Main lesson: different insects respond to different features, so a city can be a refuge for one group and a ______ for another.",
+      "options": [
+        "garden",
+        "barrier",
+        "shelter",
+        "source"
+      ],
+      "answer": "B",
+      "explain": "原文：a city can be a refuge for one group while it is a barrier for another —— barrier。与 refuge 对举，是讲座的核心结论。",
+      "start": 101.04,
+      "end": 111.67,
+      "transcript": "The lesson is that different insects respond to different features of the landscape, and that a city can be a refuge for one group while it is a barrier for another."
+    }
+  ]
+}

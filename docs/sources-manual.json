@@ -1,0 +1,240 @@
+{
+  "_readme": [
+    "「我下不了」的素材清单 —— 每一项都是实测过的真实地址，不是搜索结果。",
+    "",
+    "为什么单独放这里，而不是混进 tools/fetch-resources.js：",
+    "  1. 其中一部分（四六级真题）版权属于考试机构，不适合随项目自动分发；",
+    "  2. 另一部分的链接会失效（网盘、防盗链、LFS 指针），自动下载很容易静默拿到错误内容。",
+    "  所以改成：清单 + 校验下载器。你确认要哪个，我再帮你装进播放器。",
+    "",
+    "字节数是【校验值】：GitHub 上很多仓库用 Git LFS，",
+    "raw.githubusercontent.com 会返回 133 字节的指针文件而状态码仍是 200，",
+    "看起来成功其实是空的。用字节数一比对就能立刻发现。"
+  ],
+
+  "groups": [
+    {
+      "id": "cet6-zenodo",
+      "label": "六级真题 · 音频 + 原文 + 题干答案 + 3 套时间轴",
+      "license": "上传者声明 CC BY 4.0（Zenodo 机器可读字段），非考试委员会声明",
+      "licenseNote": "个人学习无碍；公开分发请自行判断。详见 docs/resources.md 第 6.1 节。",
+      "repo": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis",
+      "branch": "main",
+      "zenodo": "https://doi.org/10.5281/zenodo.20474009",
+      "note": "音频必须走 media.githubusercontent.com（LFS），走 raw 只会拿到 133 字节指针。",
+      "items": [
+        { "path": "CET6_2016.12/CET6_2016.12_set1_listening.mp3", "bytes": 16422048 },
+        { "path": "CET6_2017.12/第一套.lrc", "bytes": 23404 },
+        { "path": "CET6_2017.12/第二套.lrc", "bytes": 22675 },
+        { "path": "CET6_2017.12/CET6_2017.12_set1_transcript.md", "bytes": 14153 },
+        { "path": "CET6_2017.12/cet6_2017.12_set1_q_stem.txt", "bytes": 4902 },
+        { "path": "CET6_2017.12/cet6_2017.12_set1_q_answer.txt", "bytes": 290 },
+        { "path": "CET6_2018.06/第二套.lrc", "bytes": null },
+        { "path": "CET6_2025.12/CET6_2025.12_set1_listening.mp3", "bytes": 37060775 }
+      ],
+      "如何取全部": "仓库共 39 个音频、39 份 transcript.md、80 份题干/答案 txt。整包下载见 Zenodo 归档（约 2.2 MB，但里面的 mp3 是指针，音频仍需从 GitHub LFS 取）。"
+    },
+
+    {
+      "id": "cet6-paired",
+      "label": "★ 六级 2017.12 第1套：音频 + 真实时间轴 + 原文 + 题干答案（开箱即用）",
+      "license": "音频：无许可（DieDiDi）｜时间轴/原文/题干：上传者声明 CC BY 4.0（Ysoseri1224）",
+      "licenseNote": "两者都属「个人学习可以、公开分发请自行判断」。",
+      "note": [
+        "这一组是我特意配好的：音频与时间轴来自不同仓库，但都是 2017年12月六级第1套。",
+        "注意：.lrc 是 GBK 编码，直接读会乱码；fetch-manual 会转成 UTF-8 再存盘。",
+        "下载后可以直接用 tools/import.js 装进播放器（下面会给出命令）。"
+      ],
+      "mixed": true,
+      "items": [
+        {
+          "path": "2017.12-第1套-听力.mp3",
+          "url": "https://raw.githubusercontent.com/DieDiDi/CET4-6-past-exam-paper/main/%E5%9B%9B%E5%85%AD%E7%BA%A7%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E6%B1%87%E6%80%BB/2017%E5%B9%B412%E6%9C%88%E8%8B%B1%E8%AF%AD%E5%9B%9B%E5%85%AD%E7%BA%A7/2017%E5%B9%B412%E6%9C%88%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88/%E7%AC%AC%E4%B8%80%E5%A5%97%E5%90%AC%E5%8A%9B.mp3",
+          "bytes": 19220504,
+          "重要": "字节数与 timings 2017-12-1 的期望值完全一致"
+        },
+        {
+          "path": "2017.12-第1套.lrc",
+          "url": "https://raw.githubusercontent.com/Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis/main/CET6_2017.12/%E7%AC%AC%E4%B8%80%E5%A5%97.lrc",
+          "bytes": 23404,
+          "encoding": "gbk"
+        },
+        {
+          "path": "2017.12-第1套-原文.md",
+          "url": "https://raw.githubusercontent.com/Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis/main/CET6_2017.12/CET6_2017.12_set1_transcript.md",
+          "bytes": 14153
+        },
+        {
+          "path": "2017.12-第1套-题干.txt",
+          "url": "https://raw.githubusercontent.com/Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis/main/CET6_2017.12/cet6_2017.12_set1_q_stem.txt",
+          "bytes": 4902,
+          "encoding": "gbk"
+        },
+        {
+          "path": "2017.12-第1套-答案.txt",
+          "url": "https://raw.githubusercontent.com/Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis/main/CET6_2017.12/cet6_2017.12_set1_q_answer.txt",
+          "bytes": 290,
+          "encoding": "gbk"
+        }
+      ]
+    },
+
+    {
+      "id": "cet-timings",
+      "label": "六级真题 · 句级时间戳 + 中文译文（37 套）",
+      "license": "MIT",
+      "licenseNote": "timings 数据本身 MIT；音频版权状况取决于其原始来源。",
+      "repo": "3056810551/cet-listening",
+      "branch": "main",
+      "note": "仓库不含音频（audio/ 被 .gitignore）。每个 timings.json 里的 source.audio.size 就是它对齐时所用音频的字节数 —— 必须按这个字节数配音频，换一份录音时间戳就会整体漂移。",
+      "items": [
+        { "path": "transcripts/cet6/2017-12-1.timings.json", "bytes": null },
+        { "path": "transcripts/cet6/2017-12-2.timings.json", "bytes": null },
+        { "path": "transcripts/cet6/2022-12-1.timings.json", "bytes": null }
+      ],
+      "配对表": [
+        { "timings": "2017-12-1", "需要字节数": 19220504, "对应音频": "DieDiDi 四六级历年真题汇总/2017年12月英语四六级/2017年12月英语六级真题及答案/第一套听力.mp3", "已实测": "✓ 字节数完全一致" },
+        { "timings": "2017-12-2", "需要字节数": 26012108, "对应音频": "同上目录 / 第二套听力.mp3", "已实测": "未实测" },
+        { "timings": "2018-6-1", "需要字节数": 19808668, "对应音频": "DieDiDi 2018年6月…/第一套.mp3", "已实测": "未实测" },
+        { "timings": "2022-12-1", "需要字节数": 19911175, "对应音频": "YinsinSirius CET6_2022.12/2022.12第1套/2022.12六级真题第1套听力.mp3", "已实测": "✓ 字节数完全一致" },
+        { "timings": "2025-12-1", "需要字节数": 37060775, "对应音频": "Ysoseri1224 CET6_2025.12_set1_listening.mp3", "已实测": "✓ 字节数完全一致" }
+      ],
+      "已知不匹配": [
+        "2017-6-1 需要 19293414 字节，但 DieDiDi 里同名文件是 19220504 —— 是另一份录音，不要混用。",
+        "2025-6-1 需要 18852049，YinsinSirius 的是 18501013 —— 同样不可混用。"
+      ]
+    },
+
+    {
+      "id": "cet-audio-yinsin",
+      "label": "四六级真题音频（12 个，覆盖 2022–2025）",
+      "license": "无 LICENSE（GitHub API license = null）",
+      "licenseNote": "无任何许可声明，默认保留全部权利。个人学习可以，别公开分发。",
+      "repo": "YinsinSirius/CET6-Resources",
+      "branch": "main",
+      "note": "这个仓库不用 Git LFS，raw 直链即可。但全库零 .lrc/.srt/.vtt —— 一点时间戳都没有，只能靠 timings 或自己做对齐。",
+      "items": [
+        { "path": "CET4_/2024年12月CET4/2024年12月英语四级听力（第一套）.mp3", "bytes": 7025520 },
+        { "path": "CET4_/2024年12月CET4/2024年12月英语四级听力（第二套）.mp3", "bytes": 10819336 },
+        { "path": "CET4_/2025年6月CET4/2025年6月四级音频1.MP3", "bytes": 15273895 },
+        { "path": "CET6_2022.06/2022.06英语六级听力音频/2022年06月六级真题（全1套）.mp3", "bytes": 13944033 },
+        { "path": "CET6_2022.09/2022年09月六级真题（全1套）.mp3", "bytes": 69537756 },
+        { "path": "CET6_2022.12/2022.12第1套/2022.12六级真题第1套听力.mp3", "bytes": 19911175 },
+        { "path": "CET6_2022.12/2022.12第2套/2022.12六级真题第2套听力.mp3", "bytes": 19307494 },
+        { "path": "CET6_2023.06/2023.06第1套/2023.06六级真题第1套听力音频.mp3", "bytes": 20119016 },
+        { "path": "CET6_2023.06/2023.06第2套/2023.06六级真题第2套听力音频.mp3", "bytes": 20119815 },
+        { "path": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第1套.mp3", "bytes": 70863497 },
+        { "path": "CET6_2024.12/2024年12月六级听力音频/2024年12月六级听力音频第2套.mp3", "bytes": 27895942 },
+        { "path": "CET6_2025.06/2025年6月六级听力音频/2025年6月六级音频1.MP3", "bytes": 18501013 }
+      ]
+    },
+
+    {
+      "id": "cet-audio-dedidi",
+      "label": "四六级真题音频（59 个，覆盖四级 2015.12–2022.12、六级 2017.06–2023.03）+ 3 个 LRC",
+      "license": "无 LICENSE",
+      "licenseNote": "未经许可的最大 CET 音频库。个人学习可用，不要公开分发。",
+      "repo": "DieDiDi/CET4-6-past-exam-paper",
+      "branch": "main",
+      "note": "raw 直链可用。3 个 .lrc 是真实时间轴（2017.12×2、2018.06）。",
+      "items": [
+        { "path": "四六级历年真题汇总/2017年12月英语四六级/2017年12月英语六级真题及答案/第一套听力.mp3", "bytes": 19220504, "重要": "与 timings 2017-12-1 的期望字节数完全一致" },
+        { "path": "四六级历年真题汇总/2016年6月英语四六级/2016年6月大学英语四级真题及答案/2016年6月大学英语四级第1套听力.mp3", "bytes": 26423627 },
+        { "path": "四六级历年真题汇总/2016年12月英语四六级/2016年12月英语四级真题及答案/2016-12-1.mp3", "bytes": 16422048 }
+      ],
+      "如何取全部": "仓库共 59 个音频。用 GitHub API 列目录即可拿到全部路径：https://api.github.com/repos/DieDiDi/CET4-6-past-exam-paper/git/trees/HEAD?recursive=1"
+    },
+
+    {
+      "id": "librivox-full",
+      "label": "LibriVox 有声书（可自由分发，但原始 OCR 文本是残片）",
+      "license": "公有领域（音频与文本都是）",
+      "licenseNote": "零限制，可随意使用甚至出售。",
+      "note": [
+        "这个来源我下得了，也已经下了 4 章。列在这里是因为有个坑要说明：",
+        "archive.org 条目里的 _djvu.txt 常常【不是书的正文】，只是 CD 封面+目录的 OCR 残片",
+        "（实测 the_adventures_of_sherlock_holmes_v5_1904_librivox 的 _djvu.txt 仅 1383 字符，还夹乱码）。",
+        "正确做法是去 Project Gutenberg 取权威全文 —— tools/fix-librivox-text.js 已经这么做了。"
+      ],
+      "items": [
+        { "path": "metadata API（取章节列表与每章时长）", "url": "https://archive.org/metadata/<identifier>" },
+        { "path": "单章音频直链模式", "url": "https://archive.org/download/<identifier>/<chapter>_64kb.mp3" },
+        { "path": "Gutenberg 全文（The Adventures of Sherlock Holmes）", "url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt" },
+        { "path": "Gutenberg 检索（找任意书名对应的编号）", "url": "https://www.gutenberg.org/ebooks/search/?query=<书名>" }
+      ],
+      "已实测可用": [
+        "https://archive.org/download/the_adventures_of_sherlock_holmes_v5_1904_librivox/adventuresofsherlockhomes_01_conandoyle_64kb.mp3 （10,191,094 字节）",
+        "https://www.gutenberg.org/cache/epub/1661/pg1661.txt （562,202 字符）"
+      ]
+    },
+
+    {
+      "id": "librispeech-big",
+      "label": "LibriSpeech 完整语料（CC BY 4.0，带句级时间戳）",
+      "license": "CC BY 4.0",
+      "licenseNote": "可自由分发，署名即可。",
+      "note": [
+        "我下的是 HuggingFace 上的单句版本（120 句）。完整语料在这里：",
+        "dev-clean 337 MB，含逐句 FLAC 与逐字稿。",
+        "带句级时间戳的 .seg.txt 只在 original-mp3 里，而那个包 84 GB —— 太大我没下。",
+        "如果只要时间戳，可以流式解压（边下边 gunzip），实测 0.2 MB 就能拿到第一个 .seg.txt。"
+      ],
+      "items": [
+        { "path": "dev-clean.tar.gz", "url": "https://www.openslr.org/resources/12/dev-clean.tar.gz", "bytes": 337926286 },
+        { "path": "test-clean.tar.gz", "url": "https://www.openslr.org/resources/12/test-clean.tar.gz", "bytes": 346663984 },
+        { "path": "original-mp3.tar.gz（含 .seg.txt 时间戳，体积巨大）", "url": "https://www.openslr.org/resources/12/original-mp3.tar.gz", "bytes": 87960560420 }
+      ]
+    },
+
+    {
+      "id": "gutenberg-general",
+      "label": "Project Gutenberg（任意英文名著的公有领域全文）",
+      "license": "公有领域",
+      "note": "配合 LibriVox 音频就能自己造「有声书 + 原文」的资料包。",
+      "items": [
+        { "path": "检索页", "url": "https://www.gutenberg.org/ebooks/search/?query=<关键词>" },
+        { "path": "纯文本下载模式", "url": "https://www.gutenberg.org/cache/epub/<编号>/pg<编号>.txt" },
+        { "path": "备选（部分老编号只在这个路径）", "url": "https://www.gutenberg.org/files/<编号>/<编号>-0.txt" }
+      ]
+    }
+  ],
+
+  "failed": [
+    {
+      "what": "TED 官方音频",
+      "url": "https://download.ted.com/talks/<TalkSlug>-<year>P-320k.mp3",
+      "实测": "404 / 403。新版没有公开 mp3 端点，用 /talks/<slug> 页面能抓到 CDN 上的 mp4 与 115 MB 的 1200k 版本，但需要登录才能拿音频。",
+      "更重要": "即使拿得到也不建议用：TED 是 CC BY-NC-ND 4.0，明文禁止抓取与剪辑，做听力播放器必然要切片，两条都踩。",
+      "字幕接口（可作参考）": "https://www.ted.com/talks/subtitles/id/<id>/lang/en → 200，毫秒级时间戳，质量是全场最好的"
+    },
+    {
+      "what": "VOA Learning English 的逐篇正文",
+      "实测": "音频直链能拿到（<audio src=\"https://voa-audio.voanews.eu/...\">），但近期 /a/ 文章页对非浏览器客户端统一返回 63 KB 的 JS 外壳，服务端取不到正文。",
+      "现状": "所以 VOA 那 5 个包只有音频、没有文本和时间轴。",
+      "你可以做的": "浏览器打开对应文章页，复制正文，然后 node tools/import.js --audio=<mp3> --text=<正文.txt>"
+    },
+    {
+      "what": "3056810551/cet-listening 的音频",
+      "实测": "仓库 audio/ 被 .gitignore，raw 取 mp3 返回 404。README 只给了百度网盘：https://pan.baidu.com/s/1z21mlwexhTcNY2L6TrH6kQ 提取码 awq9",
+      "你可以做的": "如果你能打开网盘，下下来后按字节数配上 timings（见上面 cet-timings 组的配对表），我就能装进播放器。"
+    },
+    {
+      "what": "IELTS 真题音频",
+      "实测": "tuhoc.dolenglish.vn 有免鉴权 MP3 + 真实 WebVTT，但内容是剑桥雅思 10，版权属剑桥大学出版社；其余 7 个练习站全部 all-rights-reserved。",
+      "结论": "没有可合法分发的 IELTS 音频来源。你自己手上的材料可以用 tools/import.js 导入。"
+    },
+    {
+      "what": "FLEURS / Common Voice 数据集预览",
+      "实测": "HuggingFace datasets-server 的 rows 接口对 google/fleurs 返回 500；Common Voice 已迁到 Mozilla Data Collective，其条款禁止镜像数据集。",
+      "你可以做的": "FLEURS 需要直接下 parquet；Common Voice 需登录 MDC 取。都不适合放进播放器分发。"
+    }
+  ],
+
+  "已下完的（不用再管）": {
+    "美国国务院 Everyday Conversations": "30 段对话 + 抽取的原文，公有领域",
+    "LibriVox": "4 章有声书 + Gutenberg 全文，公有领域",
+    "LibriSpeech": "120 句精听，CC BY 4.0",
+    "VOA Learning English": "5 期节目（仅音频），美国政府公有领域",
+    "自编演示语料": "四六级/雅思/托福仿真题 69 题，CC0，含真实词级时间戳"
+  }
+}

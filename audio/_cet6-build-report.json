@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-19T13:53:55.669Z",
+  "lessons": 37,
+  "questions": 925,
+  "calibratedQuestions": 332,
+  "axis": {
+    "sentence": 17,
+    "linelrc": 2,
+    "none": 18
+  },
+  "excludedDuplicates": []
+}

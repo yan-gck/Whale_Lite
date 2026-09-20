@@ -1,0 +1,13 @@
+{
+    "title":  "托福听力 · 校园对话与艺术史讲座",
+    "exam":  "toefl",
+    "section":  "Conversation / Lecture",
+    "source":  "自编仿真题（TTS 合成）",
+    "license":  "CC0-1.0（自编文本，可自由使用）",
+    "sourceUrl":  "",
+    "duration":  271.76,
+    "sampleRate":  16000,
+    "notes":  "托福听力重功能题与态度题：不只问\"说了什么\"，更问\"为什么这样说\"。",
+    "importedAt":  "2026-09-19",
+    "generator":  "tools/make-demo.ps1 (Windows SAPI TTS, 词级时间戳)"
+}

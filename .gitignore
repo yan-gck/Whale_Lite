@@ -1,0 +1,56 @@
+# ============================================================
+#  这个仓库**故意不带**的东西，以及为什么
+#  （版权立场见 docs/resources.md，改动前先读那一节）
+# ============================================================
+
+# ---- 剑桥雅思：明确不可再分发 ----
+# 音频是真题，docs/resources.md 里查证过：剑桥雅思的音频与 PDF 都是 all-rights-reserved，
+# 不能随仓库分发。用户自己的机器上留着用，但不要上传。
+audio/IELTS-剑桥真题/
+
+# 由上面那些音频转写出来的（Whisper），属于衍生内容，同理不带。
+transcripts/
+
+# ---- 体积过大 / 可以再生成 ----
+# 补充包（.lppack）单个就有 856 MB / 1.86 GB，超过 GitHub 单文件 100 MB 的硬限制，
+# 推上去会被直接拒绝。需要的人用 tools/build-pack.js 自己打。
+*.lppack
+*.apk
+*.idsig
+*.aab
+
+# APK / 补充包的构建中间产物（里面还有 OCR 出来的剑桥原题与答案，属于版权内容）
+build/
+
+# 依赖与大模型
+node_modules/
+models/
+
+# ============================================================
+#  以下素材**可以**再分发，但体积不小（合计约 254 MB），默认没带。
+#  想要的话跑 `node tools/fetch-resources.js` 自己下（README 有说明）：
+#    audio/AmericanEnglish/        美国国务院，公有领域
+#    audio/VOA/                    美国政府，公有领域
+#    audio/LibriVox/               有声书，公有领域
+#    audio/LibriSpeech-句子精听/   CC BY 4.0
+#  仓库里带的是：四六级（用户要求）+ 四套自编演示语料（CC0，见 audio/*-演示/）
+#  想一起带上就把下面四行删掉再 commit。
+# ============================================================
+audio/AmericanEnglish/
+audio/VOA/
+audio/LibriVox/
+audio/LibriSpeech-句子精听/
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ---- 崩溃日志 ----
+# JVM 的 hs_err_pid*.log / replay_pid*.log（构建脚本调 d8.bat 失败时留下的），
+# 还有 Node 的日志。这些是机器相关的垃圾，不该进仓库。
+hs_err_pid*.log
+replay_pid*.log
+*.log

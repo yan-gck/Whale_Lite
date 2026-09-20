@@ -1,0 +1,411 @@
+{
+  "title": "六级真题 · 2017年6月 第2套",
+  "exam": "cet6",
+  "section": "",
+  "paper": "2017年6月 第2套",
+  "source": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis（Zenodo 收录）",
+  "license": "上传者声明 CC BY 4.0（非考试委员会声明）",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.20474009",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He would feel insulted",
+        "He would feel very sad",
+        "He would be embarrassed",
+        "He would be disappointed"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "If they've got my book there, I think, \"Well, this is an insult! Somebody didn't want to keep my book!\" But if it's not there, I feel it's an insult too."
+    },
+    {
+      "number": 2,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are worthy of a prize",
+        "They are of little value",
+        "They make good reading",
+        "They need improvement"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "She thought it was rubbish."
+    },
+    {
+      "number": 3,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He seldom writes a book straight through",
+        "He writes several books simultaneously",
+        "He draws on his real-life experiences",
+        "He often turns to his wife for help"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "I've often stopped writing a book and left it for a few years."
+    },
+    {
+      "number": 4,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Writing a book is just like watching a football match",
+        "Writers actually work every bit as hard as footballers",
+        "He likes watching a football match after finishing a book",
+        "Unlike a football match, there is no end to writing a book"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "There's never a finishing whistle."
+    },
+    {
+      "number": 5,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Achievements of black male atletes in college",
+        "Financial assistance to black athletes in college",
+        "High college dropout rates among black athletes",
+        "Undergraduate enrollments of black athletes"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "According to a study of Race & Equity in Education, black athletes are dropping out of college across the country at alarming rates."
+    },
+    {
+      "number": 6,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They display great talent in every kind of game",
+        "They are better at sports than at academic work",
+        "They have difficulty finding money to complete their studies",
+        "They make money for the college but often fail to earn a degree"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "So the idea is that they are really there to be part of the revenue-generating working class of athletes on campus and not necessarily there to be part of the educating class as most students in other groups are."
+    },
+    {
+      "number": 7,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "About 15%",
+        "Around 40%",
+        "Slightly over 50%",
+        "Approximately 70%"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Compared with other groups, I think the numbers in this group at those 65 schools are something like just barely more than half of the black male athletes graduate at all."
+    },
+    {
+      "number": 8,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Coaches lack the incentive to graduate them",
+        "College degrees do not count much to them",
+        "They have little interest in academic work",
+        "Schools do not deem it a serious problem"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Coaches do not necessarily have the incentive to graduate players."
+    },
+    {
+      "number": 9,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Marketing strategies",
+        "Holiday shopping",
+        "Shopping malls",
+        "Online stores"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "America's holiday shopping season starts on Black Friday, the day after Thanksgiving."
+    },
+    {
+      "number": 10,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "About 50% of holiday shoppers",
+        "About 20- 30% of holiday shoppers",
+        "About 136 million",
+        "About 183.8 million"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "About 136 million people will shop during the Thanksgiving Holiday weekend."
+    },
+    {
+      "number": 11,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They have fewer customers",
+        "They find it hard to survive",
+        "They are thriving once more",
+        "They appeal to elderly customers"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The sector is thriving again."
+    },
+    {
+      "number": 12,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Better quality of consumer goods",
+        "Higher employment and wages",
+        "Greater varieties of commodities",
+        "People having more leisure time"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Economist Gus Faucher said lower unemployment and rising wages could give Americans more money to spend."
+    },
+    {
+      "number": 13,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are new species of big insects",
+        "They are overprescribed antibiotics",
+        "They are life-threatening diseases",
+        "They are antibiotic-resistant bacteria"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "In fact, you may have heard about the new \"superbugs,\" which are antibiotic-resistant bacteria that have developed as a result of overprescribed antibiotics."
+    },
+    {
+      "number": 14,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Antibiotics are now in short supply",
+        "Many infections are no longer curable",
+        "Large amounts of tax money are wasted",
+        "Routine operations have become complex"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "And, apparently, that day has come because seemingly routine operations such as knee replacements are now much more hazardous due to the looming threat of these infections."
+    },
+    {
+      "number": 15,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Facilities",
+        "Expertise",
+        "Money",
+        "Publicity"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "This is a far cry from the funds necessary for a problem of such magnitude."
+    },
+    {
+      "number": 16,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It is accessible only to the talented",
+        "It improves students' ability to think",
+        "It starts a lifelong learning process",
+        "It gives birth to many eminent scholars"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "You are here to understand thinking better and to think better yourself."
+    },
+    {
+      "number": 17,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They encourage academic democracy",
+        "They promote globalization",
+        "They uphold the presidents' authority",
+        "They protect students' rights"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "I explained to my student that I actually thought he was rather more confused than I was and I argued back, but what was really important about that was the universities stand out as places that really are about the authority of ideas."
+    },
+    {
+      "number": 18,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "His thirst for knowledge",
+        "His eagerness to find a job",
+        "His contempt for authority",
+        "His potential for leadership"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "You could debate whether they actually were mistakes, but you couldn't debate that young man's hunger to learn."
+    },
+    {
+      "number": 19,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Few people know how to retrieve information properly",
+        "People can enhance their memory with a few tricks",
+        "Most people have a rather poor long-term memory",
+        "People tend to underestimate their mental powers"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Psychological research shows we consistently underestimate our mental powers."
+    },
+    {
+      "number": 20,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They present the states in a surprisingly different order",
+        "They include more or less the same number of states",
+        "They are exactly the same as is shown in the atlas",
+        "They contain names of the most familiar states"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The two lists will contain roughly the same number of states, but they will not be identical."
+    },
+    {
+      "number": 21,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Focusing on what is likely to be tested",
+        "Having a good sleep the night before",
+        "Reviewing your lessons where the exam is to take place",
+        "Making sensible decisions while choosing your answers"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "If possible, you should also try to learn information in the room where it is going to be tested."
+    },
+    {
+      "number": 22,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Discover when you can learn best",
+        "Change your time of study daily",
+        "Give yourself a double bonus afterwards",
+        "Follow the example of a marathon runner"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "But this does not apply to everyone, so it is essential to establish your own rhythm."
+    },
+    {
+      "number": 23,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He is a politician",
+        "He is a businessman",
+        "He is a sociologist",
+        "He is an economist"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "It concerns not only us sociologists, but also economists, politicians and business people."
+    },
+    {
+      "number": 24,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "In slums",
+        "In Africa",
+        "In pre-industrial societies",
+        "In developing countries"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Where does extreme poverty occur? Well, you can find it only in developing countries."
+    },
+    {
+      "number": 25,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They have no access to health care, let alone entertainment or recreation",
+        "Their income is less than 50% of the national average family income",
+        "They work extra hours to have their basic needs met",
+        "Their children cannot afford to go to private schools"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "For example, in the United States, a family can be considered poor if their income is less than 50% of the national average family income."
+    }
+  ]
+}

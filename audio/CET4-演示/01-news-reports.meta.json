@@ -1,0 +1,13 @@
+{
+    "title":  "四级听力 · Section A 短篇新闻（3 篇）",
+    "exam":  "cet4",
+    "section":  "Section A / B / C",
+    "source":  "自编仿真题（TTS 合成）",
+    "license":  "CC0-1.0（自编文本，可自由使用）",
+    "sourceUrl":  "",
+    "duration":  575.05,
+    "sampleRate":  16000,
+    "notes":  "按四级听力三大题型编排：短篇新闻、长对话、听力篇章。用时约 6 分 30 秒，语速约 130 词/分钟。",
+    "importedAt":  "2026-09-19",
+    "generator":  "tools/make-demo.ps1 (Windows SAPI TTS, 词级时间戳)"
+}

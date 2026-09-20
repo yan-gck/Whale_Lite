@@ -1,0 +1,391 @@
+
+═══ CONVERSATION 1 ═══
+
+M: Hey I just read a great book about physics.
+    嘿，我刚读了一本关于物理的好书。
+M: I think you'd like it.
+    我觉得你会喜欢的。
+M: It's called the physics of the world.
+    书名叫做《世界物理》。
+M: It's written by a scientist named Sylvia Mendez.
+    作者是一位名叫西尔维娅·门德斯的科学家。
+W: Oh I read that book.
+    哦，我看过那本书。
+W: It was great.
+    那本书非常棒。
+W: The writer is a warm and competent guide to the mysteries of physics.
+    作者是一位亲切且称职的向导，带领读者探索物理的奥秘。
+W: I think it promises enrichment for any reader from those who know little about science to the career physicist.
+    我认为从科学门外汉到职业物理学家，任何读者都能从中受益匪浅。
+M: And it's refreshing to see a strong curious clever woman adding her voice to the scientific discourse and a field that has been traditionally dominated by men.
+    看到一位坚强、好奇且聪颖的女性在传统上由男性主导的科学领域发表见解，真是令人耳目一新。
+M: I think she has to be commended for making an effort to include anecdotes about little known female scientists.
+    我认为她致力于加入那些鲜为人知的女性科学家的轶事，这一点非常值得称赞。
+M: You know they were often victims of a generation firmly convinced that the woman's place was in the home.
+    你知道，她们往往是那个坚信“女性应回归家庭”的时代的受害者。
+W: I like how the book is clearly written with each chapter brought to life by pieces of fascinating knowledge.
+    我喜欢这本书清晰的写法，每一章都通过迷人的知识点变得生动有趣。
+W: For example in one chapter she exposes a myth that I've heard taught by university physics professors.
+    例如，在其中一章里，她揭穿了一个我曾听大学物理教授讲过的神话。
+W: I've often heard that medieval glass windows are thicker at the bottom because glass flows like a fluid.
+    我经常听说中世纪的玻璃窗底部更厚，是因为玻璃像流体一样流动。
+W: This, she shows, is not true.
+    她指出，这其实并非事实。
+W: The distortion is actually thanks to a peculiarity of the glassmakers process.
+    这种变形实际上是由于玻璃制造工艺的特殊性造成的。
+M: Yeah I like how she cultivates scientific engagement by providing a host of Do It Yourself experiments that bring the same foundational principles of classical physics that govern everything from the solar system to your kitchen table.
+    是的，我喜欢她通过提供大量“动手做”实验来培养科学参与感，这些实验展示了统治从太阳系到餐桌万物的经典物理学基本原理。
+M: From using complex laws of physics to test whether a spinning egg is cooked to measuring atmospheric pressure by lifting a piece of cardboard.
+    从利用复杂的物理定律测试旋转的鸡蛋是否煮熟，到通过举起一张纸板来测量大气压力。
+M: Her hands-on examples make her book a truly interactive read.
+    她那些亲身实践的例子使她的书成为一种真正的互动阅读体验。
+W: Yes, I must say this, a equation-free book is an ideal read for scientists of all stripes, anyone teaching science and even people who dislike physics.
+    是的，我必须说，这本没有公式的书是各行各业的科学家、科学教师，甚至是那些讨厌物理的人的理想读物。
+Q1. What does the woman say about the book the man recommended?
+    关于男子推荐的那本书，女子说了什么？
+Q2. What can we find in the book the man recommended?
+    在男子推荐的那本书里我们能发现什么？
+Q3. How does the author bring her book to life?
+    作者是如何让她的书变得生动的？
+Q4. How does the book cultivate readers interest in physics?
+    这本书是如何培养读者对物理的兴趣的？
+
+═══ CONVERSATION 2 ═══
+
+M: Hi professor.
+    您好，教授。
+M: I was hoping I could have a moment of your time if you're not too busy.
+    如果您不忙的话，我希望能占用您一点时间。
+M: I'm having some problems getting started on my dissertation and I was hoping you could give me some advice on how to begin.
+    我的论文开题遇到了一些问题，希望能得到您关于如何开始的建议。
+W: Sure.
+    当然可以。
+W: I have quite a few students though.
+    不过我带的学生挺多的。
+W: So can you remind me what your topic is?
+    你能提醒我一下你的课题是什么吗？
+M: The general topic I chose is aesthetics, but that's as far as I've got I don't really know where to go from there.
+    我选的大方向是美学，但我目前只进展到这一步，不知道接下去该怎么走。
+W: Yeah, that's much too large a topic.
+    是的，那个课题太宏大了。
+W: You really need to narrow it down in order to make it more accessible.
+    你确实需要缩小范围，使其更具可行性。
+W: Otherwise you'll be writing a book.
+    否则你就是在写一本书了。
+M: Exactly.
+    确实如此。
+M: That's what I wanted to ask you about.
+    这正是我想要请教您的。
+M: I was hoping it would be possible for me to change topics.
+    我在想是否可以更换课题。
+M: I'm really more interested in nature than beauty.
+    相比于美，我其实对自然更感兴趣。
+W: I'm afraid you have to adhere to the assigned topic.
+    恐怕你必须坚持既定的课题。
+W: Still, If you're interested in nature, then that certainly can be worked into your dissertation.
+    不过，如果你对自然感兴趣，那当然可以融入到你的论文中。
+W: We've talked about Hume before in class right.
+    我们之前在课上讲过休谟，对吧。
+M: Oh yeah, he's the philosopher who wrote about where our ideas of beauty come from.
+    哦是的，他就是那位论述美感来源的哲学家。
+W: Exactly.
+    确实如此。
+W: I suggest you go to the library and get a copy of his biography.
+    我建议你去图书馆找一本他的传记。
+W: Start from there.
+    从那里开始。
+W: But remember to stick to the parameters of the assignment.
+    但记得不要超出作业的范围。
+W: This paper is a large part of your cumulative grade.
+    这篇论文在你的总评成绩中占很大比重。
+W: So make sure to follow the instructions.
+    所以请务必遵循要求。
+W: If you take a look at his biography.
+    如果你看看他的传记。
+W: You can get a good idea of how his life experiences manifest themselves in his theories of beauty, specifically the way he looked towards nature as the origin of what we find beautiful.
+    你就能很好地了解他的生活经历是如何体现在他的美学理论中的，特别是他如何将自然视为我们所发现的美的源泉。
+M: Great.
+    太好了。
+M: Thanks for taking the time to answer my questions, Professor.
+    谢谢您抽时间回答我的问题，教授。
+M: I'll let you get back to class now.
+    那我不打扰您上课了。
+W: If there's anything else you need, please come see me in my office any time.
+    如果你还有其他需要，请随时来我办公室找我。
+Q5. What is the man's problem?
+    那个男学生遇到了什么问题？
+Q6. What does the professor think of the man's topic?
+    教授如何看待该学生的课题？
+Q7. What's the man really more interested in?
+    该学生实际上对什么更感兴趣？
+Q8. What does the professor say the man has to do?
+    教授说该学生必须做什么？
+
+═══ PASSAGE 1 ═══
+
+During the arctic winter from October to March, the average temperature in the frozen north typically hovers around minus 20 degrees Celsius.
+    在10月至次年3月的北极冬季，寒冷北方的平均气温通常在零下20摄氏度左右波动。
+But this year the Arctic is experiencing much higher temperatures.
+    但今年北极地区的气温要高得多。
+On February the 20th the temperature in Greenland climbed above freezing or zero degrees Celsius and it stayed there for over 24 hours.
+    2月20日，格陵兰岛的气温升至冰点或零摄氏度以上，并保持了24小时以上。
+Then on February the 24th the temperature on Greenland's northern tip reached six degrees Celsius.
+    随后在2月24日，格陵兰岛北端的气温达到了6摄氏度。
+Climate scientists describe the phenomenon as stunning.
+    气候科学家将这一现象描述为“令人震惊”。
+Weather conditions that drive this bizarre temperature surge have visited the Arctic before.
+    导致这种异常气温激增的天气条件以前也曾出现在北极。
+They typically appear about once in a decade.
+    它们通常每十年出现一次。
+However, the last such increase in temperature took place two years ago.
+    然而，上一次这样的气温升高发生在两年前。
+This is troubling as climbing arctic temperatures combined with rapid sea ice loss are creating a new type of climate feedback loop which could accelerate Arctic warming.
+    这令人担忧，因为北极气温的升高加上海冰的快速流失，正在创造一种新型的气候反馈循环，可能会加速北极变暖。
+Indeed, sea ice cover in the Arctic is melting faster than expected.
+    事实上，北极的海冰覆盖层融化速度超出了预期。
+Without those masses of cooling sea ice, warm air brought to the Arctic can penetrate further inland than it ever did before.
+    由于失去了那些起到冷却作用的大量海冰，带入北极的暖空气可以比以往任何时候都更深入内陆。
+The air can stay warmer longer too.
+    空气也能保持更长时间的温暖。
+This drives additional melting.
+    这反过来导致了进一步的融化。
+Overall earth is warming at a rapid pace.
+    总体而言，地球正以飞快的速度变暖。
+2014 through 2017 rank as the hottest years on record and the Arctic is warming twice as fast as any place else on earth.
+    2014年至2017年是有记录以来最热的年份，而北极变暖的速度是地球上其他任何地方的两倍。
+This raises unique challenges for Arctic wildlife and indigenous people who depend on Arctic ecosystems to survive.
+    这给依赖北极生态系统生存的野生动物和原住民带来了独特的挑战。
+Previously climate forecasts predicted that Arctic summer ice would disappear entirely by around 2060, but based on what scientists are seeing now the Arctic may be facing summers without ice within 20 years.
+    此前的气候预测认为北极夏季冰层将在2060年左右完全消失，但根据科学家目前的观察，北极可能在20年内面临没有冰的夏天。
+Q9. What did climate scientists describe as stunning?
+    气候科学家将什么描述为令人震惊？
+Q10. What does the passage say about that temperature surge in the Arctic?
+    关于北极的气温激增，文章说了什么？
+Q11. What may occur in 20 years according to scientists' recent observations?
+    根据科学家的最新观察，20年内可能会发生什么？
+
+═══ PASSAGE 2 ═══
+
+A good dose of willpower is often necessary to see any task through whether it's sticking to a spending plan or finishing a great novel.
+    要完成任何任务，通常都需要大量的意志力，无论是坚持开支计划还是写完一部伟大的小说。
+And if you want to increase that willpower.
+    如果你想增强这种意志力。
+A new study suggests you just simply have to believe you have it.
+    一项新研究表明，你只需要简单地相信自己拥有它。
+According to this study, what matters most is what we think about our willpower.
+    根据这项研究，最重要的是我们如何看待自己的意志力。
+If we believe it's a finite resource, we act that way, we feel exhausted and need breaks between demanding mental tasks.
+    如果我们认为它是一种有限的资源，我们的行为就会如此，我们会感到疲惫，并在高要求的脑力任务之间需要休息。
+However, people who view their willpower as a limitless resource get energized instead.
+    然而，那些将意志力视为无限资源的人反而会变得精力充沛。
+The researchers used a psychological assessment tool to test the validity of the study.
+    研究人员使用心理评估工具测试了该研究的有效性。
+They asked 1100 Americans and 1600 Europeans to grade different statements such as after a challenging mental activity, my energy is depleted and I must rest to get it refueled again or I can focus on a mental task for long periods without feeling tired.
+    他们要求1100名美国人和1600名欧洲人对不同的陈述进行评分，例如“在具有挑战性的脑力活动之后，我的能量会耗尽，我必须休息才能重新补充能量”或“我可以长时间专注于一项脑力任务而不会感到疲倦”。
+Although there was little difference between men and women overall.
+    虽然男女之间总体上差别不大。
+Americans were more likely to admit to needing breaks after completing mentally challenging tasks European participants on the other hand claimed they were able to keep going.
+    美国人更有可能承认在完成极具挑战性的脑力任务后需要休息，而欧洲参与者则声称他们能够继续坚持。
+Based on the findings, the researchers suggest that the key to boosting your willpower is to believe that you have an abundant supply of it.
+    根据调查结果，研究人员建议，增强意志力的关键在于相信自己拥有充足的意志力供应。
+Your feelings about your willpower affect the way you behave.
+    你对意志力的感觉会影响你的行为方式。
+But these feelings are changeable, they said.
+    但他们说，这些感觉是可以改变的。
+Changing your beliefs about the nature of your self-control can have positive effects on character development.
+    改变你对自我控制本质的信念，可以对性格发展产生积极影响。
+This leads to healthier behaviors and perceptions of other people.
+    这会导致更健康的行为和对他人的看法。
+Q12. What is often necessary for carrying through a task?
+    完成一项任务通常需要什么？
+Q13. What is the finding of the new study?
+    这项新研究的发现是什么？
+Q14. What do we learn about European participants as compared with their American counterparts?
+    与美国参与者相比，我们对欧洲参与者有什么了解？
+Q15. What do the research say concerning people's feelings about willpower?
+    关于人们对意志力的感觉，研究说了什么？
+
+═══ RECORDING 1 ═══
+
+Here is my baby niece Sarah.
+    这是我的小侄女莎拉。
+Her mum is a doctor and her dad is a lawyer.
+    她的妈妈是医生，爸爸是律师。
+By the time Sarah goes to college the jobs her parents do are going to look dramatically different.
+    到莎拉上大学时，她父母所从事的工作将发生翻天覆地的变化。
+In 2013, researchers at Oxford University did a study on the future of work.
+    2013年，牛津大学的研究人员对未来的工作进行了一项研究。
+They concluded that almost one in every two jobs has a high risk of being automated by machines.
+    他们的结论是，几乎每两份工作中就有一份面临被机器自动化的巨大风险。
+Machine learning is the technology that's responsible for most of this disruption.
+    机器学习是造成这种颠覆的主要技术。
+It's the most powerful branch of artificial intelligence.
+    它是人工智能最强大的分支。
+It allows machines to learn from data and copy some of the things that humans can do.
+    它允许机器从数据中学习，并模仿人类可以做的一些事情。
+My company, Kaggle, operates on the cutting edge of machine learning.
+    我的公司Kaggle处于机器学习的最前沿。
+We bring together hundreds of thousands of experts to solve important problems for industry and academia.
+    我们汇集了数十万名专家，为工业界和学术界解决重要问题。
+This gives us an unique perspective on what machines can do, what they can't do and what jobs they might automate or threaten.
+    这为我们提供了一个独特的视角，让我们了解机器能做什么，不能做什么，以及哪些工作可能被自动化或受到威胁。
+Machine learning started making its way into industry in the early 90s.
+    机器学习在90年代初开始进入工业领域。
+It started with relatively simple tasks.
+    它始于相对简单的任务。
+It started with things like assessing credit risk from loan applications, sorting the mail by reading handwritten zip codes.
+    它始于诸如根据贷款申请评估信用风险、通过读取手写的邮政编码对邮件进行分类等事情。
+Over the past few years, we have made dramatic breakthroughs.
+    在过去的几年里，我们取得了重大的突破。
+Machine learning is now capable of far, far more complex tasks.
+    机器学习现在能够胜任复杂得多的任务。
+In 2012, Kaggle challenged its community to build a program that could grade high school essays.
+    2012年，Kaggle向其社区发起挑战，要求构建一个能够给高中作文打分的程序。
+The winning programs were able to match the grades given by human teachers.
+    获胜的程序能够给出与人类教师相同的分数。
+Now given the right data, machines are going to outperform humans at tasks like this.
+    现在，有了合适的数据，机器在处理此类任务时的表现将优于人类。
+A teacher might read 10000 essays over a 40-year career.
+    一位教师在40年的职业生涯中可能会阅读1万篇作文。
+A machine can read millions of essays within minutes.
+    而机器可以在几分钟内阅读数百万篇作文。
+We have no chance of competing against machines on frequent high-volume tasks, but there are things we can do that machines cannot.
+    在频繁、高负荷的任务上，我们没有机会与机器竞争，但有些事情我们可以做而机器不能做。
+Where machines have made very little progress is in tackling novel situations.
+    机器在应对新情况方面进展甚微。
+Machines can't handle things they haven't seen many times before.
+    机器无法处理它们之前未曾多次见过的事情。
+The fundamental limitation of machine learning is that it needs to learn from large volumes of past data.
+    机器学习的根本局限在于它需要从大量的历史数据中学习。
+But humans don't.
+    但人类不需要。
+We have the ability to connect seemingly different threads to solve problems we've never seen before.
+    我们有能力将看似不同的线索联系起来，以解决我们从未见过的问题。
+Q16. What did the researchers at Oxford University conclude?
+    牛津大学的研究人员得出了什么结论？
+Q17. What do we learn about Kaggle companies winning programs?
+    关于Kaggle公司获胜的程序，我们了解到了什么？
+Q18. What is the fundamental limitation on machine learning?
+    机器学习的根本局限是什么？
+
+═══ RECORDING 2 ═══
+
+We've talked recently about the importance of sustainable energy.
+    我们最近谈到了可持续能源的重要性。
+We've also talked about the different theories on how that can be done.
+    我们还讨论了如何实现这一目标的不同理论。
+So far, our discussions have all been theoretical.
+    到目前为止，我们的讨论都是理论性的。
+Now I have a practical question for you all.
+    现在我有一个实际的问题要问大家。
+Can you run a 140,000 kilogram train on just the steam generated by solar power?
+    你能仅靠太阳能产生的蒸汽来驱动一辆重达14万公斤的火车吗？
+Well, one engineer, Tim Casselman, believes it's possible.
+    嗯，有一位工程师蒂姆·卡塞尔曼认为这是可能的。
+And his home city of Sacramento, California should see the technology's first test as part of the upgrading of its rail yard.
+    他的家乡加利福尼亚州萨克拉门托将见证该技术的首次测试，这也是其铁路枢纽升级的一部分。
+Casselman, who is an inventor and self-proclaimed steam visionary, is campaigning for a new steam train that runs without any fire and could run on an existing 10 kilometer line drawing tourists and perhaps offering city commuters a green alternative to their cars.
+    卡塞尔曼是一位发明家，自封为“蒸汽愿景家”，他正在游说引入一种无火运行的新型蒸汽火车，该火车可以在现有的10公里线路上运行，吸引游客，并可能为城市通勤者提供一种替代汽车的绿色出行方案。
+Casselman wants to build an array of solar magnifying mirrors at one end of the line to collect and focus heat onto water filled tubes.
+    卡塞尔曼想在铁路线的一端建造一组太阳能放大镜阵列，以收集热量并将其聚焦在充满水的管道上。
+This would generate steam that could be used to fill tanks on a small steam train without the use of fire.
+    这将产生蒸汽，可用于在不使用火的情况下为小型蒸汽火车的储气罐充气。
+Supplying power to trains in this way would offer the shortest distance from well to wheels he says with the least amount of energy lost.
+    他说，以这种方式为火车提供动力，可以提供从能源产地到车轮的最短距离，且能量损失最小。
+According to Harry Valentijn, a Canadian engineer who is researching modern steam technology, a special tank measuring 2 by 10 metres could store over 750 kilowatt hours of energy as high pressure steam enough to pull a two car train for an hour or so.
+    根据研究现代蒸汽技术的加拿大工程师哈里·范伦丁的说法，一个2乘10米的特制储罐可以以高压蒸汽的形式储存超过750千瓦时的能量，足以驱动一列两节车厢的火车运行大约一小时。
+Energy to drive a steam locomotive can be stored in other materials besides water, for example, a team at Tohoku University in Japan has studied materials that can store large amounts of heat when heated.
+    驱动蒸汽机车的能量除了储存在水中，还可以储存在其他材料中，例如，日本东北大学的一个团队研究了在加热时可以储存大量热量的材料。
+These materials turn from a solid into a liquid absorbing energy as they change phase.
+    这些材料从固体变成液体，在相变过程中吸收能量。
+The liquid is maintained above its melting point until steam is required at which point the liquid is allowed to turn back into a solid releasing its stored energy.
+    液体保持在熔点以上，直到需要蒸汽时，再让液体变回固体，释放出储存的能量。
+Another team at Nagoya University in Japan has tested calcium compound as an energy storage material.
+    日本名古屋大学的另一个团队测试了钙化合物作为储能材料。
+Heating this chemical compound drives off carbon dioxide gas, leaving calcium oxide.
+    加热这种化合物会排出二氧化碳气体，留下氧化钙。
+The gas can be stored under pressure and attain to recover the energy.
+    该气体可以在压力下储存，并随后回收能量。
+The gas is fed back over the calcium oxide.
+    气体被重新输送到氧化钙上。
+In theory, says Valentijn, this can create a high enough temperature to generate superheated steam.
+    范伦丁说，理论上这可以产生足够高的温度来生成过热蒸汽。
+Q19. What has the speaker previously talked about?
+    演讲者之前谈论过什么？
+Q20. What is Tim Casselman trying to do in Sacramento?
+    蒂姆·卡塞尔曼在萨克拉门托试图做什么？
+Q21. What has a Japanese research team tried to do?
+    一个日本研究小组尝试做了什么？
+
+═══ RECORDING 3 ═══
+
+Today's crisis in care for older people in England has two main causes.
+    如今英格兰老年人看护危机有两个主要原因。
+First, people are living longer with a lot more complex needs.
+    首先，人们活得更久了，需求也变得复杂得多。
+Second, they rely on a system that has long been marked by a poor relation between national health and social-care services.
+    其次，他们依赖的系统长期以来一直以国家医疗和社区护理服务之间糟糕的关系为特征。
+Current services originate in two key measures.
+    目前的服务源于两项关键措施。
+They are the National Health Service and the 1948 National Assistance Act.
+    它们是国家医疗服务体系（NHS）和1948年的《国家援助法案》。
+This required local government to provide residential accommodation for older people and supervise care homes run by independent organizations.
+    该法案要求地方政府为老年人提供住所，并监督由独立机构运营的养老院。
+They also provided home and community services including meals, day centers and home helpers and other subsidized services.
+    他们还提供居家和社区服务，包括餐饮、日间看护中心、家庭助手以及其他补贴服务。
+The National Health Service was free and wholly publicly provided.
+    国家医疗服务体系是免费的，完全由公共资金提供。
+It delivered the best health-care for all.
+    它为所有人提供最好的医疗保健。
+No such vision guided residential and community care though.
+    然而，没有任何类似的愿景来指导住所和社区护理。
+The care was substantially provided by voluntary services which worked together with local authorities as they long had with eligibility based on income.
+    看护服务主要由志愿服务提供，这些服务长期以来一直与地方当局合作，资格基于收入确定。
+Today, life expectancy has risen from 66 for a male at birth in 1948 to around 80 now.
+    如今，男性的平均预期寿命已从1948年的66岁提高到了现在的80岁左右。
+In addition, there is better overall health and improved medical knowledge and care.
+    此外，整体健康水平提高，医学知识和护理技术也得到了改进。
+This means an unprecedented number of people are surviving longer in conditions requiring expert support.
+    这意味着前所未有数量的人在需要专业支持的情况下存活得更久。
+Families provide at least as much care as they ever did.
+    家庭提供的看护至少和以前一样多。
+Even so, they can rarely without subsidised support address serious personal needs.
+    即便如此，如果没有补贴支持，他们也很难满足严重的个人需求。
+Care for older people faced persistent criticism as these trends became apparent.
+    随着这些趋势变得明显，对老年人看护的批评也一直不断。
+From the early 1960s, local authorities were required to plan health and welfare services.
+    从20世纪60年代初开始，地方当局被要求规划卫生和福利服务。
+The aim was to enable older people to remain in their own homes for as long as possible, but this increased concern about the lack of coordination between free health and paid-for social care.
+    其目的是使老年人能够尽可能长时间地留在自己家里，但这增加了人们对免费医疗和付费社会护理之间缺乏协调的担忧。
+Through the 1970s, a number of measures sought to improve matter.
+    在整个70年代，许多措施试图改善这种情况。
+However, at a time of financial crisis, funding diminished and little changed.
+    然而，在财政危机时期，资金减少，情况几乎没有改变。
+In the 1980s, the government cut spending.
+    在80年代，政府削减了支出。
+Meanwhile, preference for private over public services made management even more difficult.
+    与此同时，对私立服务优于公立服务的偏好使管理变得更加困难。
+Simultaneously, the number of sick older people grew.
+    与此同时，患病老人的数量在增加。
+Governments emphasized the need to improve services.
+    各国政府强调需要改善服务。
+They did so though while doing little to stop the erosion of available aid.
+    虽然他们这么说了，但却几乎没有采取任何措施来阻止可用援助的减少。
+Services were irregular across authorities.
+    各地方当局的服务参差不齐。
+Unless you were prepared to pay, they were increasingly difficult to obtain for any but the most severely disabled.
+    除非你准备付钱，否则除了最严重的残疾人外，其他人越来越难获得这些服务。
+Why has 60 years of criticism produced so little change?
+    为什么60年的批评只带来了如此微小的改变？
+Discrimination against older people has a long history.
+    对老年人的歧视有着悠久的历史。
+Additionally, those affected by inadequate health and social care are too vulnerable to launch the protests that have addressed other forms of discrimination.
+    此外，那些受医疗和社会护理不足影响的人太脆弱了，无法发起像解决其他形式歧视那样的抗议。
+Q22. What is one cause of the current crisis in care for the elderly in England?
+    英格兰当前的老年人看护危机的一个原因是什么？
+Q23. What does the speaker say about residential and community care?
+    关于住所和社区护理，演讲者说了什么？
+Q24. What made management of care for the elderly more difficult in the 1980s?
+    20世纪80年代，是什么让老年人看护的管理变得更加困难？
+Q25. What does the speaker say about older people in England?
+    演讲者关于英格兰的老年人说了什么？

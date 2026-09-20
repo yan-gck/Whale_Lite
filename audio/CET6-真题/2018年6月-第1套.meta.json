@@ -1,0 +1,16 @@
+{
+  "title": "六级真题 · 2018年6月 第1套",
+  "exam": "cet6",
+  "section": "",
+  "paper": "2018年6月 第1套",
+  "year": "2018",
+  "source": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis ／ 时间戳 3056810551/cet-listening（MIT）",
+  "license": "上传者声明 CC BY 4.0（非考试委员会声明；个人学习可用，公开分发请自行判断）；时间戳数据 MIT",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.20474009",
+  "duration": 1650.7223333333334,
+  "notes": "时间轴：句级时间戳（timings 2018-6-1，配中文译文）。题目 25 道；题干为录音念出，故题干字段为空，选项与答案来自仓库文件。含中文译文 216 行。",
+  "hasTranslation": true,
+  "axisQuality": "sentence",
+  "importedAt": "2026-09-19",
+  "generator": "tools/build-cet6-lessons.js"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色主题 + 无标题栏，和播放器配色保持一致 -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0c0f14</item>
+        <item name="android:colorBackground">#0c0f14</item>
+        <item name="android:statusBarColor">#0c0f14</item>
+        <item name="android:navigationBarColor">#12161d</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

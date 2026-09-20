@@ -1,0 +1,24 @@
+{
+  "name": "listening-player",
+  "version": "1.0.0",
+  "private": true,
+  "description": "四六级 / 雅思 / 托福听力练习播放器：音频 + 歌词式滚动原文 + 时间戳 + 原题",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node tools/make-demo.js",
+    "import": "node tools/import.js",
+    "test": "node tools/test.js --http",
+    "apk": "node tools/build-apk.js --audio-set=CET4-演示,CET6-演示,IELTS-演示,TOEFL-演示 --out=listening-player-lite.apk",
+    "pack": "node tools/build-pack.js --list",
+    "pack:info": "node tools/pack-info.js --all --verify",
+    "probe": "node tools/probe-frontend.js",
+    "apk:check": "node tools/verify-apk.js listening-player-lite.apk"
+  },
+  "dependencies": {
+    "unpdf": "^1.8.1"
+  }
+}

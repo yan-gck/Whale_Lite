@@ -1,0 +1,411 @@
+{
+  "title": "六级真题 · 2021年6月 第1套",
+  "exam": "cet6",
+  "section": "",
+  "paper": "2021年6月 第1套",
+  "source": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis（Zenodo 收录）",
+  "license": "上传者声明 CC BY 4.0（非考试委员会声明）",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.20474009",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "He is going to leave his present job",
+        "He is going to attend a job interview",
+        "He will meet his new manager in two weeks",
+        "He will tell the management how he really feels"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 43.76,
+      "end": 47.96,
+      "transcript": "It's my last day at work tomorrow."
+    },
+    {
+      "number": 2,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It should be carefully analyzed",
+        "It should be kept private",
+        "It can be quite useful to senior managers",
+        "It can improve interviewees' job prospects"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 107.04,
+      "end": 112.26,
+      "transcript": "An exit interview is supposed to be private, but often isn't."
+    },
+    {
+      "number": 3,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It may do harm to his fellow employees",
+        "It may displease his immediate .superiors",
+        "It may adversely affect his future career prospects",
+        "It may leave a negative impression on the interviewer"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 127.96,
+      "end": 134.22,
+      "transcript": "There is always the chance that it could affect my reputation and my ability to network in the industry."
+    },
+    {
+      "number": 4,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Pour out his frustrations on a rate-your-employer website",
+        "Network with his close friends to find a better employer",
+        "Do some practice for the exit interview",
+        "Prepare a comprehensive exit report"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 147.44,
+      "end": 154.5,
+      "transcript": "Perhaps I would be better getting things off my chest by going to one of those rate-your-employer websites."
+    },
+    {
+      "number": 5,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Her career as a botanist",
+        "Her latest documentary",
+        "Her month-long expedition",
+        "Her unsuccessful journey"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 256.94,
+      "end": 259.88,
+      "transcript": "Can you tell us a little about it?"
+    },
+    {
+      "number": 6,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "She was caught in a hurricane",
+        "She had to live like a vegetarian",
+        "She suffered from water shortage",
+        "She had to endure many hardships"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 272.1,
+      "end": 276.42,
+      "transcript": "It was far from glamorous, to be honest."
+    },
+    {
+      "number": 7,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They could no longer bear the humidity",
+        "They had no more food in the canoe",
+        "A flood was approaching",
+        "A hurricane was coming"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 315.34,
+      "end": 323.58,
+      "transcript": "Halfway through the trip, we received news that a hurricane was approaching, and we had to evacuate at very short notice."
+    },
+    {
+      "number": 8,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It was memorable",
+        "It was unbearable. '",
+        "It was fruitful",
+        "It was uneventful"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 338.3,
+      "end": 340.44,
+      "transcript": "Absolutely not."
+    },
+    {
+      "number": 9,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It ensures the accuracy of their arguments",
+        "It diminishes laymen's interest in science",
+        "It hurts laymen's dignity and self-esteem",
+        "It makes their expressions more explicit"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 488.28,
+      "end": 505.1,
+      "transcript": "In a new study, people exposed to jargon when reading about subjects like autonomous vehicles and surgical robots later said they were less interested in science than others who read about the same topics but without the use of specialised terms."
+    },
+    {
+      "number": 10,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They will see the complexity of science",
+        "They feel great respect towards scientists",
+        "They tend to disbelieve the actual science",
+        "They can learn to communicate with scientists"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 551.18,
+      "end": 561.1,
+      "transcript": "In another study, researchers found that reading scientific articles containing jargon led people to doubt the actual science."
+    },
+    {
+      "number": 11,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Explain all the jargon terms",
+        "Do away with jargon terms",
+        "Find appropriate topics",
+        "Stimulate their interest"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 594.24,
+      "end": 601.08,
+      "transcript": "But scientists who want to communicate with the general public need to modify their language."
+    },
+    {
+      "number": 12,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "There were oil deposits below a local gassy hill",
+        "The erupting gas might endanger local children",
+        "There was oiHeakage-along the Gulf Coast",
+        "The local gassy hill might start a huge fire"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 686.74,
+      "end": 695.78,
+      "transcript": "Patio Higgins, a disreputable local businessman, became convinced that there was oil below the gassy hill."
+    },
+    {
+      "number": 13,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The massive gas underground",
+        "Their lack of the needed skill",
+        "Their lack of suitable tools",
+        "The sand under the hill"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 700.1,
+      "end": 707.52,
+      "transcript": "The sand under the hill defeated several attempts by Higgins' workers to make a proper hole."
+    },
+    {
+      "number": 14,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It was not as effective as he claimed",
+        "It rendered many oil workers jobless",
+        "It gave birth to the oil drilling industry",
+        "It was not popularized until years later"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 717.98,
+      "end": 728.3,
+      "transcript": "After encountering several setbacks, Captain Lucas decided to use a drill, and his innovations created the modern oil drilling industry."
+    },
+    {
+      "number": 15,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It ruined the state's cotton and beef industries",
+        "It totally destroyed the state's rural landscape",
+        "It resulted in an oil surplus all over the world",
+        "It radically transformed the state's economy"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 765.78,
+      "end": 769.16,
+      "transcript": "Higgins' well changed that."
+    },
+    {
+      "number": 16,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Insufficient motivation",
+        "Tough regulations",
+        "Unsuitable jobs",
+        "Bad managers"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 909.56,
+      "end": 918.78,
+      "transcript": "A primary cause of employee dissatisfaction, according to fresh research, is that many believe they have terrible managers."
+    },
+    {
+      "number": 17,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Ineffective training",
+        "Toxic company culture",
+        "Overburdening of managers",
+        "Lack of regular evaluation"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 967.42,
+      "end": 976.36,
+      "transcript": "The first cause was company culture, which was seen by employees as enabling poor management practices."
+    },
+    {
+      "number": 18,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It was based only on the perspective of employees",
+        "It provided meaningful clues to solving the problem",
+        "It was conducted from frontline managers' point of view",
+        "It collected feedback from both employers and employees"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 1054.8,
+      "end": 1062.18,
+      "transcript": "A point worth making is that the study was based only on the perspective of employees."
+    },
+    {
+      "number": 19,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It is expanding at an accelerating speed",
+        "It is bringing prosperity to the region",
+        "It is yielding an unprecedented profit",
+        "It is seeing an automation revolution"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 1158.06,
+      "end": 1170.58,
+      "transcript": "With the use of driverless vehicles seemingly inevitable, mining companies in the vast Australian desert state of Western Australia are definitely taking the lead."
+    },
+    {
+      "number": 20,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It creates a lot of new jobs",
+        "It exhausts res<;mrces sooner",
+        "It causes conflicts between employers and employees",
+        "It calls for the retraining of unskilled mining workers"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": 1284.64,
+      "end": 1290.5,
+      "transcript": "The automation and digitization of the industry is creating a need for different jobs."
+    },
+    {
+      "number": 21,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They will wait to see its effect",
+        "They welcome it with open arms",
+        "They accept it with reservations",
+        "They are strongly opposed to it"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": 1311.66,
+      "end": 1322.68,
+      "transcript": "Workers' unions have accepted the inevitability of the introduction of new technology, but they still have reservations about the rise of automation technology."
+    },
+    {
+      "number": 22,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They have experienced a gradual decline since the year of 2017",
+        "Their annual death rate is about twice that of the global average",
+        "They kill more people than any infectious disease",
+        "Their cost to the nation's economy is incalculable"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 1425.54,
+      "end": 1433.12,
+      "transcript": "Globally, road accidents kill more people every year than any infectious disease."
+    },
+    {
+      "number": 23,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are not as reliable as claimed",
+        "They rise and fall from year to year",
+        "They don't reflect the changes in individual countries",
+        "They show a difference between rich and poor nations"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 1442.8,
+      "end": 1451.26,
+      "transcript": "According to the Institute, the overall number of deaths has been more or less static since the turn of the century."
+    },
+    {
+      "number": 24,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Many of them are investing heavily in infrastructure",
+        "Many of them have seen a decline in road-death rates",
+        "Many of them are following the example set by Thailand",
+        "Many of them have increasing numbers of cars on the road"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": 1500.28,
+      "end": 1514.04,
+      "transcript": "But the most important and intriguing changes are taking place in middle-income countries, which contain most of the world's people and most dangerous roads."
+    },
+    {
+      "number": 25,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Foster better driving behavior",
+        "Abolish all outdated traffic rules",
+        "Provide better training for drivers",
+        "Impose heavier penalties on speeding"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": 1571.6,
+      "end": 1580.88,
+      "transcript": "How to do that? The solution lies not just in better infrastructure but in better social incentives."
+    }
+  ]
+}

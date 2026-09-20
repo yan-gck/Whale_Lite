@@ -1,0 +1,1229 @@
+{
+  "_readme": "演示语料定义。全部文本为本项目自编，仿四六级/雅思/托福的考场结构与题型，不含任何真题原文。音频由 tools/make-demo.ps1 用 Windows SAPI 合成，逐词时间戳由语音引擎的 SpeakProgress 事件实测采集。",
+  "packs": [
+    {
+      "id": "cet4",
+      "folder": "CET4-演示",
+      "label": "大学英语四级 · 听力演示",
+      "section": "Section A / B / C",
+      "source": "自编仿真题（TTS 合成）",
+      "license": "CC0-1.0（自编文本，可自由使用）",
+      "sourceUrl": "",
+      "rate": -1,
+      "notes": "按四级听力三大题型编排：短篇新闻、长对话、听力篇章。用时约 6 分 30 秒，语速约 130 词/分钟。",
+      "items": [
+        {
+          "name": "01-news-reports",
+          "title": "四级听力 · Section A 短篇新闻（3 篇）",
+          "script": [
+            "Section A. Directions. In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A, B, C and D.",
+            "News report one. A city in the north of the country has started a new program that turns old bicycles into public library bikes. Volunteers collect broken bicycles from recycling centers and repair them with parts donated by local shops. Each repaired bike carries a small metal box filled with books. Residents can borrow a book for free and return it at any of the twelve stations across the city. The program began in March and has already repaired more than four hundred bicycles. City officials say they hope the program will encourage people to read while they travel, and reduce the number of bicycles that end up in landfills. Question one. What do volunteers do with the broken bicycles? Question two. What is one aim of the program?",
+            "News report two. A study published this week suggests that office workers who take a short walk after lunch are more productive in the afternoon than those who stay at their desks. Researchers followed two hundred employees at a software company for six months. The group that walked for fifteen minutes reported fewer headaches and made fewer mistakes in the afternoon. The researchers warn that the result may not apply to workers who do heavy physical labor. Question three. What did the study find about workers who walked after lunch? Question four. What limitation of the study is mentioned?",
+            "News report three. A heavy snowstorm has forced the airport of a northern city to cancel more than ninety flights. The storm began on Thursday evening and continued into Friday morning. Airport staff cleared the main runway three times during the night, but strong winds covered it again with snow. Passengers were given hotel rooms near the airport, and the airport said that normal service should return by Saturday afternoon. Question five. What happened at the airport? Question six. When is normal service expected to return?",
+            "Section B. Directions. In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once.",
+            "Conversation one. Good morning, I would like to open a bank account, please. Certainly, are you a student at the university? Yes, I am in my second year. Then you can open a student account. It has no monthly fee, and you get a free travel card. That sounds good. What do I need to bring? You will need your student card and a letter from the university confirming your address. I have my student card here, but I did not know about the letter. Can I bring it tomorrow? Of course. The bank is open from nine until five on weekdays, and until noon on Saturday. Is there a minimum amount I have to keep in the account? No, there is no minimum, but if you keep more than five hundred pounds in the account, you will receive a small amount of interest each year. And one more thing, can I use the account to receive money from abroad? Yes, but there is a charge of eight pounds for each transfer from outside the country. Question one. Why can the woman open a student account? Question two. What document does the woman still need to bring? Question three. What happens if she keeps more than five hundred pounds in the account? Question four. How much is charged for a transfer from abroad?",
+            "Conversation two. Excuse me, I am looking for the new sports centre. Am I going the right way? Yes, keep going past the library and turn left at the roundabout. The sports centre is the building with the glass front. Thank you. Do you know if it is open to the public today? It is, but the swimming pool is closed until four o'clock because the students have a competition this morning. The gym and the courts are open all day. I mainly wanted to swim. Is the pool usually busy in the evening? Quite busy between six and eight, but it is usually quiet after eight. Also, if you buy a card for ten visits, you get two visits free. That is worth knowing. Do I need to book a court in advance? Yes, for the tennis courts you should book at least a day ahead, either at the desk or on the website. Question five. What is the woman trying to find? Question six. Why is the swimming pool closed this morning? Question seven. When is the pool usually quiet? Question eight. How should the woman book a tennis court?",
+            "Section C. Directions. In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once.",
+            "Passage one. Sleep is not simply a period when the body switches off. During the night the brain passes through several stages, and each stage seems to do a different job. In deep sleep the body repairs muscles and strengthens the immune system. In the stage known as rapid eye movement sleep, the brain is almost as active as when we are awake. This is when most dreaming happens, and it is also when new memories are sorted and stored. Students who sleep well after studying remember more of what they have learned than students who stay up late. Unfortunately, many people treat sleep as something they can borrow against. They sleep less during the week and try to catch up at the weekend. Research suggests that this pattern does not fully repair the damage, because the brain cannot store the missing stages in a single long night. Question one. What happens during deep sleep? Question two. What is special about rapid eye movement sleep? Question three. Why does catching up on sleep at the weekend not fully work?",
+            "Passage two. Every year millions of people visit national parks, and every year park managers face the same problem, how to let people enjoy a place without damaging it. One solution that has become popular is the shuttle bus. In several parks, visitors now leave their cars in a large car park outside the park and travel inside by bus. The buses run every ten minutes, and visitors can get off wherever they like. The system has reduced traffic inside the parks by more than half, and the air is noticeably cleaner. Not everyone is happy. Some visitors say the buses are crowded in summer, and that they cannot reach the quiet corners they used to drive to. Park managers reply that a little inconvenience for visitors is a small price to pay for protecting the landscape. Question four. What problem do park managers face? Question five. What has the shuttle bus system achieved? Question six. What complaint do some visitors make?",
+            "Passage three. The first public libraries in many countries were built with money given by a single wealthy donor. Andrew Carnegie, a Scottish American businessman, paid for more than two thousand five hundred libraries around the world between the 1880s and the 1920s. He did not simply send money. He asked each town to provide the land and to promise to pay for the books and the staff from local taxes. In this way, he argued, the library would belong to the town rather than to him, and it would survive after his gift was spent. Many of those buildings are still in use today, and some have been enlarged several times. Historians say that the conditions he attached were as important as the money, because they taught local governments to treat libraries as a permanent public service rather than a temporary charity. Question seven. What did Carnegie require towns to do? Question eight. Why does the speaker say the conditions were important?"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "tag": "新闻1",
+              "stem": "What do volunteers do with the broken bicycles?",
+              "options": [
+                "They sell them to local shops.",
+                "They repair them and use them as mobile libraries.",
+                "They send them to recycling centers abroad.",
+                "They give them to school children."
+              ],
+              "answer": "B",
+              "explain": "原文：Volunteers collect broken bicycles from recycling centers and repair them with parts donated by local shops. Each repaired bike carries a small metal box filled with books. —— 修好后当流动图书馆用，故选 B。A 的 shops 只是捐零件，不是买主。",
+              "start": 12,
+              "end": 34,
+              "transcript": "Volunteers collect broken bicycles from recycling centers and repair them with parts donated by local shops. Each repaired bike carries a small metal box filled with books."
+            },
+            {
+              "number": 2,
+              "tag": "新闻1",
+              "stem": "What is one aim of the program?",
+              "options": [
+                "To reduce the number of bicycles sent to landfills.",
+                "To sell more books in the city.",
+                "To train volunteers as mechanics.",
+                "To make the city's buses more popular."
+              ],
+              "answer": "A",
+              "explain": "原文结尾：City officials say they hope the program will encourage people to read while they travel, and reduce the number of bicycles that end up in landfills. —— A 直接对应。",
+              "start": 34,
+              "end": 47,
+              "transcript": "City officials say they hope the program will encourage people to read while they travel, and reduce the number of bicycles that end up in landfills."
+            },
+            {
+              "number": 3,
+              "tag": "新闻2",
+              "stem": "What did the study find about workers who walked after lunch?",
+              "options": [
+                "They took longer lunch breaks.",
+                "They made fewer mistakes in the afternoon.",
+                "They earned more money.",
+                "They slept better at night."
+              ],
+              "answer": "B",
+              "explain": "原文：The group that walked for fifteen minutes reported fewer headaches and made fewer mistakes in the afternoon. —— 直接给出 B。",
+              "start": 62,
+              "end": 76,
+              "transcript": "The group that walked for fifteen minutes reported fewer headaches and made fewer mistakes in the afternoon."
+            },
+            {
+              "number": 4,
+              "tag": "新闻2",
+              "stem": "What limitation of the study is mentioned?",
+              "options": [
+                "The study lasted only one month.",
+                "Only two hundred people took part.",
+                "The result may not apply to workers doing heavy physical labor.",
+                "The company refused to publish the data."
+              ],
+              "answer": "C",
+              "explain": "原文：The researchers warn that the result may not apply to workers who do heavy physical labor. —— 这是研究者自己指出的适用范围限制，选 C。",
+              "start": 76,
+              "end": 88,
+              "transcript": "The researchers warn that the result may not apply to workers who do heavy physical labor."
+            },
+            {
+              "number": 5,
+              "tag": "新闻3",
+              "stem": "What happened at the airport?",
+              "options": [
+                "A strike stopped all flights.",
+                "More than ninety flights were cancelled because of snow.",
+                "A new runway was opened.",
+                "All passengers were sent home."
+              ],
+              "answer": "B",
+              "explain": "原文：A heavy snowstorm has forced the airport of a northern city to cancel more than ninety flights. —— B 是对该句的同义转述。",
+              "start": 108,
+              "end": 120,
+              "transcript": "A heavy snowstorm has forced the airport of a northern city to cancel more than ninety flights."
+            },
+            {
+              "number": 6,
+              "tag": "新闻3",
+              "stem": "When is normal service expected to return?",
+              "options": [
+                "By Thursday evening.",
+                "By Friday morning.",
+                "By Saturday afternoon.",
+                "By Sunday morning."
+              ],
+              "answer": "C",
+              "explain": "原文最后一句：the airport said that normal service should return by Saturday afternoon. —— 时间题，抓 Saturday afternoon。",
+              "start": 133,
+              "end": 145,
+              "transcript": "The airport said that normal service should return by Saturday afternoon."
+            },
+            {
+              "number": 7,
+              "tag": "长对话1",
+              "stem": "Why can the woman open a student account?",
+              "options": [
+                "She works at the bank.",
+                "She is a second-year university student.",
+                "Her parents have an account there.",
+                "She lives near the bank."
+              ],
+              "answer": "B",
+              "explain": "原文：Certainly, are you a student at the university? Yes, I am in my second year. Then you can open a student account. —— 身份是开学生账户的依据，选 B。",
+              "start": 165,
+              "end": 180,
+              "transcript": "Are you a student at the university? Yes, I am in my second year. Then you can open a student account."
+            },
+            {
+              "number": 8,
+              "tag": "长对话1",
+              "stem": "What document does the woman still need to bring?",
+              "options": [
+                "Her passport.",
+                "A letter from the university confirming her address.",
+                "A bank statement.",
+                "Her travel card."
+              ],
+              "answer": "B",
+              "explain": "原文：You will need your student card and a letter from the university confirming your address. I have my student card here, but I did not know about the letter. —— 已有学生证，还差地址证明信，选 B。",
+              "start": 180,
+              "end": 198,
+              "transcript": "You will need your student card and a letter from the university confirming your address."
+            },
+            {
+              "number": 9,
+              "tag": "长对话1",
+              "stem": "What happens if she keeps more than five hundred pounds in the account?",
+              "options": [
+                "She receives a small amount of interest each year.",
+                "She has to pay a monthly fee.",
+                "She gets a free travel card.",
+                "She can transfer money abroad for free."
+              ],
+              "answer": "A",
+              "explain": "原文：if you keep more than five hundred pounds in the account, you will receive a small amount of interest each year. —— 选 A。注意免费旅行卡是学生账户本身附带的，不是这个条件触发的。",
+              "start": 198,
+              "end": 216,
+              "transcript": "If you keep more than five hundred pounds in the account, you will receive a small amount of interest each year."
+            },
+            {
+              "number": 10,
+              "tag": "长对话1",
+              "stem": "How much is charged for a transfer from abroad?",
+              "options": [
+                "Nothing.",
+                "Five pounds.",
+                "Eight pounds.",
+                "Ten pounds."
+              ],
+              "answer": "C",
+              "explain": "原文：there is a charge of eight pounds for each transfer from outside the country. —— 数字题，选 C。",
+              "start": 216,
+              "end": 230,
+              "transcript": "There is a charge of eight pounds for each transfer from outside the country."
+            },
+            {
+              "number": 11,
+              "tag": "长对话2",
+              "stem": "What is the woman trying to find?",
+              "options": [
+                "The city library.",
+                "The new sports centre.",
+                "A swimming competition.",
+                "The university roundabout."
+              ],
+              "answer": "B",
+              "explain": "原文开头：Excuse me, I am looking for the new sports centre. —— 选 B。图书馆只是路标。",
+              "start": 262,
+              "end": 274,
+              "transcript": "Excuse me, I am looking for the new sports centre."
+            },
+            {
+              "number": 12,
+              "tag": "长对话2",
+              "stem": "Why is the swimming pool closed this morning?",
+              "options": [
+                "It is being cleaned.",
+                "Students have a competition there.",
+                "The water is too cold.",
+                "It opens only in the afternoon."
+              ],
+              "answer": "B",
+              "explain": "原文：the swimming pool is closed until four o'clock because the students have a competition this morning. —— 选 B。",
+              "start": 285,
+              "end": 300,
+              "transcript": "The swimming pool is closed until four o'clock because the students have a competition this morning."
+            },
+            {
+              "number": 13,
+              "tag": "长对话2",
+              "stem": "When is the pool usually quiet?",
+              "options": [
+                "Between six and eight in the evening.",
+                "After eight in the evening.",
+                "Early in the morning.",
+                "At lunchtime."
+              ],
+              "answer": "B",
+              "explain": "原文：Quite busy between six and eight, but it is usually quiet after eight. —— 注意转折词 but 之后才是答案，选 B。",
+              "start": 300,
+              "end": 315,
+              "transcript": "Quite busy between six and eight, but it is usually quiet after eight."
+            },
+            {
+              "number": 14,
+              "tag": "长对话2",
+              "stem": "How should the woman book a tennis court?",
+              "options": [
+                "By telephoning the manager.",
+                "At least a day ahead, at the desk or on the website.",
+                "On the same day at the entrance.",
+                "By asking a student member."
+              ],
+              "answer": "B",
+              "explain": "原文：for the tennis courts you should book at least a day ahead, either at the desk or on the website. —— 选 B。",
+              "start": 315,
+              "end": 333,
+              "transcript": "For the tennis courts you should book at least a day ahead, either at the desk or on the website."
+            },
+            {
+              "number": 15,
+              "tag": "篇章1",
+              "stem": "What happens during deep sleep?",
+              "options": [
+                "The body repairs muscles and strengthens the immune system.",
+                "Most dreaming takes place.",
+                "The brain is as active as when we are awake.",
+                "New memories are sorted and stored."
+              ],
+              "answer": "A",
+              "explain": "原文：In deep sleep the body repairs muscles and strengthens the immune system. —— B、C、D 都是快速眼动睡眠的特征，属张冠李戴型干扰项。",
+              "start": 375,
+              "end": 396,
+              "transcript": "In deep sleep the body repairs muscles and strengthens the immune system."
+            },
+            {
+              "number": 16,
+              "tag": "篇章1",
+              "stem": "What is special about rapid eye movement sleep?",
+              "options": [
+                "The body temperature drops sharply.",
+                "The brain is almost as active as when we are awake.",
+                "It lasts only a few seconds.",
+                "It happens only in the early evening."
+              ],
+              "answer": "B",
+              "explain": "原文：In the stage known as rapid eye movement sleep, the brain is almost as active as when we are awake. —— 选 B。",
+              "start": 396,
+              "end": 414,
+              "transcript": "In the stage known as rapid eye movement sleep, the brain is almost as active as when we are awake."
+            },
+            {
+              "number": 17,
+              "tag": "篇章1",
+              "stem": "Why does catching up on sleep at the weekend not fully work?",
+              "options": [
+                "The brain cannot store the missing stages in a single long night.",
+                "People usually wake up too early at weekends.",
+                "Weekend sleep is always interrupted.",
+                "The body needs less sleep as it gets older."
+              ],
+              "answer": "A",
+              "explain": "原文：this pattern does not fully repair the damage, because the brain cannot store the missing stages in a single long night. —— 因果关系要抓 because 后的内容。",
+              "start": 440,
+              "end": 462,
+              "transcript": "Research suggests that this pattern does not fully repair the damage, because the brain cannot store the missing stages in a single long night."
+            },
+            {
+              "number": 18,
+              "tag": "篇章2",
+              "stem": "What problem do park managers face?",
+              "options": [
+                "How to attract more visitors.",
+                "How to let people enjoy a place without damaging it.",
+                "How to train enough bus drivers.",
+                "How to raise money for new car parks."
+              ],
+              "answer": "B",
+              "explain": "原文：every year park managers face the same problem, how to let people enjoy a place without damaging it. —— 同位语直接给出答案，选 B。",
+              "start": 495,
+              "end": 515,
+              "transcript": "Every year park managers face the same problem, how to let people enjoy a place without damaging it."
+            },
+            {
+              "number": 19,
+              "tag": "篇章2",
+              "stem": "What has the shuttle bus system achieved?",
+              "options": [
+                "It has doubled the number of visitors.",
+                "It has reduced traffic inside the parks by more than half.",
+                "It has made the parks free to enter.",
+                "It has shortened the opening hours."
+              ],
+              "answer": "B",
+              "explain": "原文：The system has reduced traffic inside the parks by more than half, and the air is noticeably cleaner. —— 选 B。",
+              "start": 540,
+              "end": 558,
+              "transcript": "The system has reduced traffic inside the parks by more than half, and the air is noticeably cleaner."
+            },
+            {
+              "number": 20,
+              "tag": "篇章2",
+              "stem": "What complaint do some visitors make?",
+              "options": [
+                "The buses are too expensive.",
+                "The buses are crowded and they cannot reach quiet corners.",
+                "The car park is too far from the park.",
+                "The drivers are unfriendly."
+              ],
+              "answer": "B",
+              "explain": "原文：Some visitors say the buses are crowded in summer, and that they cannot reach the quiet corners they used to drive to. —— 两条抱怨并列，B 完整覆盖。",
+              "start": 558,
+              "end": 580,
+              "transcript": "Some visitors say the buses are crowded in summer, and that they cannot reach the quiet corners they used to drive to."
+            },
+            {
+              "number": 21,
+              "tag": "篇章3",
+              "stem": "What did Carnegie require towns to do?",
+              "options": [
+                "To name the library after him.",
+                "To provide the land and pay for books and staff from local taxes.",
+                "To build the library within one year.",
+                "To employ only local workers."
+              ],
+              "answer": "B",
+              "explain": "原文：He asked each town to provide the land and to promise to pay for the books and the staff from local taxes. —— 选 B。",
+              "start": 610,
+              "end": 634,
+              "transcript": "He asked each town to provide the land and to promise to pay for the books and the staff from local taxes."
+            },
+            {
+              "number": 22,
+              "tag": "篇章3",
+              "stem": "Why does the speaker say the conditions were important?",
+              "options": [
+                "They saved Carnegie a lot of money.",
+                "They made local governments treat libraries as a permanent public service.",
+                "They prevented libraries from being enlarged.",
+                "They attracted more foreign donations."
+              ],
+              "answer": "B",
+              "explain": "原文：the conditions he attached were as important as the money, because they taught local governments to treat libraries as a permanent public service rather than a temporary charity. —— 选 B。",
+              "start": 660,
+              "end": 690,
+              "transcript": "Historians say that the conditions he attached were as important as the money, because they taught local governments to treat libraries as a permanent public service rather than a temporary charity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cet6",
+      "folder": "CET6-演示",
+      "label": "大学英语六级 · 听力演示",
+      "section": "Section B / C",
+      "source": "自编仿真题（TTS 合成）",
+      "license": "CC0-1.0（自编文本，可自由使用）",
+      "sourceUrl": "",
+      "rate": 0,
+      "notes": "六级语速更快、句式更长，讲座题侧重观点与态度。",
+      "items": [
+        {
+          "name": "01-lectures",
+          "title": "六级听力 · 长对话与讲座（3 篇）",
+          "script": [
+            "Section B. Directions. In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions.",
+            "Conversation one. So, how did the interview go? I am not sure. The questions were not difficult, but I could not tell whether they liked my answers. What did they ask you about? Mostly about a project I did last year. They wanted to know why we chose that particular method and what I would do differently now. That is a good question, actually. What did you say? I said we chose it because it was the cheapest option at the time, and that if I did it again I would spend more time on the design stage. Did they ask about salary? Not directly. They asked what my expectations were, and I said I would rather discuss that once I understand the responsibilities better. That was probably the right answer. They also asked whether I would be willing to travel. I said yes, as long as the trips were planned in advance. When will you hear from them? They said they would contact everyone by the end of next week. To be honest, I am not sure I want it. The office is an hour away by train, and the team seemed quite small. But you applied for it. I know. I think I applied because the job description sounded interesting, not because the job itself is. Question one. What did the man say about the interview questions? Question two. Why did the man say his team chose that method? Question three. How did the man answer the question about salary? Question four. Why is the man unsure about the job?",
+            "Conversation two. Professor, do you have a minute? I am worried about my essay. Of course. What is the problem? I have collected a lot of material, but I cannot decide what my argument is. That is actually the most common problem at this stage. Tell me what you have read. I have read six studies on remote work, and they all measure productivity differently. Some count the number of tasks completed, others use the manager's assessment, and one uses the number of hours worked. So what does that tell you? That the studies are not really comparable? Exactly. And that is a perfectly good argument for an essay. Instead of asking whether remote work is more productive, you could ask why the evidence is so hard to compare. Would that be too narrow? No, a narrow question that you can answer is much better than a broad one that you cannot. Should I still include all six studies? Include four, and explain in one paragraph why you left the other two out. That shows the reader that you made a choice rather than simply listing what you found. When should I send you a draft? Send me an outline by Friday, and the full draft a week after that. I will comment on the outline quickly so you do not waste time going in the wrong direction. Question five. What is the woman worried about? Question six. According to the professor, what is a good argument for the essay? Question seven. Why should the woman mention the two studies she leaves out? Question eight. What does the professor ask the woman to send first?",
+            "Section C. Directions. In this section, you will hear two recordings. At the end of each recording, you will hear four questions.",
+            "Recording one. When we talk about the history of medicine, we usually list discoveries, the microscope, the vaccine, antibiotics. But historians of science have become more interested in a different question, not what was discovered but who was allowed to do the discovering. For most of the nineteenth century, women were excluded from universities in many countries, and therefore from the laboratories where the important work was done. Yet a surprising amount of research was carried out in private houses. Women who could not enter a university often worked with a brother or a father, or set up a small laboratory of their own. Their contributions were frequently published without their names, or credited to a male relative. This is not simply a story about unfairness. It also explains why certain questions were never asked. Research agendas reflect the experience of the people who set them. A field studied mainly by men who had never managed a household, for example, paid very little attention to the spread of infection within families. When women entered the profession in larger numbers in the twentieth century, whole areas of medicine, child health, nutrition, occupational disease, moved from the margin to the centre. Question nine. What question are historians of science now more interested in? Question ten. Where did many women carry out research in the nineteenth century? Question eleven. What happened to women's contributions in publications? Question twelve. Why does the speaker mention the spread of infection within families?",
+            "Recording two. Let me begin with a warning. When people talk about the attention span of young people, they usually claim that it has fallen to eight seconds, which is shorter than that of a goldfish. This figure is repeated everywhere and it has no reliable source. It appears to have started in a marketing report and then been copied from one article to the next. That does not mean there is no problem. There is a real and well documented change, but it is not about the length of attention. It is about its stability. A student reading a book in nineteen ninety had few competing demands on their attention. A student reading today carries a device that can interrupt them at any moment. The interruption itself takes only a few seconds, but returning to the original task takes much longer, and the cost is highest for complex tasks. So the useful question is not how long can you concentrate, but how well can you protect your concentration. In one experiment, students who left their phones in another room performed significantly better than students who kept them on the desk, even when the phones were silent and face down. The mere presence of the device consumed attention. Question thirteen. What does the speaker say about the eight second figure? Question fourteen. According to the speaker, what has actually changed? Question fifteen. What did the experiment with phones show? Question sixteen. What question does the speaker suggest is more useful?"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "tag": "长对话1",
+              "stem": "What did the man say about the interview questions?",
+              "options": [
+                "They were too difficult to answer.",
+                "They were not difficult, but he could not tell if they liked his answers.",
+                "They were all about salary.",
+                "They repeated his written application."
+              ],
+              "answer": "B",
+              "explain": "原文：The questions were not difficult, but I could not tell whether they liked my answers. —— but 前后各取一半，选 B。",
+              "start": 10,
+              "end": 24,
+              "transcript": "The questions were not difficult, but I could not tell whether they liked my answers."
+            },
+            {
+              "number": 2,
+              "tag": "长对话1",
+              "stem": "Why did the man say his team chose that method?",
+              "options": [
+                "Because it was the most accurate.",
+                "Because it was the cheapest option at the time.",
+                "Because their professor recommended it.",
+                "Because the data were already available."
+              ],
+              "answer": "B",
+              "explain": "原文：I said we chose it because it was the cheapest option at the time. —— 选 B。他同时承认重做会多在\"设计阶段\"下功夫，那是改进方向而非当初理由。",
+              "start": 40,
+              "end": 56,
+              "transcript": "I said we chose it because it was the cheapest option at the time, and that if I did it again I would spend more time on the design stage."
+            },
+            {
+              "number": 3,
+              "tag": "长对话1",
+              "stem": "How did the man answer the question about salary?",
+              "options": [
+                "He refused to discuss it at all.",
+                "He named a figure immediately.",
+                "He said he would rather discuss it once he understood the responsibilities better.",
+                "He asked the interviewers what they usually pay."
+              ],
+              "answer": "C",
+              "explain": "原文：They asked what my expectations were, and I said I would rather discuss that once I understand the responsibilities better. —— 选 C，既不回避也没先报数。",
+              "start": 56,
+              "end": 74,
+              "transcript": "They asked what my expectations were, and I said I would rather discuss that once I understand the responsibilities better."
+            },
+            {
+              "number": 4,
+              "tag": "长对话1",
+              "stem": "Why is the man unsure about the job?",
+              "options": [
+                "The salary is too low.",
+                "The office is far away and the team seemed quite small.",
+                "He has been offered a better position.",
+                "He did not like the interviewers."
+              ],
+              "answer": "B",
+              "explain": "原文：The office is an hour away by train, and the team seemed quite small. —— 两个原因并列，选 B。",
+              "start": 88,
+              "end": 104,
+              "transcript": "The office is an hour away by train, and the team seemed quite small."
+            },
+            {
+              "number": 5,
+              "tag": "长对话2",
+              "stem": "What is the woman worried about?",
+              "options": [
+                "She cannot find enough material.",
+                "She has collected a lot of material but cannot decide what her argument is.",
+                "She has missed the deadline.",
+                "She disagrees with her professor."
+              ],
+              "answer": "B",
+              "explain": "原文：I have collected a lot of material, but I cannot decide what my argument is. —— 注意不是材料不够（A 反向干扰），是论点不明确。",
+              "start": 128,
+              "end": 144,
+              "transcript": "I have collected a lot of material, but I cannot decide what my argument is."
+            },
+            {
+              "number": 6,
+              "tag": "长对话2",
+              "stem": "According to the professor, what is a good argument for the essay?",
+              "options": [
+                "Remote work is always more productive.",
+                "The existing studies are not really comparable, so we should ask why the evidence is hard to compare.",
+                "Only the most recent study should be trusted.",
+                "Productivity cannot be measured at all."
+              ],
+              "answer": "B",
+              "explain": "原文：Instead of asking whether remote work is more productive, you could ask why the evidence is so hard to compare. —— 教授把\"选边站\"改成\"方法论批评\"，选 B。",
+              "start": 168,
+              "end": 190,
+              "transcript": "Instead of asking whether remote work is more productive, you could ask why the evidence is so hard to compare."
+            },
+            {
+              "number": 7,
+              "tag": "长对话2",
+              "stem": "Why should the woman mention the two studies she leaves out?",
+              "options": [
+                "To show she made a choice rather than simply listing what she found.",
+                "To make the essay longer.",
+                "Because the professor wrote them.",
+                "Because they are the most reliable."
+              ],
+              "answer": "A",
+              "explain": "原文：That shows the reader that you made a choice rather than simply listing what you found. —— 选 A。",
+              "start": 210,
+              "end": 228,
+              "transcript": "That shows the reader that you made a choice rather than simply listing what you found."
+            },
+            {
+              "number": 8,
+              "tag": "长对话2",
+              "stem": "What does the professor ask the woman to send first?",
+              "options": [
+                "The full draft.",
+                "A list of all six studies.",
+                "An outline.",
+                "A reading report."
+              ],
+              "answer": "C",
+              "explain": "原文：Send me an outline by Friday, and the full draft a week after that. —— 先交提纲，选 C。",
+              "start": 245,
+              "end": 262,
+              "transcript": "Send me an outline by Friday, and the full draft a week after that."
+            },
+            {
+              "number": 9,
+              "tag": "讲座1",
+              "stem": "What question are historians of science now more interested in?",
+              "options": [
+                "Which discovery was the most important.",
+                "Not what was discovered but who was allowed to do the discovering.",
+                "How much early instruments cost.",
+                "Why antibiotics were invented so late."
+              ],
+              "answer": "B",
+              "explain": "原文：not what was discovered but who was allowed to do the discovering. —— 选 B。",
+              "start": 285,
+              "end": 305,
+              "transcript": "Historians of science have become more interested in a different question, not what was discovered but who was allowed to do the discovering."
+            },
+            {
+              "number": 10,
+              "tag": "讲座1",
+              "stem": "Where did many women carry out research in the nineteenth century?",
+              "options": [
+                "In universities.",
+                "In private houses.",
+                "In government laboratories.",
+                "In hospitals abroad."
+              ],
+              "answer": "B",
+              "explain": "原文：a surprising amount of research was carried out in private houses. Women who could not enter a university often worked with a brother or a father, or set up a small laboratory of their own. —— 选 B。",
+              "start": 325,
+              "end": 350,
+              "transcript": "Yet a surprising amount of research was carried out in private houses. Women who could not enter a university often worked with a brother or a father, or set up a small laboratory of their own."
+            },
+            {
+              "number": 11,
+              "tag": "讲座1",
+              "stem": "What happened to women's contributions in publications?",
+              "options": [
+                "They were published under a pen name chosen by the author.",
+                "They were frequently published without their names or credited to a male relative.",
+                "They were refused by all journals.",
+                "They were published only in foreign languages."
+              ],
+              "answer": "B",
+              "explain": "原文：Their contributions were frequently published without their names, or credited to a male relative. —— 选 B。",
+              "start": 360,
+              "end": 380,
+              "transcript": "Their contributions were frequently published without their names, or credited to a male relative."
+            },
+            {
+              "number": 12,
+              "tag": "讲座1",
+              "stem": "Why does the speaker mention the spread of infection within families?",
+              "options": [
+                "To show that early medicine was effective.",
+                "As an example of a question that was neglected because of who set the research agenda.",
+                "To prove that hospitals were dangerous.",
+                "To explain why antibiotics were discovered."
+              ],
+              "answer": "B",
+              "explain": "原文逻辑：Research agendas reflect the experience of the people who set them. 接着举例\"从未管理过家庭的男性研究者很少关注家庭内感染传播\"。该例是论点的证据，选 B。",
+              "start": 400,
+              "end": 432,
+              "transcript": "A field studied mainly by men who had never managed a household, for example, paid very little attention to the spread of infection within families."
+            },
+            {
+              "number": 13,
+              "tag": "讲座2",
+              "stem": "What does the speaker say about the eight second figure?",
+              "options": [
+                "It was proved by a large study.",
+                "It has no reliable source and appears to come from a marketing report.",
+                "It refers to goldfish rather than people.",
+                "It was measured in nineteen ninety."
+              ],
+              "answer": "B",
+              "explain": "原文：This figure is repeated everywhere and it has no reliable source. It appears to have started in a marketing report and then been copied from one article to the next. —— 选 B。",
+              "start": 460,
+              "end": 490,
+              "transcript": "This figure is repeated everywhere and it has no reliable source. It appears to have started in a marketing report and then been copied from one article to the next."
+            },
+            {
+              "number": 14,
+              "tag": "讲座2",
+              "stem": "According to the speaker, what has actually changed?",
+              "options": [
+                "The length of attention.",
+                "The stability of attention.",
+                "The speed of reading.",
+                "The number of hours students study."
+              ],
+              "answer": "B",
+              "explain": "原文：There is a real and well documented change, but it is not about the length of attention. It is about its stability. —— 否定前者、肯定后者，选 B。",
+              "start": 490,
+              "end": 512,
+              "transcript": "There is a real and well documented change, but it is not about the length of attention. It is about its stability."
+            },
+            {
+              "number": 15,
+              "tag": "讲座2",
+              "stem": "What did the experiment with phones show?",
+              "options": [
+                "Silent phones do not affect performance.",
+                "Students who left their phones in another room did significantly better.",
+                "Students perform better with music.",
+                "Phones improve multitasking skills."
+              ],
+              "answer": "B",
+              "explain": "原文：students who left their phones in another room performed significantly better than students who kept them on the desk, even when the phones were silent and face down. —— 注意 even when 强调\"即使静音也照样有影响\"，故 A 错、B 对。",
+              "start": 535,
+              "end": 565,
+              "transcript": "In one experiment, students who left their phones in another room performed significantly better than students who kept them on the desk, even when the phones were silent and face down."
+            },
+            {
+              "number": 16,
+              "tag": "讲座2",
+              "stem": "What question does the speaker suggest is more useful?",
+              "options": [
+                "How long can you concentrate?",
+                "How well can you protect your concentration?",
+                "How many devices do you own?",
+                "How fast can you read?"
+              ],
+              "answer": "B",
+              "explain": "原文：the useful question is not how long can you concentrate, but how well can you protect your concentration. —— not...but... 结构，答案在 but 后。",
+              "start": 565,
+              "end": 592,
+              "transcript": "So the useful question is not how long can you concentrate, but how well can you protect your concentration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts",
+      "folder": "IELTS-演示",
+      "label": "雅思听力 · 演示",
+      "section": "Section 1 / Section 4",
+      "source": "自编仿真题（TTS 合成）",
+      "license": "CC0-1.0（自编文本，可自由使用）",
+      "sourceUrl": "",
+      "rate": -1,
+      "notes": "Section 1 为表单填空题（生活场景），Section 4 为学术讲座填空题。填空题答案已标注在选项位置，便于自测。",
+      "items": [
+        {
+          "name": "01-section1-booking",
+          "title": "雅思听力 · Section 1 社区游泳馆咨询（填空）",
+          "script": [
+            "Section 1. You will hear a woman telephoning a community sports centre to ask about membership. First you have some time to look at questions one to six.",
+            "Good afternoon, Riverside Sports Centre, how can I help you? Hello, I would like to ask about joining the centre. Certainly. Are you interested in the swimming pool or the fitness classes? Mainly swimming, but I might try a class later. Could I take your name first? Yes, it is Marta Kowalski. Could you spell the surname for me? K O W A L S K I. Thank you. And what is your postcode? It is B H 4 2 L P. Right. Now, membership for an adult is thirty two pounds a month. That includes the pool and all the classes. Is there a cheaper option? There is an off peak membership at twenty pounds, but it can only be used before four o'clock on weekdays. I work in the mornings, so the off peak would suit me. Then the off peak it is. One thing to remember is that there is a joining fee of fifteen pounds, which you pay only once. Do I need to bring anything when I come? Yes, please bring a photo for your card, and a bank letter if you want to pay monthly. Also, the centre does not provide towels, so bring your own. Question one. What is the woman's surname? Question two. How much does off peak membership cost per month? Question three. When can off peak membership be used? Question four. How much is the joining fee? Question five. What must the woman bring for her card? Question six. What does the centre not provide?",
+            "Now you will hear the rest of the conversation.",
+            "Can I ask about the pool timetable? The pool is open from six in the morning until ten at night, but on Sundays it closes at eight. Is there a quiet time? The quietest time is between two and four in the afternoon on weekdays. In the evenings it is very busy. Do I need to book the pool? No, swimming is not booked, but the fitness classes must be booked at least twenty four hours in advance, and you can cancel up to two hours before without paying. Is there parking at the centre? Yes, there is free parking for members, but you need to display your card in the car. And finally, is there a cafe? There is a small cafe next to the reception, and it is open from eight until six. Perfect, thank you very much. Question seven. When does the pool close on Sundays? Question eight. When is the pool quietest? Question nine. How far in advance must fitness classes be booked? Question ten. Where should members display their card?",
+            "That is the end of Section 1. You now have some time to check your answers."
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "tag": "填空题",
+              "stem": "Customer surname: KOWALSKI (spelled by caller)",
+              "options": [
+                "KOWALSKI",
+                "KOWALSKY",
+                "KOVALSKI",
+                "KOWALSKIE"
+              ],
+              "answer": "A",
+              "explain": "原文逐字母拼读：K O W A L S K I → KOWALSKI。雅思听力人名拼写必考，要练到能逐字母记录。",
+              "start": 22,
+              "end": 34,
+              "transcript": "K O W A L S K I."
+            },
+            {
+              "number": 2,
+              "tag": "填空题",
+              "stem": "Off peak membership: £______ per month",
+              "options": [
+                "£15",
+                "£20",
+                "£32",
+                "£42"
+              ],
+              "answer": "B",
+              "explain": "原文：There is an off peak membership at twenty pounds —— £20。干扰项 £32 是普通成人月费，£15 是入会费。",
+              "start": 62,
+              "end": 78,
+              "transcript": "There is an off peak membership at twenty pounds, but it can only be used before four o'clock on weekdays."
+            },
+            {
+              "number": 3,
+              "tag": "填空题",
+              "stem": "Off peak membership can be used before ______ on weekdays.",
+              "options": [
+                "noon",
+                "2 p.m.",
+                "4 p.m.",
+                "6 p.m."
+              ],
+              "answer": "C",
+              "explain": "原文：it can only be used before four o'clock on weekdays —— 4 p.m.。注意 2 p.m. 是后文提到的\"泳池最空闲时段\"的起点，属信息错位干扰。",
+              "start": 78,
+              "end": 92,
+              "transcript": "It can only be used before four o'clock on weekdays."
+            },
+            {
+              "number": 4,
+              "tag": "填空题",
+              "stem": "One off joining fee: £______",
+              "options": [
+                "£10",
+                "£15",
+                "£20",
+                "£25"
+              ],
+              "answer": "B",
+              "explain": "原文：there is a joining fee of fifteen pounds, which you pay only once —— 一次性 £15。",
+              "start": 100,
+              "end": 114,
+              "transcript": "One thing to remember is that there is a joining fee of fifteen pounds, which you pay only once."
+            },
+            {
+              "number": 5,
+              "tag": "填空题",
+              "stem": "Bring a ______ for the membership card.",
+              "options": [
+                "passport",
+                "photo",
+                "utility bill",
+                "student card"
+              ],
+              "answer": "B",
+              "explain": "原文：please bring a photo for your card, and a bank letter if you want to pay monthly —— 卡上要照片；bank letter 是月付才需要，属条件干扰。",
+              "start": 120,
+              "end": 136,
+              "transcript": "Please bring a photo for your card, and a bank letter if you want to pay monthly."
+            },
+            {
+              "number": 6,
+              "tag": "填空题",
+              "stem": "The centre does not provide ______.",
+              "options": [
+                "lockers",
+                "towels",
+                "shampoo",
+                "parking"
+              ],
+              "answer": "B",
+              "explain": "原文：the centre does not provide towels, so bring your own —— towels。雅思常考\"不提供什么\"，注意否定词。",
+              "start": 136,
+              "end": 148,
+              "transcript": "Also, the centre does not provide towels, so bring your own."
+            },
+            {
+              "number": 7,
+              "tag": "填空题",
+              "stem": "On Sundays the pool closes at ______.",
+              "options": [
+                "6 p.m.",
+                "8 p.m.",
+                "9 p.m.",
+                "10 p.m."
+              ],
+              "answer": "B",
+              "explain": "原文：The pool is open from six in the morning until ten at night, but on Sundays it closes at eight —— 转折词 but 之后是答案：8 p.m.。10 点是平日的关门时间。",
+              "start": 165,
+              "end": 186,
+              "transcript": "The pool is open from six in the morning until ten at night, but on Sundays it closes at eight."
+            },
+            {
+              "number": 8,
+              "tag": "填空题",
+              "stem": "Quietest time in the pool: ______ on weekdays.",
+              "options": [
+                "6–8 a.m.",
+                "2–4 p.m.",
+                "6–8 p.m.",
+                "after 8 p.m."
+              ],
+              "answer": "B",
+              "explain": "原文：The quietest time is between two and four in the afternoon on weekdays —— 2–4 p.m.。",
+              "start": 190,
+              "end": 204,
+              "transcript": "The quietest time is between two and four in the afternoon on weekdays."
+            },
+            {
+              "number": 9,
+              "tag": "填空题",
+              "stem": "Fitness classes must be booked at least ______ in advance.",
+              "options": [
+                "2 hours",
+                "12 hours",
+                "24 hours",
+                "48 hours"
+              ],
+              "answer": "C",
+              "explain": "原文：the fitness classes must be booked at least twenty four hours in advance, and you can cancel up to two hours before without paying —— 预订要提前 24 小时；2 小时是免费取消的期限，最易混。",
+              "start": 225,
+              "end": 250,
+              "transcript": "The fitness classes must be booked at least twenty four hours in advance, and you can cancel up to two hours before without paying."
+            },
+            {
+              "number": 10,
+              "tag": "填空题",
+              "stem": "Members should display their card in the ______.",
+              "options": [
+                "reception",
+                "car",
+                "locker",
+                "cafe"
+              ],
+              "answer": "B",
+              "explain": "原文：there is free parking for members, but you need to display your card in the car —— 车内展示会员卡。",
+              "start": 258,
+              "end": 274,
+              "transcript": "Yes, there is free parking for members, but you need to display your card in the car."
+            }
+          ]
+        },
+        {
+          "name": "02-section4-lecture",
+          "title": "雅思听力 · Section 4 城市蜜蜂研究（讲座填空）",
+          "script": [
+            "Section 4. You will hear part of a lecture about bees in cities. First you have some time to look at questions thirty one to forty.",
+            "In this lecture I want to look at an unexpected result from urban ecology. When people think about wildlife in cities, they usually think about species that are losing ground, and in most cases they are right. But bees appear to be an exception. Several studies in Europe and North America have found that bees in cities can be more productive than bees in the surrounding countryside. There are three main reasons. The first is temperature. Cities are warmer than the countryside, often by two or three degrees, because buildings and roads store heat during the day and release it at night. A warmer city means a longer flowering season, and a longer season means more time to collect food. The second reason is variety. A garden, a park and a railway embankment may each hold different plants, and a single city can therefore offer flowers over a longer period than a large field of one crop. The third reason is the absence of pesticides. Farmland is treated, but city gardens usually are not. Now, this does not mean that cities are good for all insects. The same studies show a sharp fall in the number of butterfly species in city centres. Butterflies need large continuous areas of a particular plant, and cities are fragmented. So the lesson is not that cities are better than the countryside. The lesson is that different insects respond to different features of the landscape, and that a city can be a refuge for one group while it is a barrier for another. We should also be careful about how we measure success. Counting the honey produced by a hive is convenient, but it tells us about one species only. If we want to know whether a city is good for pollinators in general, we need to count wild species as well, and that is much slower work. Question thirty one. What is the unexpected finding about bees in cities? Question thirty two. By how much are cities usually warmer than the countryside? Question thirty three. What does a longer flowering season allow bees to do? Question thirty four. What is the second reason for the success of city bees? Question thirty five. What is the third reason? Question thirty six. What has happened to butterfly species in city centres? Question thirty seven. What do butterflies need that cities lack? Question thirty eight. Why is counting honey a limited measure? Question thirty nine. What should researchers count as well? Question forty. What is the main lesson of the lecture?"
+          ],
+          "questions": [
+            {
+              "number": 31,
+              "tag": "填空题",
+              "stem": "City bees can be more ______ than bees in the countryside.",
+              "options": [
+                "numerous",
+                "productive",
+                "aggressive",
+                "colourful"
+              ],
+              "answer": "B",
+              "explain": "原文：bees in cities can be more productive than bees in the surrounding countryside —— productive。",
+              "start": 14,
+              "end": 30,
+              "transcript": "Several studies in Europe and North America have found that bees in cities can be more productive than bees in the surrounding countryside."
+            },
+            {
+              "number": 32,
+              "tag": "填空题",
+              "stem": "Cities are usually warmer by ______ degrees.",
+              "options": [
+                "one or two",
+                "two or three",
+                "three or four",
+                "five or six"
+              ],
+              "answer": "B",
+              "explain": "原文：often by two or three degrees —— 2–3 度。",
+              "start": 44,
+              "end": 56,
+              "transcript": "Cities are warmer than the countryside, often by two or three degrees, because buildings and roads store heat during the day and release it at night."
+            },
+            {
+              "number": 33,
+              "tag": "填空题",
+              "stem": "A longer flowering season means more time to ______.",
+              "options": [
+                "build hives",
+                "collect food",
+                "find mates",
+                "avoid predators"
+              ],
+              "answer": "B",
+              "explain": "原文：a longer season means more time to collect food —— collect food。",
+              "start": 56,
+              "end": 68,
+              "transcript": "A warmer city means a longer flowering season, and a longer season means more time to collect food."
+            },
+            {
+              "number": 34,
+              "tag": "填空题",
+              "stem": "Second reason: the ______ of plants available in a city.",
+              "options": [
+                "size",
+                "variety",
+                "height",
+                "colour"
+              ],
+              "answer": "B",
+              "explain": "原文：The second reason is variety. A garden, a park and a railway embankment may each hold different plants —— variety。",
+              "start": 76,
+              "end": 100,
+              "transcript": "The second reason is variety. A garden, a park and a railway embankment may each hold different plants, and a single city can therefore offer flowers over a longer period than a large field of one crop."
+            },
+            {
+              "number": 35,
+              "tag": "填空题",
+              "stem": "Third reason: the absence of ______ in city gardens.",
+              "options": [
+                "predators",
+                "pesticides",
+                "traffic",
+                "competition"
+              ],
+              "answer": "B",
+              "explain": "原文：The third reason is the absence of pesticides. Farmland is treated, but city gardens usually are not —— pesticides。",
+              "start": 100,
+              "end": 120,
+              "transcript": "The third reason is the absence of pesticides. Farmland is treated, but city gardens usually are not."
+            },
+            {
+              "number": 36,
+              "tag": "填空题",
+              "stem": "In city centres there has been a sharp fall in the number of ______ species.",
+              "options": [
+                "bee",
+                "butterfly",
+                "bird",
+                "beetle"
+              ],
+              "answer": "B",
+              "explain": "原文：The same studies show a sharp fall in the number of butterfly species in city centres —— butterfly。",
+              "start": 130,
+              "end": 148,
+              "transcript": "The same studies show a sharp fall in the number of butterfly species in city centres."
+            },
+            {
+              "number": 37,
+              "tag": "填空题",
+              "stem": "Butterflies need large ______ areas of a particular plant.",
+              "options": [
+                "sheltered",
+                "continuous",
+                "sunny",
+                "elevated"
+              ],
+              "answer": "B",
+              "explain": "原文：Butterflies need large continuous areas of a particular plant, and cities are fragmented —— continuous。与 fragmented 构成反义提示。",
+              "start": 148,
+              "end": 166,
+              "transcript": "Butterflies need large continuous areas of a particular plant, and cities are fragmented."
+            },
+            {
+              "number": 38,
+              "tag": "填空题",
+              "stem": "Counting honey is limited because it tells us about ______ species only.",
+              "options": [
+                "rare",
+                "one",
+                "native",
+                "wild"
+              ],
+              "answer": "B",
+              "explain": "原文：Counting the honey produced by a hive is convenient, but it tells us about one species only —— one。",
+              "start": 190,
+              "end": 210,
+              "transcript": "Counting the honey produced by a hive is convenient, but it tells us about one species only."
+            },
+            {
+              "number": 39,
+              "tag": "填空题",
+              "stem": "Researchers should also count ______ species.",
+              "options": [
+                "farm",
+                "wild",
+                "large",
+                "migratory"
+              ],
+              "answer": "B",
+              "explain": "原文：we need to count wild species as well, and that is much slower work —— wild。",
+              "start": 210,
+              "end": 226,
+              "transcript": "If we want to know whether a city is good for pollinators in general, we need to count wild species as well, and that is much slower work."
+            },
+            {
+              "number": 40,
+              "tag": "填空题",
+              "stem": "Main lesson: different insects respond to different features, so a city can be a refuge for one group and a ______ for another.",
+              "options": [
+                "garden",
+                "barrier",
+                "shelter",
+                "source"
+              ],
+              "answer": "B",
+              "explain": "原文：a city can be a refuge for one group while it is a barrier for another —— barrier。与 refuge 对举，是讲座的核心结论。",
+              "start": 240,
+              "end": 268,
+              "transcript": "The lesson is that different insects respond to different features of the landscape, and that a city can be a refuge for one group while it is a barrier for another."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toefl",
+      "folder": "TOEFL-演示",
+      "label": "托福听力 · 演示",
+      "section": "Conversation / Lecture",
+      "source": "自编仿真题（TTS 合成）",
+      "license": "CC0-1.0（自编文本，可自由使用）",
+      "sourceUrl": "",
+      "rate": 0,
+      "notes": "托福听力重功能题与态度题：不只问\"说了什么\"，更问\"为什么这样说\"。",
+      "items": [
+        {
+          "name": "01-conversation-and-lecture",
+          "title": "托福听力 · 校园对话与艺术史讲座",
+          "script": [
+            "Listen to a conversation between a student and a university employee.",
+            "Hi, I am here about the room booking for our film club. We reserved a screening room for Thursday evening, but I just got an email saying the booking was cancelled. Let me look that up. Yes, I see it. The room is being used for an exam on Friday morning, and the facilities team needs the whole evening to set it up. Nobody told us. I am sorry about that. Do you want to move to another room, or another day? We would rather keep the day, because we have already advertised it. Then let me see what else is free on Thursday. The lecture hall in the science building is free, but it only has a projector, no sound system. We need sound. What about the small theatre in the arts building? It has a proper sound system and it seats a hundred and twenty. That would be ideal. Is it available? It is, from seven o'clock. One thing, though, you will need to send someone to collect the key from the security office before six, because the office closes at six. Also, the theatre is booked until half past six, so you cannot get in earlier than that. That is fine. Our film is only ninety minutes, so we will be finished by nine. Should I confirm by email? Yes, please reply to the cancellation email and say you accept the theatre. Then I will update the system. Question one. Why was the student's booking cancelled? Question two. Why does the student want to keep the same day? Question three. Why does the student reject the lecture hall? Question four. What must the student do before six o'clock? Question five. What does the employee imply about the theatre before half past six?",
+            "Listen to part of a lecture in an art history class.",
+            "Today I want to talk about a problem that faced every painter in Europe before the nineteenth century, and that is how to sell your work. In the Middle Ages, almost all painting was made for the church, or for a wealthy family, and the painter was paid like any other craftsman. The price depended on the materials, the amount of gold leaf, the size of the panel, and hardly at all on the reputation of the painter. Now, in the seventeenth century, in the Netherlands, something changed. There were very few churches commissioning art, and instead there was a large number of ordinary, fairly prosperous households who wanted pictures. So painters began to make paintings first and find buyers afterwards. This is a fundamental change, and it has consequences that are easy to miss. If you are painting for a known client, you can choose a subject that you know that client will like. If you are painting for a market, you have to guess what anonymous buyers will want. And what do you do if the guess is wrong? You are left with an unsold painting, which is money that you have already spent. Historians have found inventories from the period listing dozens of unsold paintings in a single studio. This is why Dutch painters of that era specialized so narrowly. One painter would produce only winter landscapes, another only seascapes, another only still lifes with flowers. Specializing was a way of reducing risk, because once you had a reputation for one kind of picture, buyers who wanted that kind of picture came to you. So when we look at those paintings today and admire the realism, the careful observation of light on a wall, we should also remember that this was a commercial strategy as much as an artistic one. Question six. What does the professor say about prices in the Middle Ages? Question seven. What change took place in the seventeenth century in the Netherlands? Question eight. Why does the professor mention inventories listing unsold paintings? Question nine. According to the professor, why did Dutch painters specialize so narrowly? Question ten. What is the professor's attitude towards the realism of Dutch painting? Question eleven. Why does the professor say this: \"And what do you do if the guess is wrong?\""
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "tag": "对话",
+              "stem": "Why was the student's booking cancelled?",
+              "options": [
+                "The film club did not pay the fee.",
+                "The room is needed for exam preparation the next morning.",
+                "The building is closed for repairs.",
+                "Another club booked it first."
+              ],
+              "answer": "B",
+              "explain": "原文：The room is being used for an exam on Friday morning, and the facilities team needs the whole evening to set it up. —— 因次日有考试、当晚要布场，选 B。",
+              "start": 14,
+              "end": 32,
+              "transcript": "The room is being used for an exam on Friday morning, and the facilities team needs the whole evening to set it up."
+            },
+            {
+              "number": 2,
+              "tag": "对话",
+              "stem": "Why does the student want to keep the same day?",
+              "options": [
+                "He has classes on other evenings.",
+                "The club has already advertised the event.",
+                "The other rooms are all too small.",
+                "The film can only be shown on Thursdays."
+              ],
+              "answer": "B",
+              "explain": "原文：We would rather keep the day, because we have already advertised it. —— 已经宣传出去了，选 B。",
+              "start": 36,
+              "end": 48,
+              "transcript": "We would rather keep the day, because we have already advertised it."
+            },
+            {
+              "number": 3,
+              "tag": "对话",
+              "stem": "Why does the student reject the lecture hall?",
+              "options": [
+                "It is too far from campus.",
+                "It is already booked.",
+                "It has no sound system, and the club needs sound.",
+                "It seats too few people."
+              ],
+              "answer": "C",
+              "explain": "原文：it only has a projector, no sound system. We need sound. —— 选 C。",
+              "start": 74,
+              "end": 88,
+              "transcript": "The lecture hall in the science building is free, but it only has a projector, no sound system. We need sound."
+            },
+            {
+              "number": 4,
+              "tag": "对话",
+              "stem": "What must the student do before six o'clock?",
+              "options": [
+                "Send a confirmation email.",
+                "Pay a deposit.",
+                "Collect the key from the security office.",
+                "Test the projector."
+              ],
+              "answer": "C",
+              "explain": "原文：you will need to send someone to collect the key from the security office before six, because the office closes at six. —— 选 C。确认邮件是另外的要求，不是六点前的动作。",
+              "start": 106,
+              "end": 126,
+              "transcript": "You will need to send someone to collect the key from the security office before six, because the office closes at six."
+            },
+            {
+              "number": 5,
+              "tag": "对话·推断",
+              "stem": "What does the employee imply about the theatre before half past six?",
+              "options": [
+                "It is too expensive to book.",
+                "It is not available for the club to enter.",
+                "It has no lighting.",
+                "It is reserved for staff only."
+              ],
+              "answer": "B",
+              "explain": "原文：the theatre is booked until half past six, so you cannot get in earlier than that. —— 六点半前进不去，这是\"推断题\"：字面只说 booked，需推出\"不适合提前入场\"。",
+              "start": 126,
+              "end": 144,
+              "transcript": "The theatre is booked until half past six, so you cannot get in earlier than that."
+            },
+            {
+              "number": 6,
+              "tag": "讲座",
+              "stem": "What does the professor say about prices in the Middle Ages?",
+              "options": [
+                "They depended mainly on the painter's reputation.",
+                "They depended on materials and size, and hardly on reputation.",
+                "They were set by the church.",
+                "They were the same for every painter."
+              ],
+              "answer": "B",
+              "explain": "原文：The price depended on the materials, the amount of gold leaf, the size of the panel, and hardly at all on the reputation of the painter. —— 选 B。注意 hardly at all 是很强的否定。",
+              "start": 175,
+              "end": 200,
+              "transcript": "The price depended on the materials, the amount of gold leaf, the size of the panel, and hardly at all on the reputation of the painter."
+            },
+            {
+              "number": 7,
+              "tag": "讲座",
+              "stem": "What change took place in the seventeenth century in the Netherlands?",
+              "options": [
+                "Churches began to buy more art.",
+                "Painters began to make paintings first and find buyers afterwards.",
+                "Painters stopped using gold leaf.",
+                "Artists formed the first professional schools."
+              ],
+              "answer": "B",
+              "explain": "原文：painters began to make paintings first and find buyers afterwards. This is a fundamental change —— 选 B，这是整篇讲座的核心转折。",
+              "start": 220,
+              "end": 240,
+              "transcript": "So painters began to make paintings first and find buyers afterwards. This is a fundamental change, and it has consequences that are easy to miss."
+            },
+            {
+              "number": 8,
+              "tag": "讲座·功能",
+              "stem": "Why does the professor mention inventories listing unsold paintings?",
+              "options": [
+                "To show that Dutch painters were unproductive.",
+                "To give evidence that painting for an unknown market was risky.",
+                "To explain how paintings were priced.",
+                "To prove that inventories were rare."
+              ],
+              "answer": "B",
+              "explain": "功能题。前一句设问：And what do you do if the guess is wrong? You are left with an unsold painting... 接着用库存清单作证据。故作用是\"证明为匿名市场作画有风险\"，选 B。",
+              "start": 268,
+              "end": 296,
+              "transcript": "You are left with an unsold painting, which is money that you have already spent. Historians have found inventories from the period listing dozens of unsold paintings in a single studio."
+            },
+            {
+              "number": 9,
+              "tag": "讲座",
+              "stem": "According to the professor, why did Dutch painters specialize so narrowly?",
+              "options": [
+                "Because guild rules required it.",
+                "Because it was a way of reducing risk.",
+                "Because they lacked training in other subjects.",
+                "Because buyers preferred foreign artists."
+              ],
+              "answer": "B",
+              "explain": "原文：Specializing was a way of reducing risk, because once you had a reputation for one kind of picture, buyers who wanted that kind of picture came to you. —— 选 B。",
+              "start": 300,
+              "end": 330,
+              "transcript": "Specializing was a way of reducing risk, because once you had a reputation for one kind of picture, buyers who wanted that kind of picture came to you."
+            },
+            {
+              "number": 10,
+              "tag": "讲座·态度",
+              "stem": "What is the professor's attitude towards the realism of Dutch painting?",
+              "options": [
+                "He believes it should be admired purely as art.",
+                "He thinks it was an artistic achievement that was also a commercial strategy.",
+                "He considers it less important than Italian painting.",
+                "He doubts that it was technically difficult."
+              ],
+              "answer": "B",
+              "explain": "态度题。结尾：when we look at those paintings today and admire the realism... we should also remember that this was a commercial strategy as much as an artistic one. —— 两者并重，选 B。",
+              "start": 350,
+              "end": 382,
+              "transcript": "So when we look at those paintings today and admire the realism, the careful observation of light on a wall, we should also remember that this was a commercial strategy as much as an artistic one."
+            },
+            {
+              "number": 11,
+              "tag": "讲座·重听",
+              "stem": "Why does the professor say: \"And what do you do if the guess is wrong?\"",
+              "options": [
+                "To ask the class for a definition.",
+                "To introduce the consequence of producing for an unknown market.",
+                "To change the subject.",
+                "To criticize a particular painter."
+              ],
+              "answer": "B",
+              "explain": "重听题。该问句是修辞性设问，随后自答 You are left with an unsold painting，用来引出\"为匿名市场生产\"的后果（积压与资金占用），选 B。",
+              "start": 258,
+              "end": 272,
+              "transcript": "And what do you do if the guess is wrong?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

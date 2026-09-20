@@ -1,0 +1,13 @@
+{
+    "title":  "雅思听力 · Section 1 社区游泳馆咨询（填空）",
+    "exam":  "ielts",
+    "section":  "Section 1 / Section 4",
+    "source":  "自编仿真题（TTS 合成）",
+    "license":  "CC0-1.0（自编文本，可自由使用）",
+    "sourceUrl":  "",
+    "duration":  207.46,
+    "sampleRate":  16000,
+    "notes":  "Section 1 为表单填空题（生活场景），Section 4 为学术讲座填空题。填空题答案已标注在选项位置，便于自测。",
+    "importedAt":  "2026-09-19",
+    "generator":  "tools/make-demo.ps1 (Windows SAPI TTS, 词级时间戳)"
+}

@@ -1,0 +1,265 @@
+{
+  "title": "六级听力 · 长对话与讲座（3 篇）",
+  "exam": "cet6",
+  "section": "Section B / C",
+  "source": "自编仿真题（TTS 合成）",
+  "license": "CC0-1.0（自编文本，可自由使用）",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "长对话1",
+      "stem": "What did the man say about the interview questions?",
+      "options": [
+        "They were too difficult to answer.",
+        "They were not difficult, but he could not tell if they liked his answers.",
+        "They were all about salary.",
+        "They repeated his written application."
+      ],
+      "answer": "B",
+      "explain": "原文：The questions were not difficult, but I could not tell whether they liked my answers. —— but 前后各取一半，选 B。",
+      "start": 17.29,
+      "end": 23.38,
+      "transcript": "The questions were not difficult, but I could not tell whether they liked my answers."
+    },
+    {
+      "number": 2,
+      "tag": "长对话1",
+      "stem": "Why did the man say his team chose that method?",
+      "options": [
+        "Because it was the most accurate.",
+        "Because it was the cheapest option at the time.",
+        "Because their professor recommended it.",
+        "Because the data were already available."
+      ],
+      "answer": "B",
+      "explain": "原文：I said we chose it because it was the cheapest option at the time. —— 选 B。他同时承认重做会多在\"设计阶段\"下功夫，那是改进方向而非当初理由。",
+      "start": 37.9,
+      "end": 46.7,
+      "transcript": "I said we chose it because it was the cheapest option at the time, and that if I did it again I would spend more time on the design stage."
+    },
+    {
+      "number": 3,
+      "tag": "长对话1",
+      "stem": "How did the man answer the question about salary?",
+      "options": [
+        "He refused to discuss it at all.",
+        "He named a figure immediately.",
+        "He said he would rather discuss it once he understood the responsibilities better.",
+        "He asked the interviewers what they usually pay."
+      ],
+      "answer": "C",
+      "explain": "原文：They asked what my expectations were, and I said I would rather discuss that once I understand the responsibilities better. —— 选 C，既不回避也没先报数。",
+      "start": 49.93,
+      "end": 58.32,
+      "transcript": "They asked what my expectations were, and I said I would rather discuss that once I understand the responsibilities better."
+    },
+    {
+      "number": 4,
+      "tag": "长对话1",
+      "stem": "Why is the man unsure about the job?",
+      "options": [
+        "The salary is too low.",
+        "The office is far away and the team seemed quite small.",
+        "He has been offered a better position.",
+        "He did not like the interviewers."
+      ],
+      "answer": "B",
+      "explain": "原文：The office is an hour away by train, and the team seemed quite small. —— 两个原因并列，选 B。",
+      "start": 77.19,
+      "end": 82.81,
+      "transcript": "The office is an hour away by train, and the team seemed quite small."
+    },
+    {
+      "number": 5,
+      "tag": "长对话2",
+      "stem": "What is the woman worried about?",
+      "options": [
+        "She cannot find enough material.",
+        "She has collected a lot of material but cannot decide what her argument is.",
+        "She has missed the deadline.",
+        "She disagrees with her professor."
+      ],
+      "answer": "B",
+      "explain": "原文：I have collected a lot of material, but I cannot decide what my argument is. —— 注意不是材料不够（A 反向干扰），是论点不明确。",
+      "start": 122.06,
+      "end": 128.27,
+      "transcript": "I have collected a lot of material, but I cannot decide what my argument is."
+    },
+    {
+      "number": 6,
+      "tag": "长对话2",
+      "stem": "According to the professor, what is a good argument for the essay?",
+      "options": [
+        "Remote work is always more productive.",
+        "The existing studies are not really comparable, so we should ask why the evidence is hard to compare.",
+        "Only the most recent study should be trusted.",
+        "Productivity cannot be measured at all."
+      ],
+      "answer": "B",
+      "explain": "原文：Instead of asking whether remote work is more productive, you could ask why the evidence is so hard to compare. —— 教授把\"选边站\"改成\"方法论批评\"，选 B。",
+      "start": 156.61,
+      "end": 164.19,
+      "transcript": "Instead of asking whether remote work is more productive, you could ask why the evidence is so hard to compare."
+    },
+    {
+      "number": 7,
+      "tag": "长对话2",
+      "stem": "Why should the woman mention the two studies she leaves out?",
+      "options": [
+        "To show she made a choice rather than simply listing what she found.",
+        "To make the essay longer.",
+        "Because the professor wrote them.",
+        "Because they are the most reliable."
+      ],
+      "answer": "A",
+      "explain": "原文：That shows the reader that you made a choice rather than simply listing what you found. —— 选 A。",
+      "start": 179.1,
+      "end": 184.79,
+      "transcript": "That shows the reader that you made a choice rather than simply listing what you found."
+    },
+    {
+      "number": 8,
+      "tag": "长对话2",
+      "stem": "What does the professor ask the woman to send first?",
+      "options": [
+        "The full draft.",
+        "A list of all six studies.",
+        "An outline.",
+        "A reading report."
+      ],
+      "answer": "C",
+      "explain": "原文：Send me an outline by Friday, and the full draft a week after that. —— 先交提纲，选 C。",
+      "start": 186.34,
+      "end": 191.95,
+      "transcript": "Send me an outline by Friday, and the full draft a week after that."
+    },
+    {
+      "number": 9,
+      "tag": "讲座1",
+      "stem": "What question are historians of science now more interested in?",
+      "options": [
+        "Which discovery was the most important.",
+        "Not what was discovered but who was allowed to do the discovering.",
+        "How much early instruments cost.",
+        "Why antibiotics were invented so late."
+      ],
+      "answer": "B",
+      "explain": "原文：not what was discovered but who was allowed to do the discovering. —— 选 B。",
+      "start": 238.23,
+      "end": 246.92,
+      "transcript": "Historians of science have become more interested in a different question, not what was discovered but who was allowed to do the discovering."
+    },
+    {
+      "number": 10,
+      "tag": "讲座1",
+      "stem": "Where did many women carry out research in the nineteenth century?",
+      "options": [
+        "In universities.",
+        "In private houses.",
+        "In government laboratories.",
+        "In hospitals abroad."
+      ],
+      "answer": "B",
+      "explain": "原文：a surprising amount of research was carried out in private houses. Women who could not enter a university often worked with a brother or a father, or set up a small laboratory of their own. —— 选 B。",
+      "start": 255.92,
+      "end": 268.55,
+      "transcript": "Yet a surprising amount of research was carried out in private houses. Women who could not enter a university often worked with a brother or a father, or set up a small laboratory of their own."
+    },
+    {
+      "number": 11,
+      "tag": "讲座1",
+      "stem": "What happened to women's contributions in publications?",
+      "options": [
+        "They were published under a pen name chosen by the author.",
+        "They were frequently published without their names or credited to a male relative.",
+        "They were refused by all journals.",
+        "They were published only in foreign languages."
+      ],
+      "answer": "B",
+      "explain": "原文：Their contributions were frequently published without their names, or credited to a male relative. —— 选 B。",
+      "start": 267.75,
+      "end": 274.57,
+      "transcript": "Their contributions were frequently published without their names, or credited to a male relative."
+    },
+    {
+      "number": 12,
+      "tag": "讲座1",
+      "stem": "Why does the speaker mention the spread of infection within families?",
+      "options": [
+        "To show that early medicine was effective.",
+        "As an example of a question that was neglected because of who set the research agenda.",
+        "To prove that hospitals were dangerous.",
+        "To explain why antibiotics were discovered."
+      ],
+      "answer": "B",
+      "explain": "原文逻辑：Research agendas reflect the experience of the people who set them. 接着举例\"从未管理过家庭的男性研究者很少关注家庭内感染传播\"。该例是论点的证据，选 B。",
+      "start": 285.35,
+      "end": 295.51,
+      "transcript": "A field studied mainly by men who had never managed a household, for example, paid very little attention to the spread of infection within families."
+    },
+    {
+      "number": 13,
+      "tag": "讲座2",
+      "stem": "What does the speaker say about the eight second figure?",
+      "options": [
+        "It was proved by a large study.",
+        "It has no reliable source and appears to come from a marketing report.",
+        "It refers to goldfish rather than people.",
+        "It was measured in nineteen ninety."
+      ],
+      "answer": "B",
+      "explain": "原文：This figure is repeated everywhere and it has no reliable source. It appears to have started in a marketing report and then been copied from one article to the next. —— 选 B。",
+      "start": 342.09,
+      "end": 352.9,
+      "transcript": "This figure is repeated everywhere and it has no reliable source. It appears to have started in a marketing report and then been copied from one article to the next."
+    },
+    {
+      "number": 14,
+      "tag": "讲座2",
+      "stem": "According to the speaker, what has actually changed?",
+      "options": [
+        "The length of attention.",
+        "The stability of attention.",
+        "The speed of reading.",
+        "The number of hours students study."
+      ],
+      "answer": "B",
+      "explain": "原文：There is a real and well documented change, but it is not about the length of attention. It is about its stability. —— 否定前者、肯定后者，选 B。",
+      "start": 354.97,
+      "end": 363.44,
+      "transcript": "There is a real and well documented change, but it is not about the length of attention. It is about its stability."
+    },
+    {
+      "number": 15,
+      "tag": "讲座2",
+      "stem": "What did the experiment with phones show?",
+      "options": [
+        "Silent phones do not affect performance.",
+        "Students who left their phones in another room did significantly better.",
+        "Students perform better with music.",
+        "Phones improve multitasking skills."
+      ],
+      "answer": "B",
+      "explain": "原文：students who left their phones in another room performed significantly better than students who kept them on the desk, even when the phones were silent and face down. —— 注意 even when 强调\"即使静音也照样有影响\"，故 A 错、B 对。",
+      "start": 389.48,
+      "end": 400.91,
+      "transcript": "In one experiment, students who left their phones in another room performed significantly better than students who kept them on the desk, even when the phones were silent and face down."
+    },
+    {
+      "number": 16,
+      "tag": "讲座2",
+      "stem": "What question does the speaker suggest is more useful?",
+      "options": [
+        "How long can you concentrate?",
+        "How well can you protect your concentration?",
+        "How many devices do you own?",
+        "How fast can you read?"
+      ],
+      "answer": "B",
+      "explain": "原文：the useful question is not how long can you concentrate, but how well can you protect your concentration. —— not...but... 结构，答案在 but 后。",
+      "start": 382.47,
+      "end": 390.28,
+      "transcript": "So the useful question is not how long can you concentrate, but how well can you protect your concentration."
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "title": "六级真题 · 2024年6月 第2套",
+  "exam": "cet6",
+  "section": "",
+  "paper": "2024年6月 第2套",
+  "source": "Ysoseri1224/CET-6-Listening-10-Years-Resources-and-Analysis（Zenodo 收录）",
+  "license": "上传者声明 CC BY 4.0（非考试委员会声明）",
+  "sourceUrl": "https://doi.org/10.5281/zenodo.20474009",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Read numerous comments users put online",
+        "Blended all his food without using a machine",
+        "Searched for the state-of-the-art models of blenders",
+        "Did thorough research on the price of kitchen appliances"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "I read through maybe hundreds of online user reviews."
+    },
+    {
+      "number": 2,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Eating any blended food",
+        "Buying a blender herself",
+        "Using machines to do her cooking",
+        "Making soups and juices for herself"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "I have never thought of getting one myself."
+    },
+    {
+      "number": 3,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Cooking every meal creatively in the kitchen",
+        "Paying due attention to his personal hygiene",
+        "Eating breakfast punctually every morning",
+        "Making his own fresh fruit juice regularly"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "I make a fresh fruit juice in the morning, maybe not every morning, but 3 or 4 times a week, and it feels fantastic."
+    },
+    {
+      "number": 4,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "One-tenth of it is sugar",
+        "It looks healthy and attractive",
+        "One’s fancy may be tickled by it",
+        "It contains an assortment of nutrients"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Did you know that store-bought juice is like 10% sugar?"
+    },
+    {
+      "number": 5,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "How he has made himself popular as the mayor of Berkton",
+        "How the residents will turn Berkton into a tourist attraction",
+        "How charming he himself considers the village of Berkton to be",
+        "How he has led people of Berkton to change the village radically"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Berkton has become one of the most popular tourist destinations in the country, and this has happened under your watch."
+    },
+    {
+      "number": 6,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It was developed only to a limited extent",
+        "It was totally isolated as a sleepy village",
+        "It was relatively unknown to the outside",
+        "It was endowed with rare natural resources"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "But how did this change happen? In about 10 years, Berkton has gone from a relatively unheard of sleepy village to a must-see destination."
+    },
+    {
+      "number": 7,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The people in Berkton were in a harmonious atmosphere",
+        "The majority of residents lived in harmony with their neighbors",
+        "The majority of residents enjoyed cosy housing conditions",
+        "All the houses in Berkton looked aesthetically similar"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The transformation commenced in a town hall meeting in spring 2008 over 10 years ago now, when an overwhelming majority of neighbors voted in favor of \"Motion 836\"."
+    },
+    {
+      "number": 8,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They have helped boost the local economy",
+        "They have made the residents unusually proud",
+        "They have contributed considerably to its popularity",
+        "They have brought happiness to everyone in the village"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The tourists we receive are a blessing, as they have completely revitalized our local economy."
+    },
+    {
+      "number": 9,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They have created the smallest remote-controlled walking robot in the world",
+        "They are going to publish their research findings in the journal Science Robotics",
+        "They are the first to build a robot that can bend, crawl, walk, turn and even jump",
+        "They are engaged in research on a remote-controlled robot which uses special power"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Researchers described it as the smallest ever remote-controlled walking robot."
+    },
+    {
+      "number": 10,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It changes its shape by complex hardware",
+        "It is operated by a special type of tiny motor",
+        "It moves from one place to another by memory",
+        "It is powered by the elastic property of its body"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The engineers said this is because the robot is powered by the elastic property of its body."
+    },
+    {
+      "number": 11,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Replace humans in exploratory tasks",
+        "Perform tasks in tightly confined spaces",
+        "Explore the structure of clogged arteries",
+        "Assist surgeons in highly complex surgery"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "While the research is still in the exploratory phase, the team believes that technology could lead to micro-sized robots that can perform practical tasks in tightly confined spaces."
+    },
+    {
+      "number": 12,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "She threw up in the bathroom",
+        "She slept during the entire ride",
+        "She dozed off for a few minutes",
+        "She boasted of her marathon race"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "On one very rough ferry crossing, on the route to the Isles of Scilly, for example, my traveling companion spent the entire 3-hour ride throwing up in the bathroom, while I dozed happily on a plastic chair."
+    },
+    {
+      "number": 13,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They are mostly immune to cognitive impairment",
+        "They can sleep soundly during a rough ride at sea",
+        "They are genetically determined to need less sleep",
+        "They constitute about 13 percent of the population"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "According to a study that came out in March, elite sleepers have rare genetic changes which means they can sleep fewer hours than mere mortals, without any risk of cognitive decline."
+    },
+    {
+      "number": 14,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Whether there is a way to reach elite status",
+        "Whether it is possible to modify one’s genes",
+        "Whether having a baby impacts one’s passion",
+        "Whether one can train themselves to sleep less"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "It may not be possible to change your own genes, but can you train yourself to need less sleep? Is there a non-biological way to reach elite sleeper status? I have spent the past year trying to answer that question."
+    },
+    {
+      "number": 15,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "It is in fact quite possible to nurture a passion for sleep",
+        "Babies can severely disrupt their parents’ sleep patterns",
+        "Being forced to rise early differs from being an early bird",
+        "New parents are forced to jump out of bed at the crack of dawn"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "After a year of tough scientific study, however, I have discovered being forced to get up early in the morning is very different from being an early bird."
+    },
+    {
+      "number": 16,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "We have poor awareness of how many controversial issues are being debated",
+        "No one knows better than yourself what you are thinking about at the moment",
+        "No one can change your opinions more than those who speak in a convincing tone",
+        "We are likely to underestimate how much we can be swayed by a convincing article"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "And yet, a new paper in the Quarterly Journal of Experimental Psychology suggests that we actually have very poor awareness of our own belief change, meaning that we will tend to underestimate how much we've been swayed by a convincing article."
+    },
+    {
+      "number": 17,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Their belief about physical punishment changed",
+        "Their memory pushed them toward a current belief",
+        "The memory of their initial belief came back to them",
+        "Their experiences of physical punishment haunted them"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The students' belief about physical punishment changed when they read a text that argued against their own initial position."
+    },
+    {
+      "number": 18,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "They apparently have little to do with moderate beliefs",
+        "They don’t reflect the changes of view on physical punishment",
+        "They may not apply to changes to extreme or deeply held beliefs",
+        "They are unlikely to alter people’s position without more evidence"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The researchers concede that this research was about changes to mostly moderate beliefs."
+    },
+    {
+      "number": 19,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "American moms have been increasingly inclined to live alone",
+        "The American population has been on the rise in the past 25 years",
+        "American motherhood has actually been on the decline",
+        "The fertility rates in America have in fact been falling sharply"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "According to my analysis of data from the Census Bureau, the decline of American motherhood is real, occurring very quickly, and may continue for some time yet."
+    },
+    {
+      "number": 20,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "More new mothers tend to take greater care of their children",
+        "More new mothers are economically able to raise children",
+        "A larger proportion of women take pride in their children",
+        "A larger proportion of women really enjoy motherhood"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "One positive consequence of this age shift is that a larger proportion of new mothers are economically prepared to raise children."
+    },
+    {
+      "number": 21,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The meaning of motherhood has changed considerably",
+        "More and more mothers go shopping to treat themselves",
+        "More mothers have adult children celebrating the holiday",
+        "The number of American mothers has been growing steadily"
+      ],
+      "answer": "C",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "But one factor might be that the proportion of women who are the mothers of adult children is rising and those adult children may spend more generously when it comes to celebrating the moms they no longer live with."
+    },
+    {
+      "number": 22,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Add to indoor toxic pollutants",
+        "Absorb poisonous chemicals",
+        "Beautify the home environment",
+        "Soak up surrounding moisture"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "Since NASA published a paper in 1989 claiming that house plants can soak up pollution and toxic chemicals, businesses and homeowners have increasingly invested in greenery to help clean their air."
+    },
+    {
+      "number": 23,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "NASA did experiments in sealed containers resembling the super-insulated offices",
+        "It was based on experiments under conditions unlike those in most homes or offices",
+        "NASA conducted tests in outer space whose environment is different from ours",
+        "It drew its conclusion without any contrastive data from other experiments"
+      ],
+      "answer": "B",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "The problem lies in the fact that NASA conducted their tests in sealed containers that do not simulate the conditions in most people's homes or offices."
+    },
+    {
+      "number": 24,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "Natural ventilation proves much more efficient for cleaning the air than house plants",
+        "House plants disperse chemical compounds more quickly with people moving around",
+        "Natural ventilation turns out to be most effective with doors and windows wide open",
+        "House plants in a normal environment rarely have any adverse impact on the air"
+      ],
+      "answer": "A",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "However, a new evaluation of dozens of studies spanning 30 years found that house plants in a normal environment have little impact."
+    },
+    {
+      "number": 25,
+      "tag": "",
+      "stem": "",
+      "options": [
+        "The root cause for misinterpretations of scientific findings",
+        "The difficulty in understanding what’s actually happening",
+        "The steps to be taken in arriving at any conclusion with certainty",
+        "The necessity of continually re-examining and challenging findings"
+      ],
+      "answer": "D",
+      "explain": "",
+      "start": null,
+      "end": null,
+      "transcript": "But it's also a great example of how scientific research should continually re-examine and question findings to get closer to the ground truth of understanding what's actually happening."
+    }
+  ]
+}

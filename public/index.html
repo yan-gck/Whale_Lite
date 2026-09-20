@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whale Lite · 四六级 / 雅思 / 托福</title>
+<!-- ⚠️ 必须用【相对路径】：APK 里页面地址是 file:///android_asset/www/index.html，
+     写成 "/style.css" 会被解析成 file:///style.css（不是 assets 根目录！），
+     结果是装到手机上既没有样式也没有脚本、整个 App 是死的。
+     相对路径在桌面服务（http://…/）下同样可用。 -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 自定义背景层（个性化）：图片/渐变由 app.js 按设置填进来 -->
+<div class="bg-layer" id="bgLayer" hidden></div>
+
+<div class="app">
+
+  <!-- ============ 侧边栏：课程库 ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>Whale Lite</span>
+      </div>
+      <button class="icon-btn" id="btnSidebar" title="收起课程列表（Tab 键也可以）">«</button>
+    </div>
+
+    <div class="filter-box">
+      <input id="search" type="search" placeholder="搜索标题 / 来源 / 年份…" autocomplete="off">
+      <div class="chips" id="examChips">
+        <button class="chip active" data-exam="all">全部</button>
+        <button class="chip" data-exam="cet4">四级</button>
+        <button class="chip" data-exam="cet6">六级</button>
+        <button class="chip" data-exam="ielts">雅思</button>
+        <button class="chip" data-exam="toefl">托福</button>
+        <button class="chip" data-exam="other">其他</button>
+      </div>
+    </div>
+
+    <div class="lesson-list" id="lessonList">
+      <div class="empty-hint">正在扫描 audio/ 目录…</div>
+    </div>
+
+    <div class="sidebar-foot">
+      <button class="ghost-btn" id="btnReload" title="重新扫描 audio/ 目录">↻ 重新扫描素材</button>
+      <div class="root-path" id="rootPath"></div>
+    </div>
+  </aside>
+
+  <!-- ============ 主区 ============ -->
+  <main class="main">
+
+    <header class="topbar">
+      <div class="topbar-title">
+        <h1 id="lessonTitle">未选择课程</h1>
+        <div class="meta-row" id="lessonMeta"></div>
+      </div>
+      <div class="topbar-actions">
+        <div class="mode-switch" id="modeSwitch" title="实战：先做题再看原文；练耳朵：不答题，直接边听边看原文滚动">
+          <button type="button" data-mode="exam">实战</button>
+          <button type="button" data-mode="listen">练耳朵</button>
+        </div>
+        <button class="ghost-btn" id="btnPaper" title="查看听力原题（表格/笔记型填空题需要看版式）">原题</button>
+        <button class="ghost-btn" id="btnToggleQuestions" title="显示/隐藏题目面板 (Q)">题目</button>
+        <button class="ghost-btn" id="btnRaw" title="查看完整原文文本">原文</button>
+        <div class="more-menu" id="moreMenu">
+          <button class="ghost-btn" id="btnMore" title="素材与整理相关的功能">更多 ▾</button>
+          <div class="more-pop" id="morePop" hidden>
+            <button class="ghost-btn" id="btnEdit" title="修订原文与题目（转写和 OCR 会有错，可自己改）">修订原文 / 题目</button>
+            <button class="ghost-btn" id="btnImport" title="导入自己的听力资料（音频/原文/解析/原题）">导入我的资料</button>
+            <button class="ghost-btn" id="btnPacks" title="补充包：批量导入的听力材料包（雅思/六级全量）">补充包</button>
+            <button class="ghost-btn" id="btnFeedback" title="遇到问题？这里可以直接找到我们">问题反馈</button>
+          </div>
+        </div>
+        <button class="ghost-btn" id="btnSettings" title="外观与学习设置（背景、主题色、字号、睡眠定时、快捷键）">设置</button>
+      </div>
+    </header>
+
+    <!-- 修订模式工具条 -->
+    <div class="edit-bar" id="editBar" hidden>
+      <span class="edit-hint">
+        <b>修订模式</b>：直接点击原文或题目文字即可修改。改动保存到独立文件，
+        <b>不会覆盖</b>机器生成的版本，随时可还原。
+      </span>
+      <div class="edit-actions">
+        <span class="edit-count" id="editCount"></span>
+        <button class="primary-btn" id="btnSaveEdit">保存修订</button>
+        <button class="ghost-btn" id="btnRevertEdit" title="丢弃修订，还原成机器生成的版本">还原</button>
+        <button class="ghost-btn" id="btnExitEdit">退出修订</button>
+      </div>
+    </div>
+
+    <!-- 做题流程条：阶段指示 + 提交 -->
+    <div class="exam-bar" id="examBar">      <div class="exam-steps">
+        <span class="step" id="stepAnswer" data-phase="answering">
+          <b>1</b> 做题
+        </span>
+        <span class="step-arrow">→</span>
+        <span class="step" id="stepReview" data-phase="reviewing">
+          <b>2</b> 对答案 · 看原文
+        </span>
+      </div>
+      <div class="exam-actions">
+        <span class="exam-progress" id="examProgress"></span>
+        <button class="primary-btn" id="btnSubmit">提交并批改</button>
+        <button class="ghost-btn" id="btnReset" title="清空作答，重新做">重做</button>
+      </div>
+    </div>
+
+    <!-- 续听提示条：独立一行，不压住原文（原文区在手机上本来就不高） -->
+    <div class="resume-bar" id="resumeBar" hidden></div>
+
+    <!-- 歌词 / 原文滚动区 -->
+    <section class="lyrics-wrap" id="lyricsWrap">
+      <div class="section-nav" id="sectionNav"></div>
+      <div class="exam-veil" id="examVeil" hidden>
+        <div class="exam-veil-card">
+          <div class="exam-veil-icon">🎧</div>
+          <div class="exam-veil-title">先听，后看原文</div>
+          <div class="exam-veil-sub">原文已隐藏，避免边听边看失去练习意义<br>做完题点「提交并批改」后显示</div>
+        </div>
+      </div>
+      <div class="lyrics" id="lyrics">
+        <div class="empty-hint big">
+          <p>还没有加载课程。</p>
+          <p class="sub">把听力材料放进 <code>audio/</code> 目录后点击左侧「重新扫描素材」，
+             或运行 <code>node tools/make-demo.js</code> 生成一份可直接播放的示例。</p>
+        </div>
+      </div>
+
+      <button class="follow-btn" id="btnFollow" title="自动跟随滚动 (F)">自动滚动：开</button>
+      <button class="jump-btn" id="btnJumpNow" title="回到当前播放位置 (J)">回到当前 ↓</button>
+    </section>
+
+    <!-- 播放控制条 -->
+    <section class="player">
+      <div class="progress-row">
+        <span class="time" id="timeNow">00:00</span>
+        <div class="progress" id="progress" title="拖动可跳转（松手才跳，避免拖一半就断）">
+          <div class="progress-track">
+            <div class="progress-buffer" id="progressBuffer"></div>
+            <div class="progress-played" id="progressPlayed"></div>
+            <div class="progress-ab" id="progressAB"></div>
+            <div class="progress-thumb" id="progressThumb"></div>
+          </div>
+          <span class="seek-bubble" id="seekBubble" hidden></span>
+        </div>
+        <span class="time" id="timeTotal">00:00</span>
+      </div>
+
+      <div class="control-row">
+        <div class="ctl-group left">
+          <button class="icon-btn big" id="btnPrevLine" title="上一句 (↑)">⏮</button>
+          <button class="icon-btn big" id="btnBack5" title="后退 5 秒 (←)">−5s</button>
+          <button class="icon-btn play" id="btnPlay" title="播放 / 暂停 (空格)">▶</button>
+          <button class="icon-btn big" id="btnFwd5" title="前进 5 秒 (→)">+5s</button>
+          <button class="icon-btn big" id="btnNextLine" title="下一句 (↓)">⏭</button>
+        </div>
+
+        <div class="ctl-group center">
+          <label class="ctl-label" title="播放速度">速度
+            <select id="speed">
+              <option value="0.5">0.5×</option>
+              <option value="0.75">0.75×</option>
+              <option value="1" selected>1.0×</option>
+              <option value="1.25">1.25×</option>
+              <option value="1.5">1.5×</option>
+              <option value="1.75">1.75×</option>
+              <option value="2">2.0×</option>
+            </select>
+          </label>
+
+          <label class="ctl-label" title="重复播放方式">循环
+            <select id="repeatMode">
+              <option value="off" selected>不循环</option>
+              <option value="line">循环当前句</option>
+              <option value="ab">循环 A→B 区间</option>
+            </select>
+          </label>
+
+          <button class="ghost-btn" id="btnSetA" title="把当前位置记为循环起点（A 点）">设置循环起点</button>
+          <!-- 「终点 / 清除」在没设起点之前没有意义，窄屏上白白占掉一整行。
+               设了起点之后由 updateLoopUI() 给 .app 加 has-ab 类让它们出现（见 style.css）。 -->
+          <button class="ghost-btn ab-extra" id="btnSetB" title="把当前位置记为循环终点（B 点）">设置循环终点</button>
+          <button class="ghost-btn ab-extra" id="btnClearAB" title="取消 A→B 循环区间">清除循环</button>
+          <span class="ab-readout" id="abReadout"></span>
+        </div>
+
+        <div class="ctl-group right">
+          <label class="ctl-label" title="显示模式">显示
+            <select id="displayMode">
+              <option value="both" selected>译文/原文对照</option>
+              <option value="original">仅原文</option>
+            </select>
+          </label>
+          <button class="ghost-btn" id="btnBlur" title="听写模式：隐藏原文 (B)">听写模式</button>
+          <label class="ctl-label" title="到点自动暂停，适合睡前听">定时
+            <select id="sleepTimer">
+              <option value="0" selected>关闭</option>
+              <option value="10">10 分钟</option>
+              <option value="20">20 分钟</option>
+              <option value="30">30 分钟</option>
+              <option value="45">45 分钟</option>
+              <option value="60">60 分钟</option>
+              <option value="-1">播完本课</option>
+            </select>
+          </label>
+          <span class="sleep-left" id="sleepLeft"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 题目面板 ============ -->
+  <aside class="qpanel" id="qpanel">
+    <div class="qpanel-head">
+      <span>题目</span>
+      <div class="qpanel-head-right">
+        <span class="q-counter" id="qCounter"></span>
+        <button class="icon-btn panel-close" id="btnCloseQpanel" title="收起题目面板">✕</button>
+      </div>
+    </div>
+    <div class="qpanel-body" id="qBody">
+      <div class="empty-hint">该课程暂无题目数据。</div>
+    </div>
+  </aside>
+
+  <!-- 抽屉遮罩：**必须放在 .app 里面**。
+       它原来在主区外面，于是 `.app.mobile-qpanel-open .sheet-backdrop` 这类选择器
+       永远匹配不到 —— 遮罩从第 8 轮加进来就一直是死代码，点空白处关不掉抽屉。
+       （position:fixed 脱离文档流，放在 grid 容器里不会挤压任何一栏。） -->
+  <div class="sheet-backdrop" id="sheetBackdrop"></div>
+</div>
+
+<!-- ============ 原文全文本抽屉 ============ -->
+<div class="drawer" id="rawDrawer" hidden>
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <strong id="rawTitle">完整原文</strong>
+      <div>
+        <button class="ghost-btn" id="btnDownloadRaw" title="下载原文（粘贴给大模型做解析时用）">下载原文</button>
+        <button class="ghost-btn" id="btnCopyRaw">复制</button>
+        <button class="icon-btn" id="btnCloseRaw" title="关闭">✕</button>
+      </div>
+    </div>
+    <pre class="raw-text" id="rawText"></pre>
+  </div>
+</div>
+
+<!-- ============ 原题抽屉 ============ -->
+<div class="drawer" id="paperDrawer" hidden>
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <strong id="paperTitle">听力原题</strong>
+      <div>
+        <button class="ghost-btn" id="btnDownloadPaper" title="下载原题文本">下载</button>
+        <button class="ghost-btn" id="btnCopyPaper">复制</button>
+        <button class="icon-btn" id="btnClosePaper" title="关闭">✕</button>
+      </div>
+    </div>
+    <pre class="raw-text" id="paperText"></pre>
+  </div>
+</div>
+
+<!-- ============ 导入资料抽屉 ============ -->
+<div class="drawer" id="importDrawer" hidden>
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <strong>导入听力资料</strong>
+      <button class="icon-btn" id="btnCloseImport" title="关闭">✕</button>
+    </div>
+    <div class="import-body">
+      <p class="import-hint">
+        四样东西：<b>① 音频</b>（必需）、<b>② 原文</b>（不给就用 Whisper 自动转写）、
+        <b>③ 解析</b>（可选）、<b>④ 原题</b>（可选）。
+        全部在本地处理，不上传任何服务器。
+      </p>
+
+      <label class="field">
+        <span class="field-label">① 听力音频 <em>必需</em></span>
+        <input type="file" id="fileAudio" accept="audio/*,.mp3,.m4a,.wav,.ogg,.flac,.opus">
+      </label>
+
+      <label class="field">
+        <span class="field-label">② 听力原文 <em>可选 · 留空则用 Whisper 生成</em></span>
+        <input type="file" id="fileTranscript" accept=".txt,.lrc,.srt,.vtt,.md,.json,text/*">
+      </label>
+
+      <label class="field">
+        <span class="field-label">③ 解析 <em>可选</em></span>
+        <input type="file" id="fileExplain" accept=".txt,.md,.json,text/*">
+      </label>
+
+      <label class="field">
+        <span class="field-label">④ 听力原题 <em>可选</em></span>
+        <input type="file" id="fileQuestions" accept=".txt,.md,.json,.pdf">
+      </label>
+
+      <div class="field">
+        <span class="field-label">标题</span>
+        <input type="text" id="importTitle" placeholder="例如：剑桥雅思 20 Test 1 听力">
+      </div>
+
+      <div class="field">
+        <span class="field-label">考试类型</span>
+        <select id="importExam">
+          <option value="ielts">雅思</option>
+          <option value="cet4">四级</option>
+          <option value="cet6">六级</option>
+          <option value="toefl">托福</option>
+          <option value="other">其他</option>
+        </select>
+      </div>
+
+      <div class="import-actions">
+        <button class="primary-btn" id="btnDoImport">导入并加入课程库</button>
+        <span class="import-status" id="importStatus"></span>
+      </div>
+
+      <div class="import-note" id="importResult" hidden></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 补充包抽屉 ============
+     单个 APK 有 2 GiB 硬上限，雅思/六级全量素材装不进去，
+     所以拆成「安装包 + 补充包（.lppack）」。这里管理补充包：
+     看已装了什么、往手机里导入新的、删掉不再需要的。 -->
+<div class="drawer" id="packDrawer" hidden>
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <strong>补充包 · 离线素材</strong>
+      <div>
+        <button class="ghost-btn" id="btnImportPack" title="选择一个 .lppack 文件复制进 App 目录">导入 .lppack</button>
+        <button class="ghost-btn" id="btnRescanPacks" title="重新扫描补充包目录">重新扫描</button>
+        <button class="icon-btn" id="btnClosePacks" title="关闭">✕</button>
+      </div>
+    </div>
+    <div class="import-body">
+      <p class="import-hint" id="packHint"></p>
+
+      <div class="field">
+        <span class="field-label">补充包放在这里 <em>放进去再点「重新扫描」即可</em></span>
+        <div class="pack-dir-row">
+          <code id="packDir">（检测中…）</code>
+          <button class="ghost-btn" id="btnCopyPackDir">复制路径</button>
+        </div>
+      </div>
+
+      <div class="pack-progress" id="packProgress" hidden>
+        <div class="pack-progress-bar" id="packProgressBar"></div>
+      </div>
+
+      <div class="pack-status" id="packStatus"></div>
+
+      <div class="pack-list" id="packList"></div>
+      <div class="pack-catalog" id="packCatalog"></div>
+
+      <details class="pack-help">
+        <summary>怎么把补充包放进手机（两种办法）</summary>
+        <ol class="pack-steps">
+          <li><b>数据线</b>：把 <code>.lppack</code> 文件拖到上面那个目录里，回到这里点「重新扫描」。</li>
+          <li><b>在手机里导入</b>：点右上角「导入 .lppack」选文件，App 会自己复制进去；
+              装好之后原始文件就可以删掉了，能省一倍空间。</li>
+        </ol>
+        <p class="set-hint">补充包不用解压，App 直接从里面读，也不占额外空间。</p>
+      </details>
+
+      <details class="pack-help">
+        <summary>进阶：为什么会有补充包 / 怎么自己做一个</summary>
+        <p class="set-hint">
+          安装包（APK）单个文件有 2 GB 的格式上限，全部素材装不进去，
+          所以把「随时要用的前端 + 少量演示课」放进安装包，
+          把雅思/六级这种大批素材单独打成补充包。补充包就是普通 ZIP，
+          用解压软件也能打开看。
+        </p>
+        <p class="set-hint">在电脑上（项目目录里）可以自己打包任意素材目录：</p>
+        <pre class="pack-cmd">node tools/build-pack.js --list            # 看看有哪些素材目录可打包
+node tools/build-pack.js --set=IELTS-剑桥真题 --out=雅思听力补充包.lppack
+node tools/pack-info.js 雅思听力补充包.lppack --verify   # 打包后校验一下</pre>
+        <p class="set-hint">
+          打包好的文件会出现在「Whale-Lite-手机版」文件夹里，拷进手机即可。
+          想加入自己的听力材料，把音频和同名 <code>.lrc</code> 放进项目的
+          <code>audio/</code> 目录即可（格式见 docs/format.md）。
+        </p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 设置抽屉：外观（个性化）+ 学习（人性化） ============ -->
+<div class="drawer" id="settingsDrawer" hidden>
+  <div class="drawer-inner">
+    <div class="drawer-head">
+      <strong>外观与学习设置</strong>
+      <div>
+        <button class="ghost-btn" id="btnResetSettings" title="把所有外观与学习设置恢复成默认">恢复默认</button>
+        <button class="icon-btn" id="btnCloseSettings" title="关闭">✕</button>
+      </div>
+    </div>
+    <div class="import-body">
+
+      <div class="set-section">
+        <div class="set-title">背景</div>
+        <p class="set-hint">选一张自己的图当背景（本机处理、自动压缩，不上传任何地方），
+           也可以直接用下面的预设。</p>
+        <div class="bg-presets" id="bgPresets"></div>
+        <label class="field">
+          <span class="field-label">自定义背景图 <em>jpg / png / webp，会自动缩到合适大小</em></span>
+          <input type="file" id="fileBg" accept="image/*">
+        </label>
+        <div class="set-row"><span>暗化</span>
+          <input type="range" id="bgDim" min="0" max="90" step="5"><b id="bgDimVal"></b></div>
+        <div class="set-row"><span>模糊</span>
+          <input type="range" id="bgBlur" min="0" max="24" step="2"><b id="bgBlurVal"></b></div>
+        <div class="set-row"><span>面板透明</span>
+          <input type="range" id="panelAlpha" min="40" max="100" step="2"><b id="panelAlphaVal"></b></div>
+      </div>
+
+      <div class="set-section">
+        <div class="set-title">主题色</div>
+        <div class="chips accent-chips" id="accentChips"></div>
+      </div>
+
+      <div class="set-section">
+        <div class="set-title">阅读</div>
+        <div class="set-row"><span>原文字号</span>
+          <input type="range" id="lyricSize" min="14" max="30" step="1"><b id="lyricSizeVal"></b></div>
+        <p class="set-hint">手机上默认字号偏小，通勤或躺着看时可以调大。</p>
+      </div>
+
+      <div class="set-section">
+        <div class="set-title">学习</div>
+        <label class="set-check">
+          <input type="checkbox" id="optAutoResume">
+          <span>打开时回到上次的课程与播放位置（自动续听）</span>
+        </label>
+        <label class="set-check">
+          <input type="checkbox" id="optSaveProgress">
+          <span>记录每门课的正确率与听到哪儿（显示在课程列表上）</span>
+        </label>
+        <div class="set-row"><span>数据</span>
+          <button class="ghost-btn" id="btnExportProgress">导出学习记录</button>
+          <button class="ghost-btn" id="btnClearProgress">清空学习记录</button></div>
+        <p class="set-hint" id="progressSummary"></p>
+      </div>
+
+      <div class="set-section" id="feedbackSection">
+        <div class="set-title">遇到问题？</div>
+        <p class="set-hint">
+          用着哪里别扭、哪里点不动、哪个界面乱了，都欢迎提 issue —— 带上手机型号和下面这串信息，
+          定位起来快得多。
+        </p>
+        <div class="feedback-box">
+          <div class="feedback-qq">
+            <span class="feedback-label">反馈</span>
+            <!-- 用真 &lt;a&gt; 而不是 button：手机上点外链会交给系统浏览器打开
+                 （MainActivity 里重写了 shouldOverrideUrlLoading），
+                 电脑上则是新开一个标签页，两边都不会把播放器界面顶掉。 -->
+            <a id="feedbackUrl" class="feedback-link"
+               href="https://github.com/yan-gck/Whale_Lite/issues"
+               target="_blank" rel="noopener">github.com/yan-gck/Whale_Lite/issues</a>
+          </div>
+          <div class="feedback-ops">
+            <a class="primary-btn" id="btnOpenFeedback"
+               href="https://github.com/yan-gck/Whale_Lite/issues"
+               target="_blank" rel="noopener">去提 issue</a>
+            <button class="ghost-btn" id="btnCopyFeedback">复制反馈信息</button>
+          </div>
+        </div>
+        <p class="set-hint">
+          「复制反馈信息」会把仓库地址连同版本、机型、屏幕尺寸、当前课程一起放进剪贴板，
+          粘贴到 issue 里就行（不含任何个人信息）。
+        </p>
+      </div>
+
+      <div class="set-section">
+        <div class="set-title">快捷键</div>
+        <div class="hotkey-grid">
+          <span><kbd>空格</kbd></span><span>播放 / 暂停</span>
+          <span><kbd>←</kbd> <kbd>→</kbd></span><span>后退 / 前进 5 秒</span>
+          <span><kbd>↑</kbd> <kbd>↓</kbd></span><span>上一句 / 下一句</span>
+          <span><kbd>[</kbd> <kbd>]</kbd></span><span>降低 / 提高语速</span>
+          <span><kbd>F</kbd></span><span>自动滚动开关</span>
+          <span><kbd>B</kbd></span><span>听写模式（隐藏原文）</span>
+          <span><kbd>Q</kbd></span><span>显示 / 隐藏题目面板</span>
+          <span><kbd>Tab</kbd></span><span>收起 / 展开侧栏</span>
+          <span><kbd>?</kbd></span><span>打开这个设置面板</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+<!-- 移动端浮动开关（仅窄屏显示） -->
+<button class="mobile-toggle left" id="btnMobileSidebar" title="课程库">☰</button>
+<button class="mobile-toggle right" id="btnMobileQpanel" title="题目">📝</button>
+<!-- 收起侧栏后的「展开」按钮：以前收起就没入口了（按钮本身在侧栏里，一起被藏了） -->
+<button class="expand-sidebar" id="btnExpandSidebar" title="展开课程列表（Tab 键也可以）" hidden>»</button>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>

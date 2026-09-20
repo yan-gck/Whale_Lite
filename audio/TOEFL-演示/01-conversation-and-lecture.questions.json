@@ -1,0 +1,185 @@
+{
+  "title": "托福听力 · 校园对话与艺术史讲座",
+  "exam": "toefl",
+  "section": "Conversation / Lecture",
+  "source": "自编仿真题（TTS 合成）",
+  "license": "CC0-1.0（自编文本，可自由使用）",
+  "questions": [
+    {
+      "number": 1,
+      "tag": "对话",
+      "stem": "Why was the student's booking cancelled?",
+      "options": [
+        "The film club did not pay the fee.",
+        "The room is needed for exam preparation the next morning.",
+        "The building is closed for repairs.",
+        "Another club booked it first."
+      ],
+      "answer": "B",
+      "explain": "原文：The room is being used for an exam on Friday morning, and the facilities team needs the whole evening to set it up. —— 因次日有考试、当晚要布场，选 B。",
+      "start": 19.01,
+      "end": 26.77,
+      "transcript": "The room is being used for an exam on Friday morning, and the facilities team needs the whole evening to set it up."
+    },
+    {
+      "number": 2,
+      "tag": "对话",
+      "stem": "Why does the student want to keep the same day?",
+      "options": [
+        "He has classes on other evenings.",
+        "The club has already advertised the event.",
+        "The other rooms are all too small.",
+        "The film can only be shown on Thursdays."
+      ],
+      "answer": "B",
+      "explain": "原文：We would rather keep the day, because we have already advertised it. —— 已经宣传出去了，选 B。",
+      "start": 33.8,
+      "end": 39.25,
+      "transcript": "We would rather keep the day, because we have already advertised it."
+    },
+    {
+      "number": 3,
+      "tag": "对话",
+      "stem": "Why does the student reject the lecture hall?",
+      "options": [
+        "It is too far from campus.",
+        "It is already booked.",
+        "It has no sound system, and the club needs sound.",
+        "It seats too few people."
+      ],
+      "answer": "C",
+      "explain": "原文：it only has a projector, no sound system. We need sound. —— 选 C。",
+      "start": 41.61,
+      "end": 50.69,
+      "transcript": "The lecture hall in the science building is free, but it only has a projector, no sound system. We need sound."
+    },
+    {
+      "number": 4,
+      "tag": "对话",
+      "stem": "What must the student do before six o'clock?",
+      "options": [
+        "Send a confirmation email.",
+        "Pay a deposit.",
+        "Collect the key from the security office.",
+        "Test the projector."
+      ],
+      "answer": "C",
+      "explain": "原文：you will need to send someone to collect the key from the security office before six, because the office closes at six. —— 选 C。确认邮件是另外的要求，不是六点前的动作。",
+      "start": 65.19,
+      "end": 73.6,
+      "transcript": "You will need to send someone to collect the key from the security office before six, because the office closes at six."
+    },
+    {
+      "number": 5,
+      "tag": "对话·推断",
+      "stem": "What does the employee imply about the theatre before half past six?",
+      "options": [
+        "It is too expensive to book.",
+        "It is not available for the club to enter.",
+        "It has no lighting.",
+        "It is reserved for staff only."
+      ],
+      "answer": "B",
+      "explain": "原文：the theatre is booked until half past six, so you cannot get in earlier than that. —— 六点半前进不去，这是\"推断题\"：字面只说 booked，需推出\"不适合提前入场\"。",
+      "start": 73.65,
+      "end": 80.03,
+      "transcript": "The theatre is booked until half past six, so you cannot get in earlier than that."
+    },
+    {
+      "number": 6,
+      "tag": "讲座",
+      "stem": "What does the professor say about prices in the Middle Ages?",
+      "options": [
+        "They depended mainly on the painter's reputation.",
+        "They depended on materials and size, and hardly on reputation.",
+        "They were set by the church.",
+        "They were the same for every painter."
+      ],
+      "answer": "B",
+      "explain": "原文：The price depended on the materials, the amount of gold leaf, the size of the panel, and hardly at all on the reputation of the painter. —— 选 B。注意 hardly at all 是很强的否定。",
+      "start": 141.48,
+      "end": 151.08,
+      "transcript": "The price depended on the materials, the amount of gold leaf, the size of the panel, and hardly at all on the reputation of the painter."
+    },
+    {
+      "number": 7,
+      "tag": "讲座",
+      "stem": "What change took place in the seventeenth century in the Netherlands?",
+      "options": [
+        "Churches began to buy more art.",
+        "Painters began to make paintings first and find buyers afterwards.",
+        "Painters stopped using gold leaf.",
+        "Artists formed the first professional schools."
+      ],
+      "answer": "B",
+      "explain": "原文：painters began to make paintings first and find buyers afterwards. This is a fundamental change —— 选 B，这是整篇讲座的核心转折。",
+      "start": 164.78,
+      "end": 175.62,
+      "transcript": "So painters began to make paintings first and find buyers afterwards. This is a fundamental change, and it has consequences that are easy to miss."
+    },
+    {
+      "number": 8,
+      "tag": "讲座·功能",
+      "stem": "Why does the professor mention inventories listing unsold paintings?",
+      "options": [
+        "To show that Dutch painters were unproductive.",
+        "To give evidence that painting for an unknown market was risky.",
+        "To explain how paintings were priced.",
+        "To prove that inventories were rare."
+      ],
+      "answer": "B",
+      "explain": "功能题。前一句设问：And what do you do if the guess is wrong? You are left with an unsold painting... 接着用库存清单作证据。故作用是\"证明为匿名市场作画有风险\"，选 B。",
+      "start": 188.71,
+      "end": 201.18,
+      "transcript": "You are left with an unsold painting, which is money that you have already spent. Historians have found inventories from the period listing dozens of unsold paintings in a single studio."
+    },
+    {
+      "number": 9,
+      "tag": "讲座",
+      "stem": "According to the professor, why did Dutch painters specialize so narrowly?",
+      "options": [
+        "Because guild rules required it.",
+        "Because it was a way of reducing risk.",
+        "Because they lacked training in other subjects.",
+        "Because buyers preferred foreign artists."
+      ],
+      "answer": "B",
+      "explain": "原文：Specializing was a way of reducing risk, because once you had a reputation for one kind of picture, buyers who wanted that kind of picture came to you. —— 选 B。",
+      "start": 212.37,
+      "end": 223.1,
+      "transcript": "Specializing was a way of reducing risk, because once you had a reputation for one kind of picture, buyers who wanted that kind of picture came to you."
+    },
+    {
+      "number": 10,
+      "tag": "讲座·态度",
+      "stem": "What is the professor's attitude towards the realism of Dutch painting?",
+      "options": [
+        "He believes it should be admired purely as art.",
+        "He thinks it was an artistic achievement that was also a commercial strategy.",
+        "He considers it less important than Italian painting.",
+        "He doubts that it was technically difficult."
+      ],
+      "answer": "B",
+      "explain": "态度题。结尾：when we look at those paintings today and admire the realism... we should also remember that this was a commercial strategy as much as an artistic one. —— 两者并重，选 B。",
+      "start": 222.3,
+      "end": 234.71,
+      "transcript": "So when we look at those paintings today and admire the realism, the careful observation of light on a wall, we should also remember that this was a commercial strategy as much as an artistic one."
+    },
+    {
+      "number": 11,
+      "tag": "讲座·重听",
+      "stem": "Why does the professor say: \"And what do you do if the guess is wrong?\"",
+      "options": [
+        "To ask the class for a definition.",
+        "To introduce the consequence of producing for an unknown market.",
+        "To change the subject.",
+        "To criticize a particular painter."
+      ],
+      "answer": "B",
+      "explain": "重听题。该问句是修辞性设问，随后自答 You are left with an unsold painting，用来引出\"为匿名市场生产\"的后果（积压与资金占用），选 B。",
+      "start": 185.95,
+      "end": 189.51,
+      "transcript": "And what do you do if the guess is wrong?"
+    }
+  ]
+}
